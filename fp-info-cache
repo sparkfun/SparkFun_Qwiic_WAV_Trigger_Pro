@@ -1,0 +1,162 @@
+39342231610414
+SparkFun-Semiconductor-Standard
+DFN-8
+Now follows http://pdfserv.maximintegrated.com/land_patterns/90-0065.PDF<br />{return}Pasted was reduced by 40% width on the center ground pad, and some amount on the other 8.  Stop mask extends 135 µm wider than the pad to hit dead center of what IPC-7351 recommends.
+
+0
+9
+9
+SparkFun-Semiconductor-Standard
+DIP-4
+4-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+4
+4
+SparkFun-Semiconductor-Standard
+DIP-16
+<b>Dual In Line Package</b>
+
+0
+16
+16
+SparkFun-Semiconductor-Standard
+MSOP-8
+<b>8M, 8-Lead, 0.118" Wide, Miniature Small Outline Package</b><p>{return}MSOP<br>{return}8M-Package doc1097.pdf
+
+0
+8
+8
+SparkFun-Semiconductor-Standard
+MSOP-10
+<b>10 Lead Platic MSOP</b><p>{return}Source: http://www.linear.com .. LT1996
+
+0
+10
+10
+SparkFun-Semiconductor-Standard
+MicroSMP
+
+
+0
+2
+2
+SparkFun-Semiconductor-Standard
+QFN-36
+
+
+0
+37
+37
+SparkFun-Semiconductor-Standard
+SMA
+Diode SMA (DO-214AC) https://goodarksemi.com/docs/datasheets/schottky_rectifiers/SK32A-SK36A.pdf
+Diode SMA (DO-214AC)
+0
+2
+2
+SparkFun-Semiconductor-Standard
+SMDIP-4
+4-lead surface-mounted (SMD) DIP package, row spacing 7.62 mm (300 mils)
+SMD DIP DIL PDIP SMDIP 2.54mm 7.62mm 300mil
+0
+4
+4
+SparkFun-Semiconductor-Standard
+SMDIP-4-WIDE
+
+
+0
+4
+4
+SparkFun-Semiconductor-Standard
+SO-8
+
+SOIC 8
+0
+8
+8
+SparkFun-Semiconductor-Standard
+SO-16
+
+SOIC 16
+0
+16
+16
+SparkFun-Semiconductor-Standard
+SOD-323
+SOD-323 (Small Outline Diode)
+
+0
+2
+2
+SparkFun-Semiconductor-Standard
+SOD-523
+SOD-523 (Small Outline Diode)
+
+0
+2
+2
+SparkFun-Semiconductor-Standard
+SOT-323
+"http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF
+SC-88 SC70-6 SOT-363 TSSOP6
+0
+6
+6
+SparkFun-Semiconductor-Standard
+SOT-353
+
+
+0
+5
+5
+SparkFun-Semiconductor-Standard
+SOT23-3
+
+
+0
+3
+3
+SparkFun-Semiconductor-Standard
+SOT23-5
+
+
+0
+5
+5
+SparkFun-Semiconductor-Standard
+SOT23-6
+
+
+0
+6
+6
+SparkFun-Semiconductor-Standard
+SOT23-6-Tight
+Footprint for SOT-26 part DMP2240UDM
+
+0
+6
+6
+SparkFun-Semiconductor-Standard
+TO-220-3
+
+
+0
+3
+3
+SparkFun-Semiconductor-Standard
+TO-220-3-HeatSink
+
+
+0
+3
+3
+SparkFun-Semiconductor-Standard
+TSSOP-16
+TSSOP-16
+
+0
+16
+16

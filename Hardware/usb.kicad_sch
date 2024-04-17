@@ -4909,7 +4909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "SparkFun-Resistor:R_0402_1005Metric"
 			(at 107.188 101.6 0)
 			(effects
 				(font
@@ -5486,7 +5486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "SparkFun-Resistor:R_0402_1005Metric"
 			(at 119.888 101.6 0)
 			(effects
 				(font

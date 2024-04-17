@@ -575,16 +575,16 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Hardware:Standoff")
-		(at 241.3 163.83 0)
+		(at 232.41 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17bbc901-f956-4670-9d3e-8f13db5f41ba")
-		(property "Reference" "ST3"
-			(at 241.3 161.29 0)
+		(uuid "0fb0928f-cfec-43f8-9340-df52cc18da02")
+		(property "Reference" "ST2"
+			(at 232.41 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,7 +593,7 @@
 			)
 		)
 		(property "Value" "Standoff"
-			(at 241.3 166.37 0)
+			(at 232.41 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,7 +602,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Hardware:Standoff"
-			(at 241.3 168.91 0)
+			(at 232.41 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,7 +611,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 167.64 0)
+			(at 232.41 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -619,8 +619,72 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 241.3 163.83 0)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 232.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SparkFun_Qwiic_Turntable"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
+					(reference "ST2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Hardware:Standoff")
+		(at 237.49 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c70e502-0b01-4c1f-8c41-394e950ff9a2")
+		(property "Reference" "ST3"
+			(at 237.49 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Standoff"
+			(at 237.49 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Hardware:Standoff"
+			(at 237.49 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 237.49 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -639,16 +703,16 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Hardware:Standoff")
-		(at 226.06 163.83 0)
+		(at 227.33 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "924b04ba-82cc-4ec1-9347-b0d3a8bb145b")
+		(uuid "a39d6cb0-7be6-42fd-965c-5f2e81c2fc95")
 		(property "Reference" "ST1"
-			(at 226.06 161.29 0)
+			(at 227.33 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -657,7 +721,7 @@
 			)
 		)
 		(property "Value" "Standoff"
-			(at 226.06 166.37 0)
+			(at 227.33 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -666,7 +730,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Hardware:Standoff"
-			(at 226.06 168.91 0)
+			(at 227.33 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,7 +739,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 167.64 0)
+			(at 227.33 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,8 +747,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 226.06 163.83 0)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 227.33 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,16 +767,16 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Hardware:Standoff")
-		(at 248.92 163.83 0)
+		(at 242.57 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a279aa24-4214-46b7-9323-1e1927e8cfa4")
+		(uuid "db700995-3503-4372-a402-e9942fc6cf00")
 		(property "Reference" "ST4"
-			(at 248.92 161.29 0)
+			(at 242.57 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +785,7 @@
 			)
 		)
 		(property "Value" "Standoff"
-			(at 248.92 166.37 0)
+			(at 242.57 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,7 +794,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Hardware:Standoff"
-			(at 248.92 168.91 0)
+			(at 242.57 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,7 +803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 167.64 0)
+			(at 242.57 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,8 +811,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 248.92 163.83 0)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 242.57 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,70 +824,6 @@
 			(project "SparkFun_Qwiic_Turntable"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "ST4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Hardware:Standoff")
-		(at 233.68 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddb60e09-df74-45ad-a972-881c6cb0e4b2")
-		(property "Reference" "ST2"
-			(at 233.68 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Standoff"
-			(at 233.68 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Hardware:Standoff"
-			(at 233.68 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SparkFun_Qwiic_Turntable"
-				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
-					(reference "ST2")
 					(unit 1)
 				)
 			)

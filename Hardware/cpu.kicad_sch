@@ -7107,6 +7107,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 38.1) (xy 60.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b678bc3-aa06-466a-ac67-dea0331d8169")
+	)
+	(wire
+		(pts
 			(xy 166.37 39.37) (xy 166.37 40.64)
 		)
 		(stroke
@@ -8404,6 +8414,16 @@
 			(type default)
 		)
 		(uuid "fbf58dda-79bf-40b8-91c9-f4cbb3254300")
+	)
+	(wire
+		(pts
+			(xy 60.96 52.07) (xy 74.93 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3d840f-209d-4bcf-8812-aa4bbc20c9a9")
 	)
 	(wire
 		(pts
@@ -12128,7 +12148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "SparkFun-Capacitor:C_0402_1005Metric"
 			(at 58.42 61.2648 0)
 			(effects
 				(font
@@ -12955,6 +12975,73 @@
 			(project "SparkFun_Qwiic_Turntable"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 60.96 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0c1f4a6-650d-4ab5-a640-c8d3a134ab1a")
+		(property "Reference" "#PWR074"
+			(at 60.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 60.96 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e52fea66-4f7c-44eb-a9e1-9f59e500f05f")
+		)
+		(instances
+			(project "SparkFun_Qwiic_Turntable"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -14354,7 +14441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "SparkFun-Capacitor:C_0402_1005Metric"
 			(at 58.42 53.6448 0)
 			(effects
 				(font

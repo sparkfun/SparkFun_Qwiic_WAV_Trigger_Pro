@@ -2299,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 85.09) (xy 256.54 85.09)
+			(xy 234.95 85.09) (xy 257.81 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2539,7 +2539,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 90.17) (xy 256.54 90.17)
+			(xy 243.84 90.17) (xy 257.81 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2779,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 87.63) (xy 251.46 87.63)
+			(xy 257.81 87.63) (xy 251.46 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3986,7 +3986,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 243.84 101.6 0)
+			(at 247.396 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +3994,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 243.84 104.14 0)
+			(at 247.396 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +4582,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:Conn_01x03")
-		(at 261.62 87.63 0)
+		(at 262.89 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4591,7 +4591,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f7e0faa-cf09-40c1-a155-d8e8a888d466")
 		(property "Reference" "J8"
-			(at 261.62 82.55 0)
+			(at 262.89 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +4600,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 261.62 92.71 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,7 +4609,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:1x03"
-			(at 261.62 95.25 0)
+			(at 262.89 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +4618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 96.52 0)
+			(at 262.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +4627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 87.63 0)
+			(at 262.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5392,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 234.95 101.6 0)
+			(at 238.252 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5400,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 234.95 104.14 0)
+			(at 238.252 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5920,7 @@
 			)
 		)
 		(property "Value" "PCM5100"
-			(at 204.47 81.28 0)
+			(at 186.436 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)

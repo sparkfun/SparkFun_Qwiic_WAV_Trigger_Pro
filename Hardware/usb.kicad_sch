@@ -5145,7 +5145,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
-		(at 265.43 97.79 90)
+		(at 265.43 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5154,7 +5154,7 @@
 		(fields_autoplaced yes)
 		(uuid "306c00a2-5e71-495a-ada2-c3297fbfc143")
 		(property "Reference" "JP4"
-			(at 263.398 97.79 0)
+			(at 263.398 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5162,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 267.97 97.79 0)
+			(at 267.97 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +5170,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
-			(at 270.002 98.044 0)
+			(at 270.002 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +5179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 97.79 0)
+			(at 273.05 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +5188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 97.79 0)
+			(at 265.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +6595,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-LED:LED_Red_0603")
-		(at 265.43 80.01 90)
+		(at 265.43 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6604,7 +6604,7 @@
 		(fields_autoplaced yes)
 		(uuid "995e56dd-9f68-441b-a509-62a37d8c8fd5")
 		(property "Reference" "D3"
-			(at 269.24 80.3275 90)
+			(at 269.24 98.1075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,7 +6613,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 269.24 82.8675 90)
+			(at 269.24 100.6475 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +6622,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
-			(at 271.78 80.01 0)
+			(at 271.78 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +6631,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0551EN"
-			(at 274.32 81.28 0)
+			(at 274.32 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6640,7 +6640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 80.01 0)
+			(at 265.43 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +6649,7 @@
 			)
 		)
 		(property "PROD_ID" "DIO-17976"
-			(at 270.002 80.01 0)
+			(at 270.002 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

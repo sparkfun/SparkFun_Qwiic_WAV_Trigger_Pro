@@ -6445,6 +6445,12 @@
 		(uuid "5ec3999b-1a0f-4489-96e3-c94731a6da61")
 	)
 	(junction
+		(at 186.69 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f0c2b2a-d22c-40bc-8561-03320b4b9127")
+	)
+	(junction
 		(at 241.3 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6662,6 +6668,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 99.06) (xy 186.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085edcea-7a68-4505-a2de-dadcbbd59bae")
+	)
+	(wire
+		(pts
 			(xy 60.96 97.79) (xy 68.58 97.79)
 		)
 		(stroke
@@ -6689,16 +6705,6 @@
 			(type default)
 		)
 		(uuid "1142aa99-b9ee-417e-9cfb-120788407721")
-	)
-	(wire
-		(pts
-			(xy 106.68 46.99) (xy 114.3 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11916fa4-1b08-42c4-bf5e-c65bc4742114")
 	)
 	(wire
 		(pts
@@ -6809,6 +6815,16 @@
 			(type default)
 		)
 		(uuid "274fb559-8fd1-4263-9302-f6bd2321b9d5")
+	)
+	(wire
+		(pts
+			(xy 106.68 163.83) (xy 109.22 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2780e067-f3b3-4c6a-b7a6-54969aebd570")
 	)
 	(wire
 		(pts
@@ -6999,6 +7015,16 @@
 			(type default)
 		)
 		(uuid "36d014c4-b030-41e6-b2c9-8f746e884f0b")
+	)
+	(wire
+		(pts
+			(xy 194.31 107.95) (xy 194.31 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3796724f-208f-444f-8569-5cc0eeb7e49c")
 	)
 	(wire
 		(pts
@@ -7502,16 +7528,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 44.45) (xy 114.3 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aca3b77-5f2d-461c-8e9e-39b5b7802825")
-	)
-	(wire
-		(pts
 			(xy 166.37 105.41) (xy 166.37 106.68)
 		)
 		(stroke
@@ -7732,6 +7748,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 166.37) (xy 109.22 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9432ae77-a1af-45b5-915b-0511629de11d")
+	)
+	(wire
+		(pts
 			(xy 254 134.62) (xy 255.27 134.62)
 		)
 		(stroke
@@ -7939,6 +7965,16 @@
 			(type default)
 		)
 		(uuid "b366c023-d1b5-4cc6-819f-ae720121e598")
+	)
+	(wire
+		(pts
+			(xy 194.31 100.33) (xy 194.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4dce1ab-1602-467c-9701-3b218d5b1801")
 	)
 	(wire
 		(pts
@@ -8382,13 +8418,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 114.3 49.53)
+			(xy 66.04 74.93) (xy 68.58 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f00e09d8-4702-4bfd-bc36-607137628cc0")
+		(uuid "f0f0006b-3e71-41ec-91b7-d13e0402dde8")
 	)
 	(wire
 		(pts
@@ -8409,6 +8445,16 @@
 			(type default)
 		)
 		(uuid "f4b2503f-9923-49be-9f52-0cf26896e989")
+	)
+	(wire
+		(pts
+			(xy 186.69 99.06) (xy 186.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b8b23b-4f9e-4a09-bd59-725623dbc600")
 	)
 	(wire
 		(pts
@@ -9034,13 +9080,13 @@
 	)
 	(hierarchical_label "FILTER"
 		(shape output)
-		(at 114.3 44.45 0)
+		(at 66.04 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1726136c-a25a-4128-a3c1-9056294cc1fe")
 	)
@@ -9058,7 +9104,7 @@
 	)
 	(hierarchical_label "DEMP"
 		(shape output)
-		(at 114.3 46.99 0)
+		(at 109.22 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9118,7 +9164,7 @@
 	)
 	(hierarchical_label "MUTE"
 		(shape output)
-		(at 114.3 49.53 0)
+		(at 109.22 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10063,6 +10109,103 @@
 			(project "SparkFun_Qwiic_Turntable"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Capacitor:0.1uF_0402_10V_10%")
+		(at 194.31 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ed53326-16db-4657-9d68-5d8cc662c846")
+		(property "Reference" "C25"
+			(at 198.12 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 198.12 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0402_1005Metric"
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 194.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-15083"
+			(at 194.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 198.12 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 198.12 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f07653b3-43b6-4f34-90f7-0d8dca3bff7c")
+		)
+		(pin "2"
+			(uuid "28e012e9-7a0a-41da-89e6-0a5b662ddf09")
+		)
+		(instances
+			(project "SparkFun_Qwiic_Turntable"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -14118,6 +14261,73 @@
 			(project "SparkFun_Qwiic_Turntable"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 194.31 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e51f14be-5005-46cf-822f-838edbeb633e")
+		(property "Reference" "#PWR076"
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 113.03 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbc81a4a-3b94-4c9b-aae3-d5f71dcd0d23")
+		)
+		(instances
+			(project "SparkFun_Qwiic_Turntable"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)

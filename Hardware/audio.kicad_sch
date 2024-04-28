@@ -2544,12 +2544,6 @@
 		)
 	)
 	(junction
-		(at 198.12 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c17df05-b5f5-4f8d-bf17-16f9edfff5fe")
-	)
-	(junction
 		(at 52.07 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2648,16 +2642,6 @@
 			(type default)
 		)
 		(uuid "0a709e2a-124d-4b0c-9a7f-d157279e875f")
-	)
-	(wire
-		(pts
-			(xy 203.2 77.47) (xy 203.2 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a983519-378f-407b-a189-0833c262fda1")
 	)
 	(wire
 		(pts
@@ -2811,6 +2795,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 78.74) (xy 195.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a590482-f049-4a84-93e8-ae2a6f18e935")
+	)
+	(wire
+		(pts
 			(xy 214.63 85.09) (xy 213.36 85.09)
 		)
 		(stroke
@@ -2941,13 +2935,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 78.74) (xy 200.66 78.74)
+			(xy 205.74 78.74) (xy 205.74 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7335651a-6855-4828-8e7c-54b152146d2e")
+		(uuid "794159bc-b5a9-4188-9977-b1c769b7536e")
 	)
 	(wire
 		(pts
@@ -3001,6 +2995,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 80.01) (xy 198.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf40b8c-eba2-49e7-9ff7-5d742e18721f")
+	)
+	(wire
+		(pts
 			(xy 203.2 114.3) (xy 207.01 114.3)
 		)
 		(stroke
@@ -3011,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 78.74) (xy 200.66 80.01)
+			(xy 200.66 73.66) (xy 200.66 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3048,6 +3052,16 @@
 			(type default)
 		)
 		(uuid "9e66effa-1eac-4d03-8b38-e79ac110e3c5")
+	)
+	(wire
+		(pts
+			(xy 195.58 78.74) (xy 195.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5a679e-1542-4f57-a05f-9ce13a5c0b92")
 	)
 	(wire
 		(pts
@@ -3141,16 +3155,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 78.74) (xy 198.12 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1886337-6ee5-453a-8e72-9c2e72691099")
-	)
-	(wire
-		(pts
 			(xy 142.24 96.52) (xy 142.24 95.25)
 		)
 		(stroke
@@ -3181,13 +3185,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 77.47) (xy 198.12 78.74)
+			(xy 203.2 80.01) (xy 203.2 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0af6424-4fa0-467b-9625-0e8facac28ff")
+		(uuid "e138b8d5-e045-4620-a19f-54562cb29a19")
 	)
 	(wire
 		(pts
@@ -3208,6 +3212,16 @@
 			(type default)
 		)
 		(uuid "ef4c05b3-587e-4546-96d1-fe4ad68c337e")
+	)
+	(wire
+		(pts
+			(xy 203.2 78.74) (xy 205.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f142818f-406a-4846-8e55-46da81fb5f8a")
 	)
 	(wire
 		(pts
@@ -3366,73 +3380,6 @@
 			(justify right)
 		)
 		(uuid "ca120888-dd9b-4387-9777-4d0ba4c983b4")
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 154.94 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "058bb08e-dfe9-4cef-83a8-4dc219c787f3")
-		(property "Reference" "#PWR061"
-			(at 154.94 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 154.94 82.55 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93177ae0-cd11-4063-964a-51f2d12ef06c")
-		)
-		(instances
-			(project "SparkFun_Qwiic_Turntable"
-				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:0.1uF_0402_10V_10%")
@@ -3697,7 +3644,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V_A")
-		(at 203.2 77.47 0)
+		(at 205.74 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3706,7 +3653,7 @@
 		(fields_autoplaced yes)
 		(uuid "1913ea08-7fb4-4524-a4f1-97602a6a8eb4")
 		(property "Reference" "#PWR068"
-			(at 203.2 81.28 0)
+			(at 205.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3662,7 @@
 			)
 		)
 		(property "Value" "3.3V_A"
-			(at 203.2 73.66 0)
+			(at 205.74 73.66 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3724,7 +3671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 77.47 0)
+			(at 205.74 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 77.47 0)
+			(at 205.74 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3689,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 77.47 0)
+			(at 205.74 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,6 +4564,73 @@
 			(project "SparkFun_Qwiic_Turntable"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V_A")
+		(at 195.58 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c539783-2471-49bc-925d-70f56c67d122")
+		(property "Reference" "#PWR081"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V_A"
+			(at 195.58 73.66 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f66572ec-a7eb-426d-9dff-8923f1483d43")
+		)
+		(instances
+			(project "SparkFun_Qwiic_Turntable"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -5854,6 +5868,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V_A")
+		(at 154.94 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb729e54-d15c-41a2-b19e-0e2aa4bc19f6")
+		(property "Reference" "#PWR061"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V_A"
+			(at 154.94 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aca548c-2c85-4be9-9228-e252a34f3367")
+		)
+		(instances
+			(project "SparkFun_Qwiic_Turntable"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:5V")
 		(at 52.07 92.71 0)
 		(unit 1)
@@ -5922,7 +6003,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 198.12 77.47 0)
+		(at 200.66 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5931,7 +6012,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf1cb035-8cc1-470b-89b0-2ebe1ca06cf6")
 		(property "Reference" "#PWR066"
-			(at 198.12 81.28 0)
+			(at 200.66 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +6021,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 198.12 73.66 0)
+			(at 200.66 69.85 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5949,7 +6030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 77.47 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +6039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 77.47 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,7 +6048,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 77.47 0)
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

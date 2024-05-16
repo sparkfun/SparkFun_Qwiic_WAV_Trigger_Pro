@@ -25733,7 +25733,7 @@
 		(at 132.715 88.9 90)
 		(tags "SparkFun Open Source Hardware Gear")
 		(property "Reference" "Ref**"
-			(at 0 2 270)
+			(at 0 2 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6fb55e6d-60c3-4bc0-b499-3d6777989058")
@@ -25746,7 +25746,7 @@
 			)
 		)
 		(property "Value" "Val**"
-			(at 0 -1.6 270)
+			(at 0 -1.6 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "953ab1d9-d580-4c48-a7f6-c123a49dd689")

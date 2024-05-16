@@ -295,7 +295,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -506,7 +506,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1607,7 +1607,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3412,7 +3412,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 3-pole, pins 1+2+3 closed/bridged"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5114,7 +5114,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8472,6 +8472,100 @@
 			)
 		)
 	)
+	(footprint "SparkFun-Aesthetic:Creative_Commons_License"
+		(layer "F.Cu")
+		(uuid "625d224e-ee5d-4f79-bf03-ecda31ad6e39")
+		(at 215.265 168.91)
+		(tags "SparkFun Creative Commons License")
+		(property "Reference" "G4"
+			(at 0 -5.08 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4edc6dbf-04d6-4467-9991-04e90ab32e3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OSHW_Logo"
+			(at 0 2.794 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c2c8c95-17a6-4673-ad32-258d5e1d3915")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Aesthetic:Creative_Commons_License"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31b64ede-9a8f-4ac8-864d-5da2c75dc7bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2eb6b9ba-71e5-4654-b9a1-20f7fadaf28a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8a3fff9-fd88-430b-964b-02ec055e5a36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/b507f511-9c0c-494b-9f92-1c9b6c5a9293")
+		(sheetname "Root")
+		(sheetfile "SparkFun_Qwiic_Turntable.kicad_sch")
+		(attr exclude_from_bom)
+		(fp_text user "Released under the Creative Commons Attribution Share-Alike 4.0 License"
+			(at 0 -1.27 0)
+			(layer "User.1")
+			(uuid "0eefa6bf-0211-4e1c-88f2-431b67646d53")
+			(effects
+				(font
+					(size 1.63576 1.63576)
+					(thickness 0.14224)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
+			(at 0 1.27 0)
+			(layer "User.1")
+			(uuid "64ada3e7-216d-4422-b561-2991af02f824")
+			(effects
+				(font
+					(size 1.63576 1.63576)
+					(thickness 0.14224)
+				)
+				(justify bottom)
+			)
+		)
+	)
 	(footprint "SparkFun-Resistor:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "69920bae-3cc7-4777-852c-1ddcb67a8bfb")
@@ -8738,7 +8832,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13672,7 +13766,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 pin JST 1mm polarized connector for I2C"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15544,7 +15638,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 pin JST 1mm polarized connector for I2C"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15764,7 +15858,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17365,7 +17459,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only Type-C Receptacle connector"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21861,7 +21955,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Micro SD socket External Pin"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23494,7 +23588,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25564,7 +25658,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27256,6 +27350,90 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Layers: 2"
+		(at 196.800892 182.88 0)
+		(layer "F.Fab")
+		(uuid "1cb425ad-dcd2-438e-9e4f-13fbd492b135")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Finish: HASL Lead free"
+		(at 196.85 186.69 0)
+		(layer "F.Fab")
+		(uuid "3f2bb108-553c-41dd-9d88-4420388c4c9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Thickness: 1.6mm"
+		(at 196.85 184.785 0)
+		(layer "F.Fab")
+		(uuid "aece5301-106a-4fa4-8ab7-82eb68a3dfdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Ordering Notes"
+		(at 190.5 175.895 0)
+		(layer "F.Fab")
+		(uuid "c4be1fba-e6e6-4141-8bcd-8831778bedbb")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Silkscreen Color: White"
+		(at 196.85 180.975 0)
+		(layer "F.Fab")
+		(uuid "c5b9d51d-cbd4-45b2-9c98-d0571886f351")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Outer Copper Weight: 1oz"
+		(at 227.33 184.785 0)
+		(layer "F.Fab")
+		(uuid "d641ae47-22cf-4c30-a23f-62ffd4f6a060")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Solder Mask: Red"
+		(at 196.85 179.07 0)
+		(layer "F.Fab")
+		(uuid "f5b22f31-cc7b-4312-b906-05b5a7655f4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(dimension

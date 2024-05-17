@@ -6348,7 +6348,7 @@
 	)
 	(text "Input Voltage: 2.7-5V"
 		(exclude_from_sim no)
-		(at 201.93 148.59 0)
+		(at 205.74 152.908 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6370,7 +6370,7 @@
 	)
 	(text "Vout=1.25*(1+R1/R2)\nR1=(Vout*0.8-1)*R2\nR1 = 100k / R2 = 33k"
 		(exclude_from_sim no)
-		(at 201.93 157.48 0)
+		(at 205.74 161.798 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6414,7 +6414,7 @@
 	)
 	(text "Max Current: 350mA"
 		(exclude_from_sim no)
-		(at 201.93 151.13 0)
+		(at 205.74 155.448 0)
 		(effects
 			(font
 				(size 1.27 1.27)

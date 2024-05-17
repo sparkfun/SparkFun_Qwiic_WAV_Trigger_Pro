@@ -5,7 +5,7 @@
 	(uuid "4c0b78e3-6801-43aa-85ca-70880324c2bd")
 	(paper "USLetter")
 	(title_block
-		(title "WAV Trigger Pro")
+		(title "SparkFun Qwiic WAV Trigger Pro")
 		(rev "1.0")
 		(company "Robertsonics / SparkFun")
 	)
@@ -1391,14 +1391,13 @@
 		)
 		(uuid "f9f930dd-9c0e-43cc-aebb-1cae1d10dc23")
 	)
-	(text "WAV Trigger Pro"
+	(text "SparkFun Qwiic WAV Trigger Pro"
 		(exclude_from_sim no)
-		(at 120.904 38.354 0)
+		(at 141.224 34.29 0)
 		(effects
 			(font
 				(size 3 3)
 			)
-			(justify left bottom)
 		)
 		(uuid "d43ab5db-7543-4cf3-befe-4f97acca100c")
 	)

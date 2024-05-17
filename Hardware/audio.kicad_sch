@@ -1445,6 +1445,227 @@
 				)
 			)
 		)
+		(symbol "SparkFun-Connector:Audio Jack TRRS 3.5mm SMD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.5mm TRRS"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Connector:Audio_Jack_3.5mm_TRRS_SMD_RA"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/20153.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 4 Poles (TRRS)"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD-ID" "CONN-10676"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun audio jack receptacle stereo headphones TRRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Audio Jack TRRS 3.5mm SMD_0_1"
+				(rectangle
+					(start -6.35 -5.08)
+					(end -7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.35 3.81)
+					(end 2.54 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Audio Jack TRRS 3.5mm SMD_1_1"
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Connector:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -2550,16 +2771,16 @@
 		(uuid "2fe3210e-e247-40c3-9ff8-d68c17845888")
 	)
 	(junction
-		(at 226.06 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fa34331-cad6-46a9-86a8-ab6cb88db860")
-	)
-	(junction
 		(at 67.31 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e81a913-9eba-4824-8b38-db978d3bedfd")
+	)
+	(junction
+		(at 226.06 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60bb0ad3-2877-4815-b5a0-a1e1fce1764c")
 	)
 	(junction
 		(at 46.99 81.28)
@@ -2571,17 +2792,7 @@
 		(at 217.17 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c2d7e44-2c82-4b96-bc1a-09a986a3fa16")
-	)
-	(wire
-		(pts
-			(xy 217.17 83.82) (xy 240.03 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0061951c-d33b-4467-a28d-11c055c84ec4")
+		(uuid "afcfb262-6182-4a50-af5f-82e94d36c884")
 	)
 	(wire
 		(pts
@@ -2625,6 +2836,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 100.33) (xy 247.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083deaf0-000e-482b-a246-924c35013cce")
+	)
+	(wire
+		(pts
 			(xy 67.31 80.01) (xy 67.31 81.28)
 		)
 		(stroke
@@ -2655,6 +2876,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 88.9) (xy 227.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5fc379-7941-44e4-9697-8a696f041747")
+	)
+	(wire
+		(pts
 			(xy 137.16 95.25) (xy 137.16 93.98)
 		)
 		(stroke
@@ -2662,6 +2893,16 @@
 			(type default)
 		)
 		(uuid "0e542cf9-9b21-48a3-8b28-09b5e8916905")
+	)
+	(wire
+		(pts
+			(xy 245.11 102.87) (xy 247.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef01e7b-2f4c-4cf5-bd5a-cd9f0ed53a08")
 	)
 	(wire
 		(pts
@@ -2722,6 +2963,16 @@
 			(type dash)
 		)
 		(uuid "2476f42a-4e78-40e4-aca0-0ff20e040ea9")
+	)
+	(wire
+		(pts
+			(xy 248.92 80.01) (xy 248.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e96be9-73ab-436a-82b6-941a0bb70900")
 	)
 	(wire
 		(pts
@@ -2815,16 +3066,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 86.36) (xy 233.68 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c08b4c-a4e9-46ad-b3b3-f8df7bebeaf0")
-	)
-	(wire
-		(pts
 			(xy 168.91 88.9) (xy 170.18 88.9)
 		)
 		(stroke
@@ -2835,13 +3076,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 88.9) (xy 240.03 88.9)
+			(xy 247.65 82.55) (xy 250.19 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4baba280-bfc7-43f5-a1ad-6c6587c910d0")
+		(uuid "4a145163-f1ce-44fe-955e-e9dcb08abaff")
 	)
 	(wire
 		(pts
@@ -2852,6 +3093,16 @@
 			(type default)
 		)
 		(uuid "4ec793ce-6050-428d-a700-882f9799ad72")
+	)
+	(wire
+		(pts
+			(xy 250.19 80.01) (xy 248.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4faf0759-aac5-4ab4-a530-980f6c04623d")
 	)
 	(wire
 		(pts
@@ -2902,6 +3153,16 @@
 			(type default)
 		)
 		(uuid "619ec9a4-901d-45e7-b7b6-b1bdbbe1ec88")
+	)
+	(wire
+		(pts
+			(xy 246.38 97.79) (xy 247.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6406fcd4-eeb6-4451-a05c-215c5757978d")
 	)
 	(wire
 		(pts
@@ -3045,6 +3306,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 83.82) (xy 227.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c33aedd-f681-4231-ae76-646bba85778b")
+	)
+	(wire
+		(pts
+			(xy 247.65 77.47) (xy 250.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e520f2d-b891-4cbc-8684-f81ce41b09e8")
+	)
+	(wire
+		(pts
 			(xy 189.23 113.03) (xy 189.23 114.3)
 		)
 		(stroke
@@ -3092,16 +3373,6 @@
 			(type default)
 		)
 		(uuid "aaf27703-d88e-4ddf-a5d4-94e68804d47d")
-	)
-	(wire
-		(pts
-			(xy 240.03 86.36) (xy 233.68 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaf6b889-e46d-47a1-9625-747836a4ca17")
 	)
 	(wire
 		(pts
@@ -3162,6 +3433,16 @@
 			(type default)
 		)
 		(uuid "d43f576d-1f9c-4530-85b5-37e295da3279")
+	)
+	(wire
+		(pts
+			(xy 246.38 106.68) (xy 246.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8892ecb-ceb3-40a4-85b9-b88ac8aad65e")
 	)
 	(wire
 		(pts
@@ -3275,27 +3556,137 @@
 		)
 		(uuid "c66cfe1d-ec8a-4cb5-800c-4a8627423b14")
 	)
-	(label "LOUT"
-		(at 234.95 83.82 0)
+	(global_label "ROUT"
+		(shape input)
+		(at 227.33 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "afae508c-e628-4d6d-b793-75ed3966881e")
+		(uuid "48ba63c0-5012-4924-91fb-976dedf4a492")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.2138 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "ROUT"
-		(at 234.95 88.9 0)
+	(global_label "LOUT"
+		(shape input)
+		(at 247.65 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "b3116285-e86e-452e-b176-1b457858c26c")
+		(uuid "62dcab46-482e-4b96-94f7-10478d14f8d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.0081 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOUT"
+		(shape input)
+		(at 227.33 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f9bdc82-8774-4d38-89e6-6a88f4123cb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.9719 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROUT"
+		(shape input)
+		(at 247.65 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8b63687-9682-4929-b3e7-8f1ce110ea35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.7662 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROUT"
+		(shape input)
+		(at 245.11 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c02dac01-5a09-4e5f-81eb-547e50b2af48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.2262 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LOUT"
+		(shape input)
+		(at 245.11 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf6d12e5-f330-45a6-8937-0fbc47fbfb8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.4681 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "SAI1_BCK"
 		(shape input)
@@ -3576,6 +3967,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 246.38 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a161f49-74ee-4dea-bee5-122e2c05f926")
+		(property "Reference" "#PWR090"
+			(at 246.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 246.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cca0585-9350-45f2-93c1-048c915359be")
+		)
+		(instances
+			(project "SparkFun_Qwiic_Turntable"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
 		(at 124.46 85.09 0)
 		(unit 1)
@@ -3704,71 +4160,6 @@
 			(project "SparkFun_Qwiic_Turntable"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 233.68 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c87c233-02c9-4baf-b6d5-7c9ed7b613ba")
-		(property "Reference" "#PWR073"
-			(at 233.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 233.68 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 233.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc46f58c-472b-4fcc-a765-27ae975ffa06")
-		)
-		(instances
-			(project "SparkFun_Qwiic_Turntable"
-				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4340,6 +4731,89 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:Audio Jack TRRS 3.5mm SMD")
+		(at 252.73 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3eed4b93-5059-4b19-b2d7-796f4b9e3c96")
+		(property "Reference" "J10"
+			(at 255.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.5mm TRRS"
+			(at 255.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:Audio_Jack_3.5mm_TRRS_SMD_RA"
+			(at 252.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/20153.pdf"
+			(at 252.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 252.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD-ID" "CONN-10676"
+			(at 252.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "R1"
+			(uuid "c58c6bd2-9c97-4886-98c4-898b24b3803d")
+		)
+		(pin "T"
+			(uuid "eb4ee47f-38f8-401c-a31c-ed0c37fbb8b6")
+		)
+		(pin "S"
+			(uuid "f0efa22b-3848-4384-ad17-e638f52aa29f")
+		)
+		(pin "R2"
+			(uuid "b1522603-d397-4ab3-9273-4a0dd6052f6e")
+		)
+		(instances
+			(project "SparkFun_Qwiic_Turntable"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V_A")
 		(at 137.16 105.41 0)
 		(unit 1)
@@ -4638,16 +5112,16 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:Conn_01x03")
-		(at 245.11 86.36 0)
+		(at 255.27 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6f7e0faa-cf09-40c1-a155-d8e8a888d466")
+		(uuid "71470da4-c776-4e8b-91e5-bf3d6eff0be8")
 		(property "Reference" "J8"
-			(at 245.11 81.28 0)
+			(at 255.27 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +5130,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 245.11 91.44 0)
+			(at 255.27 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +5139,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:1x03"
-			(at 245.11 93.98 0)
+			(at 255.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +5148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 95.25 0)
+			(at 255.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +5157,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 86.36 0)
+			(at 255.27 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,13 +5166,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "8a01f8f1-575c-4c16-bab3-a23ebedb9fa8")
+			(uuid "42d6a333-250f-4552-8916-773d851c233c")
 		)
 		(pin "1"
-			(uuid "9f41b8a2-ca31-464f-bc19-12db493f0da0")
+			(uuid "6a79a6ee-aac0-46b4-83e3-33c86422330a")
 		)
 		(pin "3"
-			(uuid "aa74563e-7de2-4a64-aa3d-c8efc282b536")
+			(uuid "600fdbd3-bfd5-455a-bb20-80cde37c55c4")
 		)
 		(instances
 			(project "SparkFun_Qwiic_Turntable"
@@ -5862,6 +6336,71 @@
 			(project "SparkFun_Qwiic_Turntable"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 248.92 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8d4d994-ad0d-4a02-8df2-72aa4f38a9bb")
+		(property "Reference" "#PWR073"
+			(at 248.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 248.92 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 248.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9747981-6a5f-446d-921b-cb2e96057fed")
+		)
+		(instances
+			(project "SparkFun_Qwiic_Turntable"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

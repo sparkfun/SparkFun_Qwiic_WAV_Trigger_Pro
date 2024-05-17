@@ -5,7 +5,7 @@
 	(uuid "af11806c-f802-4e29-a0b0-fa244c04c057")
 	(paper "A")
 	(title_block
-		(title "WAV Trigger Pro")
+		(title "SparkFun Qwiic WAV Trigger Pro")
 		(rev "1.0")
 		(company "Robertsonics / SparkFun")
 	)

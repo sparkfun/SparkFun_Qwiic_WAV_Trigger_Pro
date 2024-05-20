@@ -1445,227 +1445,6 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Connector:Audio Jack TRRS 3.5mm SMD"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "3.5mm TRRS"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun-Connector:Audio_Jack_3.5mm_TRRS_SMD_RA"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/20153.pdf"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 4 Poles (TRRS)"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD-ID" "CONN-10676"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun audio jack receptacle stereo headphones TRRS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Audio Jack TRRS 3.5mm SMD_0_1"
-				(rectangle
-					(start -6.35 -5.08)
-					(end -7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -6.35 3.81)
-					(end 2.54 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Audio Jack TRRS 3.5mm SMD_1_1"
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SparkFun-Connector:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -2836,16 +2615,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 100.33) (xy 247.65 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "083deaf0-000e-482b-a246-924c35013cce")
-	)
-	(wire
-		(pts
 			(xy 67.31 80.01) (xy 67.31 81.28)
 		)
 		(stroke
@@ -2893,16 +2662,6 @@
 			(type default)
 		)
 		(uuid "0e542cf9-9b21-48a3-8b28-09b5e8916905")
-	)
-	(wire
-		(pts
-			(xy 245.11 102.87) (xy 247.65 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ef01e7b-2f4c-4cf5-bd5a-cd9f0ed53a08")
 	)
 	(wire
 		(pts
@@ -3153,16 +2912,6 @@
 			(type default)
 		)
 		(uuid "619ec9a4-901d-45e7-b7b6-b1bdbbe1ec88")
-	)
-	(wire
-		(pts
-			(xy 246.38 97.79) (xy 247.65 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6406fcd4-eeb6-4451-a05c-215c5757978d")
 	)
 	(wire
 		(pts
@@ -3436,16 +3185,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 106.68) (xy 246.38 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8892ecb-ceb3-40a4-85b9-b88ac8aad65e")
-	)
-	(wire
-		(pts
 			(xy 124.46 106.68) (xy 124.46 105.41)
 		)
 		(stroke
@@ -3635,50 +3374,6 @@
 		(uuid "a8b63687-9682-4929-b3e7-8f1ce110ea35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 239.7662 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROUT"
-		(shape input)
-		(at 245.11 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c02dac01-5a09-4e5f-81eb-547e50b2af48")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.2262 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LOUT"
-		(shape input)
-		(at 245.11 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cf6d12e5-f330-45a6-8937-0fbc47fbfb8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.4681 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,71 +3656,6 @@
 			(project "SparkFun_Qwiic_Turntable"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 246.38 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a161f49-74ee-4dea-bee5-122e2c05f926")
-		(property "Reference" "#PWR090"
-			(at 246.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 246.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 246.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cca0585-9350-45f2-93c1-048c915359be")
-		)
-		(instances
-			(project "SparkFun_Qwiic_Turntable"
-				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
-					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -4725,89 +4355,6 @@
 			(project "SparkFun_Qwiic_Turntable"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Connector:Audio Jack TRRS 3.5mm SMD")
-		(at 252.73 100.33 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "3eed4b93-5059-4b19-b2d7-796f4b9e3c96")
-		(property "Reference" "J10"
-			(at 255.27 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.5mm TRRS"
-			(at 255.27 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:Audio_Jack_3.5mm_TRRS_SMD_RA"
-			(at 252.73 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Prototyping/20153.pdf"
-			(at 252.73 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 4 Poles (TRRS)"
-			(at 252.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD-ID" "CONN-10676"
-			(at 252.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "R1"
-			(uuid "c58c6bd2-9c97-4886-98c4-898b24b3803d")
-		)
-		(pin "T"
-			(uuid "eb4ee47f-38f8-401c-a31c-ed0c37fbb8b6")
-		)
-		(pin "S"
-			(uuid "f0efa22b-3848-4384-ad17-e638f52aa29f")
-		)
-		(pin "R2"
-			(uuid "b1522603-d397-4ab3-9273-4a0dd6052f6e")
-		)
-		(instances
-			(project "SparkFun_Qwiic_Turntable"
-				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/79c75e5e-ffba-407e-9374-79e1c26e51a6"
-					(reference "J10")
 					(unit 1)
 				)
 			)

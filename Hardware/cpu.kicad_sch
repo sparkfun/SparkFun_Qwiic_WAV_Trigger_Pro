@@ -7833,16 +7833,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 156.21) (xy 238.76 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60cbb9e2-601c-4662-8d57-2a65e9a99930")
-	)
-	(wire
-		(pts
 			(xy 133.35 124.46) (xy 161.29 124.46)
 		)
 		(stroke
@@ -8110,16 +8100,6 @@
 			(type default)
 		)
 		(uuid "7f6f3622-80d9-4b60-86b7-e4c10f722c1e")
-	)
-	(wire
-		(pts
-			(xy 238.76 156.21) (xy 238.76 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813d006e-cedd-46a1-9649-f600b60b1c97")
 	)
 	(wire
 		(pts
@@ -8460,16 +8440,6 @@
 			(type default)
 		)
 		(uuid "ae169817-0965-4539-80a4-e4dd005e20d2")
-	)
-	(wire
-		(pts
-			(xy 218.44 156.21) (xy 227.33 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae9b64f9-4f61-4824-97d9-a44834da31ed")
 	)
 	(wire
 		(pts
@@ -9112,7 +9082,7 @@
 		)
 		(uuid "1e464525-241f-436d-ad17-ad94a607b21d")
 	)
-	(text "User LED / Button"
+	(text "User LED"
 		(exclude_from_sim no)
 		(at 210.82 130.556 0)
 		(effects
@@ -9529,17 +9499,6 @@
 			(justify left bottom)
 		)
 		(uuid "bdc6942c-3e06-49a6-9041-5b42cd27665b")
-	)
-	(label "BTN_USR"
-		(at 218.44 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c249002f-b61c-44e4-ae41-61cfde38bc39")
 	)
 	(label "D0"
 		(at 59.69 85.09 0)
@@ -15251,83 +15210,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Switch:SPST_Push_SMD_4.6x2.8mm_h2.5mm")
-		(at 232.41 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea96c6c7-a5e7-4511-aa68-d441920b66eb")
-		(property "Reference" "SW2"
-			(at 232.41 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMD_4.6x2.8mm_h2.5mm"
-			(at 232.41 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Switch:Push_SMD_4.6x2.8mm"
-			(at 232.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 232.41 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "SWCH-15606"
-			(at 232.41 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db804119-03f0-45a3-8230-e4f1f4d29371")
-		)
-		(pin "2"
-			(uuid "d51fd728-df2e-4702-b947-b80f40931a56")
-		)
-		(instances
-			(project "SparkFun_Qwiic_Turntable"
-				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Resistor:100k_0402")
 		(at 224.79 33.02 90)
 		(unit 1)
@@ -15400,73 +15282,6 @@
 			(project "SparkFun_Qwiic_Turntable"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 238.76 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eec992f1-7e54-442e-8c61-5602b7ab676e")
-		(property "Reference" "#PWR049"
-			(at 238.76 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 238.76 161.29 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6458d9e-a815-44c0-9c1e-3ad237ae8556")
-		)
-		(instances
-			(project "SparkFun_Qwiic_Turntable"
-				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)

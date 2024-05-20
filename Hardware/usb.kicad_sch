@@ -5446,6 +5446,12 @@
 		(uuid "14255fb0-7415-41ba-82a6-61d5c5515e09")
 	)
 	(junction
+		(at 86.36 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "584c7b3e-a52b-4726-8295-2e325c17047d")
+	)
+	(junction
 		(at 193.04 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5641,6 +5647,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 66.04) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17a1fb01-ad7d-478b-8796-8b471f729bca")
+	)
+	(wire
+		(pts
 			(xy 226.06 134.62) (xy 226.06 133.35)
 		)
 		(stroke
@@ -5768,6 +5784,16 @@
 			(type default)
 		)
 		(uuid "36ee14d7-ec02-4a71-a685-024768c5ad8c")
+	)
+	(wire
+		(pts
+			(xy 93.98 63.5) (xy 93.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391b0743-04dc-4da3-bd46-1246b421cae4")
 	)
 	(wire
 		(pts
@@ -6511,7 +6537,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 66.04) (xy 86.36 64.77)
+			(xy 86.36 66.04) (xy 86.36 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8220,6 +8246,73 @@
 			(project "SparkFun_Qwiic_Turntable"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
+		(at 93.98 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5842451f-336b-409b-be45-c931199ab721")
+		(property "Reference" "TP3"
+			(at 93.98 58.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.75mm"
+			(at 93.98 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8971e00a-c5b2-48ff-9f34-79c7f8955ca8")
+		)
+		(instances
+			(project "SparkFun_Qwiic_Turntable"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10143,7 +10236,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:VUSB")
-		(at 86.36 64.77 0)
+		(at 86.36 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10151,7 +10244,7 @@
 		(dnp no)
 		(uuid "b71d4b96-b3ae-4ba4-b257-367d428efbc8")
 		(property "Reference" "#PWR012"
-			(at 86.36 68.58 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,7 +10253,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 86.36 60.96 0)
+			(at 86.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +10261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 64.77 0)
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10177,7 +10270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 64.77 0)
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +10279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 64.77 0)
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)

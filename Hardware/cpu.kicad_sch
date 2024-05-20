@@ -9084,7 +9084,7 @@
 	)
 	(text "User LED"
 		(exclude_from_sim no)
-		(at 210.82 130.556 0)
+		(at 221.488 130.81 0)
 		(effects
 			(font
 				(size 3 3)

@@ -26424,7 +26424,7 @@
 			(at 0 3.771053 -90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "d60fb808-17f3-408f-b59d-358d0016a428")
+			(uuid "786eb686-6c47-4b89-b0e2-054e0f532b26")
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -26436,7 +26436,7 @@
 			(at 0 -3.771053 -90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "24106d7f-95c9-4370-9ec1-c77652a84ea9")
+			(uuid "5a565a19-3b10-4539-8be1-8ae7ed9f22dc")
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -26509,7 +26509,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "b9137121-cbb5-4f6e-b821-4c71cc7d3230")
+			(uuid "b5ff1d13-c63e-4c32-8448-77362e5d632d")
 		)
 	)
 	(footprint "kibuzzard-664651EE"

@@ -6665,7 +6665,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6677,7 +6677,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-08416"
+		(property "PROD_ID" "RES-15128"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7758,7 +7758,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7770,7 +7770,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-13930"
+		(property "PROD_ID" "CAP-14969"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7998,7 +7998,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8010,7 +8010,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-07828"
+		(property "PROD_ID" "RES-13495"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10742,7 +10742,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10754,7 +10754,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-07828"
+		(property "PROD_ID" "RES-13495"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12944,7 +12944,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12956,7 +12956,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-13930"
+		(property "PROD_ID" "CAP-14969"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29830,7 +29830,7 @@
 			(xy 122.555 125.73) (xy 156.21 125.73)
 		)
 		(height 8.255)
-		(gr_text "1325 mils"
+		(gr_text "33.655 mm"
 			(at 139.3825 132.835 0)
 			(layer "Dwgs.User")
 			(uuid "57bea545-8e9c-4109-b548-cfed5f4b7472")
@@ -29862,7 +29862,7 @@
 			(xy 122.555 87.63) (xy 129.54 87.63)
 		)
 		(height -3.175)
-		(gr_text "275 mils"
+		(gr_text "6.985 mm"
 			(at 126.0475 83.305 0)
 			(layer "Dwgs.User")
 			(uuid "60567e81-e71d-4862-8b20-7526d696d61a")
@@ -29894,7 +29894,7 @@
 			(xy 122.555 87.63) (xy 122.555 125.73)
 		)
 		(height 6.35)
-		(gr_text "1500 mils"
+		(gr_text "38.1 mm"
 			(at 115.055 106.68 90)
 			(layer "Dwgs.User")
 			(uuid "6f5679ad-e845-48e6-8628-bc286134d7d3")
@@ -29926,7 +29926,7 @@
 			(xy 122.555 125.73) (xy 122.555 106.68)
 		)
 		(height -3.175)
-		(gr_text "750 mils"
+		(gr_text "19.05 mm"
 			(at 118.23 116.205 90)
 			(layer "Dwgs.User")
 			(uuid "b15cb24b-1f02-4cce-b10f-3ccbdea435a7")
@@ -29958,7 +29958,7 @@
 			(xy 122.555 87.63) (xy 167.005 87.63)
 		)
 		(height -6.35)
-		(gr_text "1750 mils"
+		(gr_text "44.45 mm"
 			(at 144.78 80.13 0)
 			(layer "Dwgs.User")
 			(uuid "d6912d23-2627-49c6-bc6a-5e349f83a6c0")
@@ -29990,7 +29990,7 @@
 			(xy 167.005 125.73) (xy 167.005 100.965)
 		)
 		(height 5.08)
-		(gr_text "975 mils"
+		(gr_text "24.765 mm"
 			(at 170.935 113.3475 90)
 			(layer "Dwgs.User")
 			(uuid "dcc6557d-1b7a-4501-bad4-ec078e2f9ff2")
@@ -30022,7 +30022,7 @@
 			(xy 122.555 125.73) (xy 140.97 125.73)
 		)
 		(height 4.445)
-		(gr_text "725 mils"
+		(gr_text "18.415 mm"
 			(at 131.7625 129.025 0)
 			(layer "Dwgs.User")
 			(uuid "fe7aaa6d-0b2a-491c-902b-c2fc592bdf5f")

@@ -1457,7 +1457,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "G1")
 					(unit 1)
@@ -1521,7 +1521,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "ST2")
 					(unit 1)
@@ -1585,7 +1585,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "ST3")
 					(unit 1)
@@ -1649,7 +1649,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "G3")
 					(unit 1)
@@ -1713,7 +1713,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "FID2")
 					(unit 1)
@@ -1777,7 +1777,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "ST1")
 					(unit 1)
@@ -1841,7 +1841,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "G4")
 					(unit 1)
@@ -1905,7 +1905,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "FID4")
 					(unit 1)
@@ -1969,7 +1969,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "FID3")
 					(unit 1)
@@ -2033,7 +2033,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "ST4")
 					(unit 1)
@@ -2097,7 +2097,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "FID1")
 					(unit 1)
@@ -2236,7 +2236,7 @@
 			(uuid "4488e86e-6a3e-4ac5-80cf-366f47537c20")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(page "3")
 				)
@@ -2304,7 +2304,7 @@
 			(uuid "85031dc7-5a86-44a0-a211-a93607cf7e64")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(page "2")
 				)
@@ -2412,7 +2412,7 @@
 			(uuid "d10d6bab-9cf9-4ee3-80f6-49865849409d")
 		)
 		(instances
-			(project "SparkFun_Qwiic_Turntable"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(page "4")
 				)

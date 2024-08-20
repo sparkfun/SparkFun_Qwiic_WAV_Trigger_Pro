@@ -6,6 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun Qwiic WAV Trigger Pro")
+		(date "2024-08-19")
 		(rev "1.0")
 		(company "Robertsonics / SparkFun")
 	)
@@ -51,7 +52,7 @@
 				)
 			)
 			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1232,7 +1233,7 @@
 				)
 			)
 			(property "Footprint" "SparkFun-Hardware:Standoff"
-				(at 0 -5.08 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1241,7 +1242,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -3.81 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1250,7 +1251,7 @@
 				)
 			)
 			(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1258,7 +1259,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "#4 screw stand off"
+			(property "ki_keywords" "SparkFun #4 screw stand off"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1360,6 +1361,16 @@
 			(type default)
 		)
 		(uuid "c07fa2f4-1312-4c4e-a972-74e01e40f9fe")
+	)
+	(wire
+		(pts
+			(xy 97.79 74.93) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ecc20c-4645-4db9-a738-20be27718e83")
 	)
 	(wire
 		(pts
@@ -2235,6 +2246,16 @@
 			)
 			(uuid "4488e86e-6a3e-4ac5-80cf-366f47537c20")
 		)
+		(pin "VBUS_DET" input
+			(at 114.3 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aef88f4c-cb5a-4176-b5f2-0ed61a07db46")
+		)
 		(instances
 			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
@@ -2302,6 +2323,16 @@
 				(justify right)
 			)
 			(uuid "85031dc7-5a86-44a0-a211-a93607cf7e64")
+		)
+		(pin "VBUS_DET" output
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37534db2-3434-4050-b92d-337da2784283")
 		)
 		(instances
 			(project "SparkFun_Qwiic_WAV_Trigger_Pro"

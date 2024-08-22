@@ -7311,10 +7311,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 81.28 62.23 0)
+		(property "Value" "VBUS"
+			(at 81.28 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8372,7 +8373,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5fd291ef-66b2-4f4a-a0bd-625593c4ae33")
 		(property "Reference" "JP2"
 			(at 77.47 123.8249 90)
@@ -8381,15 +8381,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 77.47 125.73 90)
+		(property "Value" "HST/DEV1"
+			(at 77.978 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-1_Trace"
@@ -10342,7 +10342,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3cd3418-8c35-4f32-846c-4a49fcbdb3be")
 		(property "Reference" "JP1"
 			(at 66.04 123.8249 90)
@@ -10351,15 +10350,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 66.04 125.73 90)
+		(property "Value" "HST/DEV2"
+			(at 65.786 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-1_Trace"

@@ -11,377 +11,6 @@
 		(company "Robertsonics / SparkFun")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x05_Odd_Even"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x05_Odd_Even_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 6.35)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Qwiic_Turntable_Unique_Parts:STM32H750VBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4690,6 +4319,242 @@
 				)
 			)
 		)
+		(symbol "SparkFun-Connector:Debug-Cortex-2x5_P1.27mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "SWD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "SparkFun-Connector:2x05_P1.27mm"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/3/0/b/4/0/00140.pdf"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cortex Debug Connector 10 pin"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "~"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SF_ID" "PRT-15362"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun swd arm cortex debug debugger 2x5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Debug-Cortex-2x5_P1.27mm_1_0"
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SWDCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Debug-Cortex-2x5_P1.27mm_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Connector:Qwiic_Right_Angle"
 			(pin_names
 				(offset 1.016) hide)
@@ -7087,12 +6952,6 @@
 		)
 	)
 	(junction
-		(at 247.65 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c3d7885-c0e7-4f07-8b26-df31b1f253c3")
-	)
-	(junction
 		(at 60.96 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7189,7 +7048,7 @@
 		(uuid "5f0c2b2a-d22c-40bc-8561-03320b4b9127")
 	)
 	(junction
-		(at 224.79 25.4)
+		(at 218.44 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "621efea5-c1e8-4e1c-ad8e-f8ab3f400622")
@@ -7213,7 +7072,7 @@
 		(uuid "8d3b1ac2-4361-421a-ace7-89a4a205e7b6")
 	)
 	(junction
-		(at 232.41 40.64)
+		(at 226.06 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e8fa5d5-dc65-4573-bd15-a00a22ba21ef")
@@ -7261,13 +7120,7 @@
 		(uuid "c97659d6-63d2-47cb-af9b-936c9c8ea614")
 	)
 	(junction
-		(at 247.65 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce8a83d1-b90c-4f9b-a58c-5f26bae93229")
-	)
-	(junction
-		(at 224.79 43.18)
+		(at 218.44 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf221c0f-51a9-43cf-9cba-86e151e764ec")
@@ -7320,7 +7173,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 40.64) (xy 247.65 40.64)
+			(xy 247.65 38.1) (xy 248.92 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7400,7 +7253,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 24.13) (xy 224.79 25.4)
+			(xy 218.44 24.13) (xy 218.44 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7440,7 +7293,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 34.29) (xy 247.65 40.64)
+			(xy 248.92 36.83) (xy 248.92 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7467,16 +7320,6 @@
 			(type default)
 		)
 		(uuid "1142aa99-b9ee-417e-9cfb-120788407721")
-	)
-	(wire
-		(pts
-			(xy 246.38 43.18) (xy 247.65 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12261810-5cd8-4c95-b87a-71be5de5e561")
 	)
 	(polyline
 		(pts
@@ -7517,16 +7360,6 @@
 			(type default)
 		)
 		(uuid "16792774-b079-49bd-82bb-ca53f26d4d0a")
-	)
-	(wire
-		(pts
-			(xy 246.38 45.72) (xy 247.65 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19af4b12-3589-4ad5-8f30-d120445dda16")
 	)
 	(wire
 		(pts
@@ -7650,7 +7483,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 45.72) (xy 233.68 45.72)
+			(xy 209.55 45.72) (xy 227.33 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7810,7 +7643,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 29.21) (xy 232.41 25.4)
+			(xy 226.06 29.21) (xy 226.06 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7840,7 +7673,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 40.64) (xy 233.68 40.64)
+			(xy 226.06 40.64) (xy 227.33 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7870,7 +7703,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 43.18) (xy 233.68 43.18)
+			(xy 218.44 43.18) (xy 227.33 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7900,7 +7733,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 50.8) (xy 233.68 50.8)
+			(xy 209.55 38.1) (xy 227.33 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7927,16 +7760,6 @@
 			(type default)
 		)
 		(uuid "48586ebe-3ba0-4e75-9a29-24216b922357")
-	)
-	(wire
-		(pts
-			(xy 247.65 43.18) (xy 247.65 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a14e46-7c4f-4401-9bd0-2c4539cda4e8")
 	)
 	(wire
 		(pts
@@ -8000,7 +7823,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 43.18) (xy 224.79 43.18)
+			(xy 209.55 43.18) (xy 218.44 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8020,7 +7843,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 50.8) (xy 247.65 50.8)
+			(xy 247.65 45.72) (xy 248.92 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8250,7 +8073,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 25.4) (xy 224.79 25.4)
+			(xy 226.06 25.4) (xy 218.44 25.4)
 		)
 		(stroke
 			(width 0)
@@ -8410,16 +8233,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 45.72) (xy 247.65 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f6f3622-80d9-4b60-86b7-e4c10f722c1e")
-	)
-	(wire
-		(pts
 			(xy 166.37 53.34) (xy 166.37 67.31)
 		)
 		(stroke
@@ -8450,7 +8263,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 36.83) (xy 224.79 43.18)
+			(xy 218.44 36.83) (xy 218.44 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8490,7 +8303,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 29.21) (xy 224.79 25.4)
+			(xy 218.44 29.21) (xy 218.44 25.4)
 		)
 		(stroke
 			(width 0)
@@ -8830,7 +8643,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 40.64) (xy 232.41 40.64)
+			(xy 209.55 40.64) (xy 226.06 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8970,7 +8783,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 50.8) (xy 247.65 52.07)
+			(xy 248.92 45.72) (xy 248.92 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9040,7 +8853,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 36.83) (xy 232.41 40.64)
+			(xy 226.06 36.83) (xy 226.06 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9433,7 +9246,7 @@
 	)
 	(text "Debug"
 		(exclude_from_sim no)
-		(at 232.156 21.082 0)
+		(at 225.806 21.082 0)
 		(effects
 			(font
 				(size 3 3)
@@ -9498,7 +9311,7 @@
 		(uuid "17c069cc-1494-4eaa-b6b1-db300cb3b2aa")
 	)
 	(label "SWCLK"
-		(at 215.9 43.18 0)
+		(at 209.55 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9784,7 +9597,7 @@
 		(uuid "9c8c39a3-d710-46b6-8440-c5c0ffcc8d56")
 	)
 	(label "~{RST}"
-		(at 215.9 50.8 0)
+		(at 209.55 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9839,7 +9652,7 @@
 		(uuid "c88ed141-fc55-463d-9263-6073b9272b41")
 	)
 	(label "SWO"
-		(at 215.9 45.72 0)
+		(at 209.55 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9949,7 +9762,7 @@
 		(uuid "e567dda8-5476-438d-b8c5-9d16dc88b599")
 	)
 	(label "SWDIO"
-		(at 215.9 40.64 0)
+		(at 209.55 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11405,7 +11218,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:100k_0402")
-		(at 232.41 33.02 90)
+		(at 226.06 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11413,7 +11226,7 @@
 		(dnp no)
 		(uuid "396b9485-c12c-41b9-8664-1468f4640d14")
 		(property "Reference" "R20"
-			(at 229.87 30.988 0)
+			(at 223.52 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11422,7 +11235,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 234.696 30.48 0)
+			(at 228.346 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11431,7 +11244,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0402_1005Metric"
-			(at 236.728 33.02 0)
+			(at 230.378 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11440,7 +11253,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 241.3 33.02 0)
+			(at 234.95 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11449,7 +11262,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 232.41 33.02 0)
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11458,7 +11271,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-13495"
-			(at 238.76 33.02 0)
+			(at 232.41 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12399,7 +12212,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 247.65 34.29 0)
+		(at 248.92 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12408,7 +12221,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ced8bb8-1eb8-47f1-a14f-4a38f3299d8e")
 		(property "Reference" "#PWR090"
-			(at 247.65 38.1 0)
+			(at 248.92 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12417,7 +12230,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 247.65 30.48 0)
+			(at 248.92 33.02 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12426,7 +12239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 34.29 0)
+			(at 248.92 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12435,7 +12248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 34.29 0)
+			(at 248.92 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12444,7 +12257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 247.65 34.29 0)
+			(at 248.92 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12689,7 +12502,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 224.79 24.13 0)
+		(at 218.44 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12698,7 +12511,7 @@
 		(fields_autoplaced yes)
 		(uuid "698aa98a-465f-43f6-b8e1-d6395c12071c")
 		(property "Reference" "#PWR047"
-			(at 224.79 27.94 0)
+			(at 218.44 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12707,7 +12520,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 224.79 20.32 0)
+			(at 218.44 20.32 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12716,7 +12529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 24.13 0)
+			(at 218.44 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12725,7 +12538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 24.13 0)
+			(at 218.44 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12734,7 +12547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 224.79 24.13 0)
+			(at 218.44 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13679,7 +13492,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 247.65 52.07 0)
+		(at 248.92 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13688,7 +13501,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6fe2f28-dadd-40df-944c-3999f94650ee")
 		(property "Reference" "#PWR051"
-			(at 247.65 58.42 0)
+			(at 248.92 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13697,7 +13510,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 55.88 0)
+			(at 248.92 50.8 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13706,7 +13519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 52.07 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13715,7 +13528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 52.07 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +13537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 52.07 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15512,8 +15325,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 241.3 45.72 0)
+		(lib_id "SparkFun-Connector:Debug-Cortex-2x5_P1.27mm")
+		(at 237.49 43.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15522,7 +15335,7 @@
 		(dnp no)
 		(uuid "e16a0163-6940-4038-99e8-f9d1e7d501d5")
 		(property "Reference" "J7"
-			(at 240.03 34.29 0)
+			(at 236.22 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15530,24 +15343,15 @@
 			)
 		)
 		(property "Value" "JTAG"
-			(at 240.03 36.83 0)
+			(at 236.22 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
-			(at 241.3 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 45.72 0)
+		(property "Footprint" "SparkFun-Connector:2x05_P1.27mm"
+			(at 237.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15555,8 +15359,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 241.3 45.72 0)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/3/0/b/4/0/00140.pdf"
+			(at 237.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cortex Debug Connector 10 pin"
+			(at 237.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "~"
+			(at 237.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SF_ID" "PRT-15362"
+			(at 237.49 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15570,14 +15401,8 @@
 		(pin "3"
 			(uuid "31d7dab6-fe28-460a-9bd3-b77bfe3dc85c")
 		)
-		(pin "8"
-			(uuid "f15425ab-0f3a-4c4a-af1b-1fdd836ae589")
-		)
 		(pin "5"
 			(uuid "f15511e0-6a86-4df8-a925-c9d4ed5ad1e7")
-		)
-		(pin "7"
-			(uuid "728eac29-9123-44b9-b776-18ad3bd2e69c")
 		)
 		(pin "6"
 			(uuid "f6c63228-297d-4233-94ac-68ffae26a510")
@@ -15884,7 +15709,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:100k_0402")
-		(at 224.79 33.02 90)
+		(at 218.44 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15892,7 +15717,7 @@
 		(dnp no)
 		(uuid "ec495ee6-1ece-4ed9-a221-a70d217c1726")
 		(property "Reference" "R18"
-			(at 222.25 30.988 0)
+			(at 215.9 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15901,7 +15726,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 227.076 30.48 0)
+			(at 220.726 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15910,7 +15735,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0402_1005Metric"
-			(at 229.108 33.02 0)
+			(at 222.758 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15919,7 +15744,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 233.68 33.02 0)
+			(at 227.33 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15928,7 +15753,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 33.02 0)
+			(at 218.44 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15937,7 +15762,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-13495"
-			(at 231.14 33.02 0)
+			(at 224.79 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)

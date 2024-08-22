@@ -10675,7 +10675,7 @@
 			(uuid "7c091c78-4163-4025-9ae2-cb3209f165e0")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R26")
 					(unit 1)

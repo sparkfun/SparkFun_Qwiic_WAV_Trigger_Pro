@@ -5064,6 +5064,101 @@
 				)
 			)
 		)
+		(symbol "SparkFun-Connector:TestPoint_0.75mm"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0.75mm"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0.75mm_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_0.75mm_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Connector:microSD_PushPush"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7076,6 +7171,12 @@
 		(uuid "45b8e048-2d03-4f4f-85ff-2010895d48af")
 	)
 	(junction
+		(at 144.78 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "528519e9-cccd-4700-803f-ac7acd0b3a8f")
+	)
+	(junction
 		(at 83.82 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7152,6 +7253,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c03368bc-eeae-442e-b7c1-38b2844851f4")
+	)
+	(junction
+		(at 157.48 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c97659d6-63d2-47cb-af9b-936c9c8ea614")
 	)
 	(junction
 		(at 247.65 45.72)
@@ -7953,6 +8060,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 62.23) (xy 144.78 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f0189a-a43f-4450-89ab-37b246bf8fa8")
+	)
+	(wire
+		(pts
 			(xy 58.42 72.39) (xy 66.04 72.39)
 		)
 		(stroke
@@ -7970,6 +8087,16 @@
 			(type default)
 		)
 		(uuid "5b18766c-fcc0-4536-b725-c39db5770f7a")
+	)
+	(wire
+		(pts
+			(xy 143.51 64.77) (xy 157.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c297b87-43d2-4a72-aaa7-0ef3d81aab22")
 	)
 	(wire
 		(pts
@@ -13819,6 +13946,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
+		(at 143.51 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab89fc5e-02b2-4609-aef8-fcdbf57dabfb")
+		(property "Reference" "TP4"
+			(at 136.652 62.23 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.75mm"
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "569fd211-dc03-40d7-ac4a-2d8df3368543")
+		)
+		(instances
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:100k_0402")
 		(at 166.37 110.49 90)
 		(unit 1)
@@ -14266,9 +14459,75 @@
 			(uuid "8f9754bc-4362-45b3-ad7e-035114774ff5")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_0.75mm")
+		(at 143.51 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be72a29c-c48f-44aa-8edf-2e9b49762ee5")
+		(property "Reference" "TP5"
+			(at 136.652 64.77 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.75mm"
+			(at 147.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a742c3f-5f38-461d-974b-ecdc12386ef3")
+		)
+		(instances
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/06cedc24-789f-47f3-9aa2-6e12f76f1aa5"
+					(reference "TP5")
 					(unit 1)
 				)
 			)

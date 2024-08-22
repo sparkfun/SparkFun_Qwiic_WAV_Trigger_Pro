@@ -2606,16 +2606,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 113.03) (xy 59.69 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08202ab5-e2ac-4be4-bc52-dd6fc0a614d7")
-	)
-	(wire
-		(pts
 			(xy 67.31 80.01) (xy 67.31 81.28)
 		)
 		(stroke
@@ -2626,7 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 113.03) (xy 52.07 115.57)
+			(xy 50.8 113.03) (xy 50.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2863,6 +2853,16 @@
 			(type default)
 		)
 		(uuid "4faf0759-aac5-4ab4-a530-980f6c04623d")
+	)
+	(wire
+		(pts
+			(xy 60.96 113.03) (xy 60.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fbe2e2-b92e-4811-92e7-ad901616d280")
 	)
 	(wire
 		(pts
@@ -3176,6 +3176,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 113.03) (xy 59.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd94ac0-a5d4-4a0d-bcd7-33f1a9732583")
+	)
+	(wire
+		(pts
 			(xy 124.46 95.25) (xy 124.46 93.98)
 		)
 		(stroke
@@ -3223,6 +3233,16 @@
 			(type default)
 		)
 		(uuid "e587eef7-d969-47c2-ae92-381f1a604daa")
+	)
+	(wire
+		(pts
+			(xy 50.8 113.03) (xy 52.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e772258d-4fb9-46e0-87b3-fba289b2989a")
 	)
 	(wire
 		(pts
@@ -3876,7 +3896,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 59.69 115.57 0)
+		(at 60.96 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3884,7 +3904,7 @@
 		(dnp no)
 		(uuid "26970881-6294-4c3f-b7e2-ae0785bd3b74")
 		(property "Reference" "#PWR078"
-			(at 59.69 121.92 0)
+			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3913,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 59.69 119.38 0)
+			(at 60.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 115.57 0)
+			(at 60.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +3930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 115.57 0)
+			(at 60.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +3939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 59.69 115.57 0)
+			(at 60.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4547,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 52.07 115.57 0)
+		(at 50.8 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4535,7 +4555,7 @@
 		(dnp no)
 		(uuid "67dcb00e-776e-49da-9c5e-f90d9c8d9e49")
 		(property "Reference" "#PWR077"
-			(at 52.07 121.92 0)
+			(at 50.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 119.38 0)
+			(at 50.8 118.11 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4553,7 +4573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 115.57 0)
+			(at 50.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 115.57 0)
+			(at 50.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +4591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 115.57 0)
+			(at 50.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,9 +5026,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ANLG"
 			(at 55.88 110.49 0)
 			(effects
 				(font

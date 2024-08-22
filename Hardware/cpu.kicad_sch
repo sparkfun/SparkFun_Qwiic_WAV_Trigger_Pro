@@ -5720,7 +5720,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+			(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Green"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -6953,7 +6953,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Switch:Push_SMD_4.6x2.8mm"
+			(property "Footprint" "SparkFun-Switch:Push_SMD_4.6x2.8mm_h2.5mm"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -10751,7 +10751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Switch:Push_SMD_4.6x2.8mm"
+		(property "Footprint" "SparkFun-Switch:Push_SMD_4.6x2.8mm_h2.5mm"
 			(at 43.18 50.8 0)
 			(effects
 				(font
@@ -12171,7 +12171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Green"
 			(at 227.33 147.32 0)
 			(effects
 				(font
@@ -14987,10 +14987,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 147.32 39.37 0)
+		(property "Value" "I2C"
+			(at 148.59 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

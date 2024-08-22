@@ -2892,7 +2892,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+			(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Red"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -7703,9 +7703,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "LED"
 			(at 256.54 44.45 0)
 			(effects
 				(font
@@ -9728,7 +9729,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Red"
 			(at 260.35 62.23 0)
 			(effects
 				(font

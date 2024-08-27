@@ -9143,16 +9143,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 123.19) (xy 114.3 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92faf57-4613-4de4-8675-0558d4f88608")
-	)
-	(wire
-		(pts
 			(xy 157.48 38.1) (xy 156.21 38.1)
 		)
 		(stroke
@@ -9298,17 +9288,6 @@
 			(justify left bottom)
 		)
 		(uuid "16c910ab-eaee-4afd-b076-fe65be8a4eec")
-	)
-	(label "BTN_USR"
-		(at 114.3 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "17c069cc-1494-4eaa-b6b1-db300cb3b2aa")
 	)
 	(label "SWCLK"
 		(at 209.55 43.18 0)

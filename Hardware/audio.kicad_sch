@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "SparkFun Qwiic WAV Trigger Pro")
-		(date "2024-08-19")
+		(date "2024-08-29")
 		(rev "1.0")
 		(company "Robertsonics / SparkFun")
 	)

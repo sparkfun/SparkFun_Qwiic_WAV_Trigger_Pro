@@ -7130,7 +7130,7 @@
 			(uuid "aa01ab53-b426-4621-b9b6-a74f8ecc111b")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "TP2")
 					(unit 1)
@@ -7227,7 +7227,7 @@
 			(uuid "26a5a112-1730-4dd1-9362-786c9d617ba1")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "C2")
 					(unit 1)
@@ -7294,7 +7294,7 @@
 			(uuid "c114be69-8507-4479-98ae-639f642e279f")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR049")
 					(unit 1)
@@ -7359,7 +7359,7 @@
 			(uuid "92c49d9b-7f88-4175-9d44-4b96517818b6")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR09")
 					(unit 1)
@@ -7426,7 +7426,7 @@
 			(uuid "38afb9f2-2159-41cb-aaed-7160a922793a")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR014")
 					(unit 1)
@@ -7491,7 +7491,7 @@
 			(uuid "4b2f790f-4c06-4b39-9cbd-03f0034a67a1")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR086")
 					(unit 1)
@@ -7556,7 +7556,7 @@
 			(uuid "a87a9b8d-6c31-4a9a-9623-ee62df9124c8")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR015")
 					(unit 1)
@@ -7635,7 +7635,7 @@
 			(uuid "a6b6f622-0f6f-4cda-a271-c0f27f22c451")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R23")
 					(unit 1)
@@ -7703,7 +7703,7 @@
 			(uuid "a99a653e-761d-4c93-8124-54737d956e13")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "JP3")
 					(unit 1)
@@ -7768,7 +7768,7 @@
 			(uuid "41097b6a-4cc4-418e-af6d-9cc609617d29")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR08")
 					(unit 1)
@@ -7846,7 +7846,7 @@
 			(uuid "7ee35776-f1f2-4c93-ab60-3645734027f3")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R2")
 					(unit 1)
@@ -7925,7 +7925,7 @@
 			(uuid "a4a4978b-d5ab-4118-b456-1c13250b41ba")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R26")
 					(unit 1)
@@ -7992,7 +7992,7 @@
 			(uuid "34e5d31d-f3c3-4132-9dc8-ed6f8d2e0420")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR016")
 					(unit 1)
@@ -8105,7 +8105,7 @@
 			(uuid "b44d499b-7972-44dc-85ac-85e4c7044a4a")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "U2")
 					(unit 1)
@@ -8174,7 +8174,7 @@
 			(uuid "c53058b0-e33f-4775-8ab3-e26d1130af76")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "JP4")
 					(unit 1)
@@ -8259,7 +8259,7 @@
 			(uuid "646b93b3-595a-48aa-8d45-815c07927ebc")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "L2")
 					(unit 1)
@@ -8324,7 +8324,7 @@
 			(uuid "648dca8d-cd96-4959-8816-02007a52bd02")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR082")
 					(unit 1)
@@ -8430,7 +8430,7 @@
 			(uuid "988782a7-c573-4d49-8df5-0b3c1c0018f3")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "D2")
 					(unit 1)
@@ -8508,7 +8508,7 @@
 			(uuid "dec84bce-ee2b-474f-82da-8a45d923ab51")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R1")
 					(unit 1)
@@ -8573,7 +8573,7 @@
 			(uuid "f17dfd4c-1d25-45ab-9657-a5bce1ba725d")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR019")
 					(unit 1)
@@ -8651,7 +8651,7 @@
 			(uuid "c4dea7aa-5744-46f2-9d3f-adf7729da4b4")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R4")
 					(unit 1)
@@ -8716,7 +8716,7 @@
 			(uuid "6109988b-fc52-4cc3-a905-1dee205dd055")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR075")
 					(unit 1)
@@ -8783,7 +8783,7 @@
 			(uuid "8971e00a-c5b2-48ff-9f34-79c7f8955ca8")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "TP3")
 					(unit 1)
@@ -8856,7 +8856,7 @@
 			(uuid "cc441245-5563-4a87-af8b-6bd75a6943a8")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "JP2")
 					(unit 1)
@@ -8921,7 +8921,7 @@
 			(uuid "e6d89dd5-cc70-4c0c-b298-5a76912bc549")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR087")
 					(unit 1)
@@ -8988,7 +8988,7 @@
 			(uuid "35b0414e-533b-42ee-8334-caeb26c0d6bf")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR01")
 					(unit 1)
@@ -9055,7 +9055,7 @@
 			(uuid "05f66db9-f518-494c-b6b7-57f5ef341d8e")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR010")
 					(unit 1)
@@ -9120,7 +9120,7 @@
 			(uuid "ea3893de-cf4e-4779-8a52-244067c6ede7")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR020")
 					(unit 1)
@@ -9226,7 +9226,7 @@
 			(uuid "7cad487c-4378-4a35-bdb0-9b13a24614fd")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "D1")
 					(unit 1)
@@ -9305,7 +9305,7 @@
 			(uuid "5583a830-3706-43d5-b0d1-dfe7fafbb105")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R5")
 					(unit 1)
@@ -9390,7 +9390,7 @@
 			(uuid "bcff351f-d85b-4380-a15e-ed27f3a35807")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "L1")
 					(unit 1)
@@ -9455,7 +9455,7 @@
 			(uuid "a46445bf-b3d4-4163-abdb-c65e222212e2")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR013")
 					(unit 1)
@@ -9520,7 +9520,7 @@
 			(uuid "fe7e4994-8bdd-4105-87b6-ed4b9c1ceda3")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR03")
 					(unit 1)
@@ -9599,7 +9599,7 @@
 			(uuid "5783da61-51b0-4f29-a650-fa41edbcc014")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R3")
 					(unit 1)
@@ -9696,7 +9696,7 @@
 			(uuid "fb63d771-d882-4b97-8c12-0f77d2b4b385")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "C26")
 					(unit 1)
@@ -9761,7 +9761,7 @@
 			(uuid "2b0d0483-b2c5-48e8-9cd6-71cc2b33b2d7")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR02")
 					(unit 1)
@@ -9826,7 +9826,7 @@
 			(uuid "764c0ff4-e4d7-4921-996e-ece6db9b50b4")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR05")
 					(unit 1)
@@ -9905,7 +9905,7 @@
 			(uuid "047794b0-1ad1-452f-8a7c-85a0fffe6e93")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R6")
 					(unit 1)
@@ -10018,7 +10018,7 @@
 			(uuid "3c712509-a374-43d6-aa71-007264cb8d3f")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "J2")
 					(unit 1)
@@ -10119,7 +10119,7 @@
 			(uuid "afeef7c4-88d1-4f6c-9d9f-380057542e15")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "D5")
 					(unit 1)
@@ -10198,7 +10198,7 @@
 			(uuid "36fd9932-1233-4514-8a9c-8deea879b5b1")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "D3")
 					(unit 1)
@@ -10263,7 +10263,7 @@
 			(uuid "e023e173-32e1-40b7-9476-d85885576313")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR091")
 					(unit 1)
@@ -10369,7 +10369,7 @@
 			(uuid "da8d6316-c1eb-4728-b13e-47d4bdc9af5e")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "D6")
 					(unit 1)
@@ -10458,7 +10458,7 @@
 			(uuid "a0a80cc7-4215-41b9-943b-9545f929ef3c")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "U1")
 					(unit 1)
@@ -10525,7 +10525,7 @@
 			(uuid "822061f8-af93-483c-ae87-964d37d1af73")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR07")
 					(unit 1)
@@ -10622,7 +10622,7 @@
 			(uuid "90d21fd7-91f4-4293-b853-e3827a876d82")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "C1")
 					(unit 1)
@@ -10687,7 +10687,7 @@
 			(uuid "994d855b-2b08-49a9-b676-d1b1afaa8ed8")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR092")
 					(unit 1)
@@ -10752,7 +10752,7 @@
 			(uuid "d24a23f9-ef79-4c8b-b992-16ee9a188ec7")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR085")
 					(unit 1)
@@ -10825,7 +10825,7 @@
 			(uuid "a80ff106-dc52-4ea5-8f63-5a20342be108")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "JP1")
 					(unit 1)
@@ -10890,7 +10890,7 @@
 			(uuid "e8e4a7a3-700d-4ba8-a402-467bec4710d7")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR012")
 					(unit 1)
@@ -10957,7 +10957,7 @@
 			(uuid "3ccb70e7-5cb6-431e-827c-87a24dbbc3f5")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR083")
 					(unit 1)
@@ -11022,7 +11022,7 @@
 			(uuid "e0c703bb-c979-4321-817a-4d354d210173")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR017")
 					(unit 1)
@@ -11087,7 +11087,7 @@
 			(uuid "211cafa7-a419-4979-915a-dc1bbd844896")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR084")
 					(unit 1)
@@ -11155,7 +11155,7 @@
 			(uuid "ef297a90-8331-4a0e-b7a7-f08d01e2ad56")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "J1")
 					(unit 1)
@@ -11221,7 +11221,7 @@
 			(uuid "3e68e821-9bce-4b86-9188-8d790d8bc103")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR018")
 					(unit 1)
@@ -11318,7 +11318,7 @@
 			(uuid "50d81ce0-a2e8-4ad3-bf35-1739551bf6c0")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "C27")
 					(unit 1)
@@ -11383,7 +11383,7 @@
 			(uuid "65321ee3-51e4-448a-ae72-eed3b777a4ad")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR021")
 					(unit 1)
@@ -11448,7 +11448,7 @@
 			(uuid "0a7fc3bb-effa-4e58-b6e8-2ff103d8650e")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR011")
 					(unit 1)
@@ -11515,7 +11515,7 @@
 			(uuid "292b5377-d5d5-4e19-aaa3-b6f21cf6eac4")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR088")
 					(unit 1)
@@ -11582,7 +11582,7 @@
 			(uuid "14fe2bfa-83c3-4fb3-99c2-265979c40c02")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "TP1")
 					(unit 1)
@@ -11661,7 +11661,7 @@
 			(uuid "244035bb-1100-457c-b666-1e753a39512f")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R25")
 					(unit 1)
@@ -11749,7 +11749,7 @@
 			(uuid "77e9e238-b0ae-42fd-9fdd-b8c89f8e75e4")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "U6")
 					(unit 1)
@@ -11828,7 +11828,7 @@
 			(uuid "8fea859b-4fc2-41a6-9a9c-5d0fcf42e116")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R24")
 					(unit 1)
@@ -11893,7 +11893,7 @@
 			(uuid "07057777-f13a-4ca1-94b3-2170a236ef02")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR04")
 					(unit 1)
@@ -11960,7 +11960,7 @@
 			(uuid "54c7ba69-b9a7-4f14-a7f1-caa7dce1aa92")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "#PWR06")
 					(unit 1)
@@ -12039,7 +12039,7 @@
 			(uuid "4231dd30-70ad-42e1-96b5-2a02b37400df")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd/0de56ce7-915a-495e-9740-891ada9b825d"
 					(reference "R27")
 					(unit 1)

@@ -1373,19 +1373,6 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a54e79a2-0ee3-4b2e-b0a4-114239b57d6e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/06cedc24-789f-47f3-9aa2-6e12f76f1aa5/e16a0163-6940-4038-99e8-f9d1e7d501d5")
 		(sheetname "CPU")
 		(sheetfile "cpu.kicad_sch")

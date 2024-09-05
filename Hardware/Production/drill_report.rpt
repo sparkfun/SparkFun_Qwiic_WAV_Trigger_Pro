@@ -1,5 +1,5 @@
 Drill report for SparkFun_Qwiic_WAV_Trigger_Pro_panelized.kicad_pcb
-Created on 2024-05-21T10:24:44-0600
+Created on 2024-09-05T10:17:41-0600
 
 Copper Layer Stackup:
     =============================================================
@@ -10,13 +10,13 @@ Copper Layer Stackup:
 Drill file 'SparkFun_Qwiic_WAV_Trigger_Pro_panelized.drl' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (306 holes)
-    T2  0.305mm  0.0120"  (531 holes)
+    T1  0.300mm  0.0118"  (450 holes)
+    T2  0.305mm  0.0120"  (513 holes)
     T3  0.600mm  0.0236"  (36 holes)  (with 36 slots)
     T4  0.650mm  0.0256"  (90 holes)
-    T5  1.016mm  0.0400"  (153 holes)
+    T5  1.016mm  0.0400"  (171 holes)
 
-    Total plated holes count 1116
+    Total plated holes count 1260
 
 
 Not plated through holes are merged with plated holes
@@ -24,6 +24,6 @@ Not plated through holes are merged with plated holes
     =============================================================
     T6  0.650mm  0.0256"  (18 holes)
     T7  1.000mm  0.0394"  (18 holes)
-    T8  3.302mm  0.1300"  (36 holes)
+    T8  3.100mm  0.1220"  (36 holes)
 
     Total unplated holes count 72

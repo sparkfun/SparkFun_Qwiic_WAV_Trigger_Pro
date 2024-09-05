@@ -743,6 +743,79 @@
 				)
 			)
 		)
+		(symbol "SparkFun-Aesthetic:Ordering_Instructions"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SparkFun-Aesthetic:Ordering_Instructions"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Ordering_Instructions_0_1"
+				(rectangle
+					(start -10.16 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Ordering_Instructions_1_1"
+				(text "Ordering Instructions"
+					(at 1.27 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Aesthetic:SparkFun_Logo"
 			(pin_names
 				(offset 1.016)
@@ -1468,7 +1541,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "G1")
 					(unit 1)
@@ -1532,7 +1605,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "ST2")
 					(unit 1)
@@ -1596,7 +1669,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "ST3")
 					(unit 1)
@@ -1660,7 +1733,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "G3")
 					(unit 1)
@@ -1724,9 +1797,73 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Aesthetic:Ordering_Instructions")
+		(at 223.52 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cf43c67-4d82-4990-a2e8-5c5d72d3069f")
+		(property "Reference" "U8"
+			(at 223.52 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 223.52 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Aesthetic:Ordering_Instructions"
+			(at 223.52 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
+				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1788,7 +1925,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "ST1")
 					(unit 1)
@@ -1852,7 +1989,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "G4")
 					(unit 1)
@@ -1916,7 +2053,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "FID4")
 					(unit 1)
@@ -1980,7 +2117,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "FID3")
 					(unit 1)
@@ -2044,7 +2181,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "ST4")
 					(unit 1)
@@ -2108,7 +2245,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(reference "FID1")
 					(unit 1)
@@ -2257,7 +2394,7 @@
 			(uuid "aef88f4c-cb5a-4176-b5f2-0ed61a07db46")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(page "3")
 				)
@@ -2335,7 +2472,7 @@
 			(uuid "37534db2-3434-4050-b92d-337da2784283")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(page "2")
 				)
@@ -2443,7 +2580,7 @@
 			(uuid "d10d6bab-9cf9-4ee3-80f6-49865849409d")
 		)
 		(instances
-			(project "SparkFun_Qwiic_WAV_Trigger_Pro"
+			(project "SparkFun_Qwiic_WAV_Trigger_Pro_panelized"
 				(path "/4c0b78e3-6801-43aa-85ca-70880324c2bd"
 					(page "4")
 				)

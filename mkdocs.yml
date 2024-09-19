@@ -254,6 +254,9 @@ nav:
     - Introduction: introduction.md
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: 
+        - Qwiic Assembly: qwiic_assembly.md
+        - Trigger Assembly: trigger_assembly.md
+        - MIDI Host Assembly: midi_assembly.md
     - Software Setup: software_setup.md
     - Examples: examples.md
   - Resources: resources.md

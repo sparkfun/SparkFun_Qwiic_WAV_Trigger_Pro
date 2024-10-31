@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "SparkFun Qwiic WAV Trigger Pro")
-		(date "2024-08-29")
+		(date "2024-10-30")
 		(rev "1.0")
 		(company "Robertsonics / SparkFun")
 	)
@@ -572,7 +572,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "SparkFun cap capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2345,7 +2345,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/a/d/6/0/8/microSD_Datasheet_msd-1-a.pdf"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -9907,7 +9907,7 @@
 		)
 		(uuid "13c067ce-9071-44d3-8159-5c2a5022a4b0")
 	)
-	(label "D1"
+	(label "T1"
 		(at 217.17 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9962,7 +9962,7 @@
 		)
 		(uuid "216ee94d-3a86-4af8-a899-05041fc01a88")
 	)
-	(label "D3"
+	(label "T2"
 		(at 59.69 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9984,7 +9984,7 @@
 		)
 		(uuid "2968bf54-ed56-4db5-8c23-3273c36b1f0d")
 	)
-	(label "D4"
+	(label "T7"
 		(at 59.69 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10017,7 +10017,7 @@
 		)
 		(uuid "31ea0978-9140-42bf-a9a1-03b7be60add6")
 	)
-	(label "D7"
+	(label "T4"
 		(at 217.17 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10072,7 +10072,7 @@
 		)
 		(uuid "485279b9-033d-471e-9b15-c36a64895c36")
 	)
-	(label "D3"
+	(label "T2"
 		(at 217.17 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10160,7 +10160,7 @@
 		)
 		(uuid "5dd4d695-c5e0-4957-8cbd-d1a4dada80aa")
 	)
-	(label "D5"
+	(label "T3"
 		(at 217.17 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10182,7 +10182,7 @@
 		)
 		(uuid "6469d824-4dac-45bd-80e9-b9c74890f493")
 	)
-	(label "D4"
+	(label "T7"
 		(at 234.95 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10237,7 +10237,7 @@
 		)
 		(uuid "7d160549-6154-47b3-9dec-8a85d5929b93")
 	)
-	(label "D1"
+	(label "T1"
 		(at 59.69 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10248,7 +10248,7 @@
 		)
 		(uuid "821e824f-e6bf-4000-8869-56ea7da69c08")
 	)
-	(label "D5"
+	(label "T3"
 		(at 59.69 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10303,7 +10303,7 @@
 		)
 		(uuid "986c4e77-451d-40f3-9dd9-6a61a23a504c")
 	)
-	(label "D6"
+	(label "T8"
 		(at 234.95 109.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10358,7 +10358,7 @@
 		)
 		(uuid "bdc6942c-3e06-49a6-9041-5b42cd27665b")
 	)
-	(label "D0"
+	(label "T5"
 		(at 59.69 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10402,7 +10402,7 @@
 		)
 		(uuid "d0a6b60d-aaa1-4fbb-a44d-5a36e8170953")
 	)
-	(label "D7"
+	(label "T4"
 		(at 59.69 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10435,7 +10435,7 @@
 		)
 		(uuid "dbe2b59d-fa85-431f-b735-f463be6366bb")
 	)
-	(label "D6"
+	(label "T8"
 		(at 59.69 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10457,7 +10457,7 @@
 		)
 		(uuid "df1795bf-531c-4d07-884d-310ffcf3b91c")
 	)
-	(label "D0"
+	(label "T5"
 		(at 234.95 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10501,7 +10501,7 @@
 		)
 		(uuid "e94f27d3-eafb-4e68-8740-2c225bbe3455")
 	)
-	(label "D2"
+	(label "T6"
 		(at 59.69 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10523,7 +10523,7 @@
 		)
 		(uuid "fe159362-5505-4157-9c49-59be31e7104b")
 	)
-	(label "D2"
+	(label "T6"
 		(at 234.95 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -16014,7 +16014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/a/d/6/0/8/microSD_Datasheet_msd-1-a.pdf"
 			(at 186.69 148.59 0)
 			(effects
 				(font

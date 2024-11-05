@@ -2584,7 +2584,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-IC-Memory:AT25SF041-SSHD-T"
+		(symbol "SparkFun-IC-Memory:ZD25WQ16CTIGT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2596,7 +2596,7 @@
 					)
 				)
 			)
-			(property "Value" "AT25SF041-SSHD-T"
+			(property "Value" "ZD25WQ16CTIGT"
 				(at 7.62 10.16 0)
 				(effects
 					(font
@@ -2613,7 +2613,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.renesas.com/us/en/document/dst/at25sf041-datasheet?language=en"
+			(property "Datasheet" ""
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -2622,7 +2622,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4Mb Serial Flash Memory, Standard/Dual/Quad SPI, 8-SOIC"
+			(property "Description" "1.8V 16Mb (2MB) Serial Flash Memory, Standard/Dual/Quad SPI"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -2631,7 +2631,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "IC-12455"
+			(property "PROD_ID" "IC-23949"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -2640,7 +2640,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun flash memory SPI"
+			(property "ki_keywords" "SparkFun flash memory SPI 1.8V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2658,7 +2658,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AT25SF041-SSHD-T_0_1"
+			(symbol "ZD25WQ16CTIGT_0_1"
 				(rectangle
 					(start -7.62 8.89)
 					(end 7.62 -6.35)
@@ -2671,7 +2671,7 @@
 					)
 				)
 			)
-			(symbol "AT25SF041-SSHD-T_1_1"
+			(symbol "ZD25WQ16CTIGT_1_1"
 				(pin input line
 					(at 10.16 7.62 180)
 					(length 2.54)
@@ -14059,7 +14059,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-IC-Memory:AT25SF041-SSHD-T")
+		(lib_id "SparkFun-IC-Memory:ZD25WQ16CTIGT")
 		(at 236.22 147.32 0)
 		(mirror y)
 		(unit 1)
@@ -14076,8 +14076,8 @@
 				)
 			)
 		)
-		(property "Value" "AT25SF041-SSHD-T"
-			(at 236.22 135.89 0)
+		(property "Value" "ZD25WQ16CTIGT"
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14102,7 +14102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4Mb Serial Flash Memory, Standard/Dual/Quad SPI, 8-SOIC"
+		(property "Description" "1.8V 16Mb (2MB) Serial Flash Memory, Standard/Dual/Quad SPI"
 			(at 236.22 162.56 0)
 			(effects
 				(font
@@ -14111,7 +14111,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "IC-12455"
+		(property "PROD_ID" "IC-23949"
 			(at 236.22 160.02 0)
 			(effects
 				(font
@@ -16006,7 +16006,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:microSD_External_Pin"
-			(at 186.69 144.78 0)
+			(at 186.69 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16015,7 +16015,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/a/d/6/0/8/microSD_Datasheet_msd-1-a.pdf"
-			(at 186.69 148.59 0)
+			(at 186.69 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16024,7 +16024,7 @@
 			)
 		)
 		(property "Description" "Micro SD socket External Pin"
-			(at 186.69 125.73 0)
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16033,7 +16033,7 @@
 			)
 		)
 		(property "PROD_ID" "CONN-16110"
-			(at 186.69 152.4 0)
+			(at 186.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)

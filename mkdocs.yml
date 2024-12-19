@@ -258,8 +258,12 @@ nav:
         - Qwiic Assembly: qwiic_assembly.md
         - Trigger Assembly: trigger_assembly.md
         - MIDI Host Assembly: midi_assembly.md
+    - MicroSD Card Preperation: prepare_sd.md
+    - Preset File: preset.md
     - Software Setup: software_setup.md
-    - Examples: examples.md
+    - WAV Trigger Pro Qwiic library:
+      - Library Installation: software_setup.md
+      - Examples: examples.md
   - Resources: resources.md
   - Support:
     - Troubleshooting: troubleshooting.md

@@ -26,7 +26,7 @@ Make sure everything is configured properly and then click "Start Programming" t
 
 Now we need to adjust the HST/DEV solder jumpers to configure the board to act as a USB Host. Locate these jumpers on the underside of the board and sever the trace connecting the "Center" and "Right" pads and then carefully solder the "Center" and "Left" pads together. After adjusting these jumpers your board should look similar to the photo below:
 
-
+**Photo of adjusted HST/DEV jumpers - Mark L**
 
 Next, prepare to connect the power supply for the MIDI assembly by either soldering wires directly to the <b>5V</b> and <b>GND</b> pins or soldering headers to these pins for a removeable power connection. 
 

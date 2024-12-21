@@ -97,7 +97,9 @@ The WAV Trigger Pro has two channel (stereo) output routed <i>only</i> to PTH pi
 
 ### STM UART & Boot
 
-The STM32's serial UART (RX/TX) pins and BOOT pin are routed to PTHs. These pins primarily function to set the STM32 into BOOT mode for uploading new firmware to the board. The BOOT pin is routed directly next to a Ground pin to make closing this pin jumper easy.
+The STM32's serial UART (RX/TX) pins and BOOT pin are routed to PTHs. These pins function primarily to set the STM32 into BOOT mode for uploading new firmware to the board over the serial UART. The BOOT pin is routed directly next to a Ground pin to make closing this pin jumper easy.
+
+The WAV Trigger Pro firmware (both Device & Host) also sets these pins up to be used with a [serial terminal](https://learn.sparkfun.com/tutorials/terminal-basics) like the Arduino Serial monitor  ASCII commands such as playing, looping and stopping tracks, loading presets and also device status which can help provide important information about a connected &micro;SD card's performance. This serial interface works simultaneously with everything else running on the board. You can find a complete list of the command line options [here **link needed**]().
 
 ### STM SWD Header
 

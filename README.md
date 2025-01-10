@@ -21,7 +21,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide]()** - Basic hookup guide for the Qwiic WAV Trigger Pro.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Qwiic_WAV_Trigger_Pro/)** - Basic hookup guide for the Qwiic WAV Trigger Pro.
 * **[WAV Trigger Pro Qwiic Arduino Library](https://github.com/robertsonics/WAV_Trigger_Pro_Qwiic_Arduino_Library)** - Arduino library for the Qwiic WAV Trigger Pro
 
 Product Versions

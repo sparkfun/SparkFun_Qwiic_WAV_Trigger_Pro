@@ -22,7 +22,7 @@ Next, prepare to connect the power supply for the MIDI assembly by either solder
 
 ## Completed Assembly
 
-Now that the WAV Trigger Pro is set up to act as a MIDI host, connect your MIDI device to the WAV Trigger Pro over USB-C. We used this [USB MIDI Keyboard](https://www.amazon.com/midiplus-32-Key-Midi-Controller-AKM320/dp/B00VHKMK64?th=1) connected to the board using a USB Type-C to USB Type-B cable. With that plugged in, connect the WAV Trigger Pro to a 5V power supply and it should end up looking something like this:
+Now that the WAV Trigger Pro is set up to act as a MIDI host, connect your MIDI device to the WAV Trigger Pro over USB-C. We used this [USB MIDI Keyboard](https://www.amazon.com/midiplus-32-Key-Midi-Controller-AKM320/dp/B00VHKMK64?th=1) connected to the WAV Trigger Pro using a USB Type-C to USB Type-B cable. With that plugged in, connect the WAV Trigger Pro to a 5V power supply and it should end up looking something like this:
 
 <figure markdown>
 [![Photo of completed MIDI Host assembly with keyboard connected.](./assets/img/WAV_Trigger_Pro-MIDI_Host_Assembly.jpg){ width="600"}](./assets/img/WAV_Trigger_Pro-MIDI_Host_Assembly.jpg "Click to enlarge")

@@ -253,11 +253,11 @@ nav:
   - Hookup Guide:
     - Introduction: introduction.md
     - Hardware Overview: hardware_overview.md
-    - MicroSD Card Preperation: prepare_sd.md
     - Preset File: preset.md
+    - MicroSD Card Preperation: prepare_sd.md
     - Updating Firmware: firmware.md
     - Hardware Assembly: 
-        - Audio Output: audio.md
+        - Audio Output & UART Interface: audio.md
         - Qwiic Assembly: qwiic_assembly.md
         - Trigger Input Assembly: trigger_assembly.md
         - MIDI Device Assembly: midi_device.md

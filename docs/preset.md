@@ -6,7 +6,7 @@
 
 The Qwiic WAV Trigger Pro assigns functions to MIDI notes using a spreadsheet format we'll refer to as "Presets". These presets can be made using any spreadsheet application (Excel, Google Sheets, etc.) that can export to a `.csv` file. The Presets configure how all 127 MIDI notes function including which track to play, playback actions, pitch offset, attack/release velocity, and even to call another Preset stored on the &micro;SD card. 
 
-As you can imagine, the Preset contains a *lot* of information so we'll go into detail below on how each column in the file works.
+As you may imagine, the Preset contains a *lot* of information so we'll go into detail below on how each column in the file works.
 
 ### Preset File Naming Convention
 
@@ -14,15 +14,33 @@ When creating a Preset, make sure to export it to a .csv file named "set_nnnn.cs
 
 Functions that load presets (Column 4 - Action and Column 5 - Track/Preset) refer to the preset number in the filename. For example, setting a MIDI note to load a preset named "set_0123.csv" requires setting the action in Column 4 to "Load Preset" and the Track/Preset value in Column 5 to "123". 
 
+### Preset Demos
+
+Robertsonics has created a couple of demontstration downloads that include a ZIP image of a demo SD card (includes WAV files & preset .csv files) along with a corresponding Preset spreadsheet for both a Keyboard and Percussion demo. You can download the SD images by clicking the buttons below:
+
+**Update links to SD Images - ML**
+
+<center>
+[WAV Trigger Pro Keyboard Demo SD Image (ZIP)](){ .md-button .md-button--primary }  
+</center>
+
+<center>
+[WAV Trigger Pro Percussion Demo (ZIP)](){ .md-button .md-button--primary }
+</center>
+
+And if you'd like to download and review or modify a Preset sheet for the demos, you can download them by clicking the buttons below:
+
+<center>
+[Keyboard Demo Preset Sheet (XLSX)](./assets/demos/Keyboards1.xlsx){ .md-button .md-button--primary}
+</center>
+
+<center>
+[Percussion Demo Preset Sheet (XLSX)](./assets/demos/Percussion.xlsx){ .md-button .md-button--primary}
+</center>
+
 ## Column Overview
 
-Each line in Preset files use fourteen columns that cover all MIDI notes' possible function and behavior assignments. Users can find a sample Preset in the "Resources" tab of this guide or you can download it from the [GitHub repository]() by clicking the button below:
-
-
-
-**Screenshot of sample preset file - Mark L**
-
-The list below outlines each column and how to use them:
+Each line in Preset files use fourteen columns that cover all MIDI notes' possible function and behavior assignments. The list below outlines each column and how to use them:
 
 * <b>Column 1 - Command:</b> Any line that does not begin with a field starting with the character ‘#” in Column 1 is considered a comment and ignored. If the line contains ‘#NOTE’ in the first column, then that line is expected to be a complete Note Action description with the following format:
 

@@ -12,7 +12,7 @@ The WAV Trigger Pro uses the STM32H750VBTx central processor from ST Microelectr
 [![Photo highlighting STM32 IC](./assets/img/WAV_Trigger_Pro-STM32.jpg){ width="600"}](./assets/img/WAV_Trigger_Pro-STM32.jpg "Click to enlarge")
 </figure>
 
-The STM32 features a 32-bit Arm<sup>&reg;</sup> Cortex<sup>&reg;</sup>-M7 core with 128 Kb of Flash memory and 1Mb of RAM. It has an integrated USB converter that allows for easy updating of firmware over the USB-C connector on the board using STM's [Cube Programmer](https://www.st.com/en/development-tools/stm32cubeprog.html) tool. Updating the WAV Trigger Pro's firmware is covered in more details in the [MIDI Host Assembly](./midi_assembly.md) section of this guide.
+The STM32 features a 32-bit Arm<sup>&reg;</sup> Cortex<sup>&reg;</sup>-M7 core with 128 Kb of Flash memory and 1Mb of RAM. It has an integrated USB converter that allows for easy updating of firmware over the USB-C connector on the board using STM's [Cube Programmer](https://www.st.com/en/development-tools/stm32cubeprog.html) tool. Updating the WAV Trigger Pro's firmware is covered in more detail in the [Updating Firmware](./firmware.md) section of this guide.
 
 ## Power Inputs
 
@@ -24,7 +24,7 @@ The WAV Trigger Pro has three options for powering the board; USB-C, Qwiic, or d
 
 ### USB-C
 
-The USB-C connector on the board provides both a serial connection along with a power input. By default, when plugging the board in over USB-C to a computer, it will appear as a USB MIDI Device. When the WAV Trigger Pro is configured to act as a USB MIDI Host and powered through the dedicated through-hole power pins, the USB-C connector can supply <b>500mA@5V</b> to a connected USB MIDI device. Running the WAV Trigger Pro as a USB MIDI Host requires uploading alternate firmware as well as modifying the appropriate solder jumpers. Read on to the [MIDI Host Assembly](./midi_assembly.md) section for detailed information on this configuration.
+The USB-C connector on the board provides both a serial connection along with a power input. By default, when plugging the board in over USB-C to a computer, it will appear as a USB MIDI Device. When the WAV Trigger Pro is configured to act as a USB MIDI Host and powered through the dedicated through-hole power pins, the USB-C connector can supply <b>500mA@5V</b> to a connected USB MIDI device. Running the WAV Trigger Pro as a USB MIDI Host requires uploading alternate firmware as well as modifying the appropriate solder jumpers. Read on to the [MIDI Host Assembly](./midi_host.md) section for detailed information on this configuration.
 
 ### Qwiic Connector
 
@@ -43,7 +43,7 @@ The operation of the WAV Trigger Pro's polyphonic engine is proprietary to [Robe
 </figure>
 
 * Up to 4096 uncompressed 16-bit, 44.1kHz mono and stereo WAV files (CD Quality)
-* Polyphonic - Play and mix 24 tracks independently and simultaneously with independent pitch control
+* Polyphonic - Play and mix up to 24 tracks independently and simultaneously with independent pitch control
 * MIDI notes can trigger up to 8 independent actions, routing tracks to any combination of outputs
 * Up to 8 velocity range assignments per note to trigger alternate samples
 * Each event provides independent pitch offset (in cents) allowing for true multi-sampling
@@ -55,11 +55,11 @@ The WAV Trigger Pro introduces MIDI-USB host and device capabilities. The board 
 
 ### Trigger Control
 
-The board also includes eight independent trigger inputs routed to through-hole pins. All eight trigger pins can be individually configured.
+The board also includes eight independent trigger inputs routed to through-hole pins. All eight trigger pins can be individually configured. All trigger pins a <b>3.3V</b> tolerant.
 
 ### Qwiic (I<sup>2</sup>C) Control
 
-This WAV Trigger also includes a pair of Qwiic connectors to integrate with SparkFun's [Qwiic ecosystem](). Users can use this in tandem with the [**link needed - Mark L** Arduino Library]() to toggle audio tracks.
+This WAV Trigger also includes a pair of Qwiic connectors to integrate with SparkFun's [Qwiic ecosystem](https://www.sparkfun.com/qwiic). Users can use this in tandem with the [WAV Trigger Pro Arduino Library]((https://github.com/robertsonics/WAV_Trigger_Pro_Qwiic_Arduino_Library) to control the WAV Trigger Pro using an Arduino development board.
 
 ### Audio Output
 
@@ -67,13 +67,11 @@ The WAV Trigger Pro has two channels for audio output routed to through-hole pin
 
 ### Presets
 
-The WAV Trigger Pro introduces <i>Presets</i>! Presets are managed through spreadsheet .csv files (Excel or Google Sheets) loaded onto a connected &micro;SD card which describe up to 8 actions per MIDI note, based on channel and velocity. Each action can start and independent track with individual gain, balance, attack, release, and pitch. This allows multiple sounds to be mixed in performance. Assigning velocity ranges allows for velocity switching per note. 
-
-If you've used previous WAV Triggers before, these Preset files take the place of the configuration app. You can have multiple presets stored on the file that you can switch between. Read on to the [Preset File](./preset.md) section of this guide for detailed information on how to setup and use these files.
+The WAV Trigger Pro introduces <i>Presets</i>! Presets are managed through spreadsheet .csv files (Excel or Google Sheets) loaded onto a connected &micro;SD card which describe up to 8 actions per MIDI note, based on channel and velocity. Each action can start and independent track with individual gain, balance, attack, release, and pitch. This allows multiple sounds to be mixed in performance. If you've used previous WAV Triggers before, these Preset files take the place of the configuration app. You can have multiple presets stored on the file that you can switch between. Read on to the [Preset File](./preset.md) section of this guide for detailed information on how to setup and use these files.
 
 ## &micro;SD Card Slot
 
-The &micro;SD card holder on the WAV Trigger Pro is on the back/reverse side of the board. This card is used to store <code>.wav</code> files, initialization <code>.ini</code> file (optional), and preset <code>.csv</code> file. 
+The &micro;SD card holder on the WAV Trigger Pro is on the back/reverse side of the board. This card is used to store <code>.wav</code> audio files and preset <code>.csv</code> files. 
 
 <figure markdown>
 [![Photo highlighting microSD card slot.](./assets/img/WAV_Trigger_Pro-SD.jpg){ width="600"}](./assets/img/WAV_Trigger_Pro-SD.jpg "Click to enlarge")
@@ -89,17 +87,17 @@ The Qwiic WAV Trigger Pro has several plated through-hole (PTH) headers around t
 
 ### Trigger Pins
 
-The board has eight PTH trigger pins mapped to the first 8 MIDI notes. Users can adjust how these trigger inputs behave in the Preset file.
+The board has eight PTH trigger pins mapped to the first 8 MIDI notes. Users can adjust how these trigger inputs behave in the Preset file. All trigger pins a <b>3.3V</b> tolerant.
 
 ### Audio Output
 
 The WAV Trigger Pro has two channel (stereo) output routed <i>only</i> to PTH pins labeled <b>L</b>, <b>R</b>, and <b>G</b>.
 
-### STM UART & Boot
+### UART & Boot
 
-The STM32's serial UART (RX/TX) pins and BOOT pin are routed to PTHs. These pins function primarily to set the STM32 into BOOT mode for uploading new firmware to the board over the serial UART. The BOOT pin is routed directly next to a Ground pin to make closing this pin jumper easy.
+The STM32's serial UART (RX/TX) pins and BOOT pin are routed to PTHs. These pins function primarily to set the STM32 into BOOT mode for uploading new firmware to the board over the serial UART. The BOOT pin is routed directly next to a Ground pin to make closing this pin jumper easy. The UART pins operate at <b>3.3V logic</b>.
 
-The WAV Trigger Pro firmware (both Device & Host) also sets these pins up to be used with a [serial terminal](https://learn.sparkfun.com/tutorials/terminal-basics) like the Arduino Serial monitor  ASCII commands such as playing, looping and stopping tracks, loading presets and also device status which can help provide important information about a connected &micro;SD card's performance. This serial interface works simultaneously with everything else running on the board. You can find a complete list of the command line options [here **link needed**]().
+The WAV Trigger Pro firmware (both Device & Host) also sets these pins up to be used with a [serial terminal](https://learn.sparkfun.com/tutorials/terminal-basics) like the Arduino Serial monitor  ASCII commands such as playing, looping and stopping tracks, loading presets and also device status which can help provide important information about a connected &micro;SD card's performance. This serial interface works simultaneously with everything else running on the board. Read on to the [Audio Output & UART Interface](./audio.md) section of this guide for more information.
 
 ### STM SWD Header
 
@@ -114,7 +112,7 @@ When not using USB or Qwiic for power, connect a <b>5V</b> supply to power the b
 The board has two LEDs on board labeled <b>PWR</b> and <b>STAT</b>. 
 
 <figure markdown>
-[![Photo highlighting LEDs.](./assets/img/WAV_Trigger_Pro-LEDs.jpg){width ="600"}](./assets/img/WAV_Trigger_Pro-LEDs.jpg "Click to enlarge")
+[![Photo highlighting LEDs.](./assets/img/WAV_Trigger_Pro-LEDs.jpg){ width="600"}](./assets/img/WAV_Trigger_Pro-LEDs.jpg "Click to enlarge")
 </figure>
 
 The red <b>PWR</b> LED indicates whenever the board is powered. The green STAT LED provides helpful information on the current status of the WAV Trigger. On reset, the STAT LED blinks in the following patterns:
@@ -140,11 +138,11 @@ The list below outlines their names, functionality, default states and any notes
 * <b>HST/DEV</b> - This pair of three-way solder jumpers work with the <b>VBUS</b> jumper to switch the functionality of USB-MIDI control between acting as a Device or Host. The HST/DEV jumpers default to set the board to act as a MIDI Device.<sup>1</sup>
 * <b>VBUS</b> - This jumper controls whether the USB-C connector accepts or supplies 5V. It is OPEN by default to use the USB-C connector to receive power from a USB-C source. Closing it nets the output from VIN (5V/GND PTHs) to VUSB so the USB-C connector <i>outputs</i> 5V to a device connected to it.<sup>1</sup>  
 * <b>ANLG</b> - This jumper ties the audio output's ground to the common ground on the board. It is CLOSED by default. Open it to isolate the audio's ground from the rest of the WAV Trigger Pro's ground plane.
-* <b>I<sup>2</sup>C - Pulls the SDA/SCL lines to <b>3.3V</b> through a pair of <b>2k&ohm;</b> resistors. It is CLOSED by default. Open it to disable pullup on the I<sup>2</sup>C bus.
+* <b>I<sup>2</sup>C</b> - Pulls the SDA/SCL lines to <b>3.3V</b> through a pair of <b>2k&ohm;</b> resistors. It is CLOSED by default. Open it to disable pullup on the I<sup>2</sup>C bus.
 * <b>LED</b> - Completes the Power LED circuit. CLOSED by default. Open it to disable the Power LED to help reduce the current draw.
 
 !!! note "Note 1: HST/DEV & VBUS Jumpers"
-    How to use and set these jumpers is covered in more detail in the [MIDI Host Assembly](./midi_assembly.md) section of this guide.
+    How to use and set these jumpers is covered in more detail in the [MIDI Host Assembly](./midi_host.md) section of this guide.
 
 ## Board Dimensions
 

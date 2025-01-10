@@ -16,9 +16,11 @@ Start by downloading the CubeProgrammer software for your operating system from 
 
 ## Updloading New WAV Trigger Firmware 
 
+All versions of the WAV Trigger Pro firmware are hosted on robertsonics' [downloads page](https://www.robertsonics.com/downloads/) under the "WAV Trigger Pro" header. The WAV Trigger Pro ships with the MIDI Device Firmware so let's take a look at uploading the MIDI Host Firmware.
+
 ### MIDI Host Firmware 
 
-Next, you'll need to download the MIDI Host firmware. This can be found on [robertsonics' downloads page](https://www.robertsonics.com/downloads/). 
+Start by downloading the MIDI Host firmware from robertsonics' [downloads page](https://www.robertsonics.com/downloads/). Take note of where that downloads to as we'll need to direct the STM32 CubeProgrammer software to that file.
 
 ### BOOT Jumper
 

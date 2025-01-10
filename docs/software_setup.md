@@ -7,10 +7,10 @@ icon: simple/arduino
 
 ## WAV Trigger Pro Qwiic Arduino Library
 
-The WAV Trigger Pro Qwiic Arduino Library allows you to control the audio playback on the WAV Trigger Pro over a Qwiic connection to a development board. Users can download and install the library through the Arduino Library Manager by searching for <b>"WAV Trigger Qwiic"</b> and selecting the latest version. If you prefer to manually install the library, download a ZIP of it by clicking the button below:
+The WAV Trigger Pro Qwiic Arduino Library allows you to control the audio playback on the WAV Trigger Pro over a Qwiic connection to an Arduino development board. Users can download and install the library through the Arduino Library Manager by searching for <b>"WAV Trigger Pro  Qwiic"</b> and selecting the latest version. If you prefer to manually install the library, download a ZIP of it by clicking the button below:
 
 <center>
-[WAV Trigger Pro Qwiic Arduino Library (ZIP)](){ .md-button .md-button--primary }
+[WAV Trigger Pro Qwiic Arduino Library (ZIP)](https://github.com/robertsonics/WAV_Trigger_Pro_Qwiic_Arduino_Library/archive/refs/heads/master.zip){ .md-button .md-button--primary }
 </center>
 
-With the library installed, let's take a closer look at some of the examples included in it.
+With the library installed, let's take a closer look at the examples included in it.

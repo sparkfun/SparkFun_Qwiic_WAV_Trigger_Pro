@@ -1,29 +1,32 @@
-SparkFun Pro Micro - RP2350
+SparkFun Qwiic WAV Trigger Pro
 ========================================
 
-[![SparkFun Pro Micro - RP2350](https://cdn.sparkfun.com/r/600-600/assets/parts/2/5/1/6/2/DEV-24870-Pro-Micro-RP2350-Feature.jpg)](https://www.sparkfun.com/products/24870)
+[![SparkFun Qwiic WAV Trigger Pro](https://cdn.sparkfun.com/r/600-600/assets/parts/2/6/5/4/7/WIG-25860-WAV-Trigger-Pro-Feature.jpg)](https://www.sparkfun.com/products/25860)
 
-[*SparkFun Pro Micro - RP2350 (DEV-28470)*](https://www.sparkfun.com/products/24870)
+[*SparkFun Qwiic WAV Trigger Pro (WIG-25860)*](https://www.sparkfun.com/products/25860)
 
-The SparkFun Pro Micro - RP2350 provides a powerful development platform in SparkFun's compact Pro Micro form factor built around the RP2350 from the Raspberry Pi Foundation. This board uses the updated Pro Micro form factor and includes a USB-C connector, Qwiic connector, WS2812B addressable RGB LED, Boot and Reset buttons, resettable PTC fuse as well as PTH and castellated solder pads. The board includes two expanded memory options with 16MB of external Flash and 8MB PSRAM connected to the RP2350's QSPI controller. The RP2350 also features 520kB SRAM in ten banks, a host of peripherals including 2 UARTs, 2 SPI and 2 I<sup>2</sup>C controllers, as well as a USB 1.1 controller that allows for both host and device support. The Pro Micro - RP2350 works with C/C++ using the Pico SDK along with MicroPython development environments. 
+The Qwiic WAV Trigger Pro is the latest evolution of the line of high-fidelity polyphonic audio players. The WAV Trigger Pro improves on the previous versions with a more powerful processor, enhanced MIDI processing - including velocity switching and multi-timbral support - and MIDI USB Device <b>and</b> MIDI USB Host<sup><a href="#USBMIDI_Note">[1]</a></sup> support, all in a smaller 1.75" x 1.5" footprint!
+
+It supports up to 4096 uncompressed 16-bit, 44.1kHz mono and stereo WAV files matching CD audio quality. The WAV Trigger Pro supports polyphony and can play and mix up to 24 tracks simultaneously and independently with exceptionally low latency (2-3ms typically). Control track playback via either 8 programmable trigger inputs, I<sup>2</sup>C (Qwiic), or MIDI (USB or Serial UART). The board can function as both a USB MIDI device <i>and</i> host meaning if the WAV Trigger Pro has power in USB MIDI Host mode it can supply up to 500mA@5V to a connected MIDI device over USB-C allowing for USB MIDI control with no computer required!
+
+Audio output is over two unbalanced channels (Left & Right). These audio outputs are only routed to a 0.1"-spaced plated through-hole (PTH) connector so some *soldering is required*.
 
 Repository Contents
 -------------------
 
-* **/Documents** - Data sheets, additional product information 
-* **/Examples** - Example code 
+* **/Documents** - Data sheets, additional product information  
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 * **/docs** - GitHub Pages documentation files
 
 Documentation
 --------------
-* **[Hookup Guide](https://sparkfun.github.io/SparkFun_Pro_Micro_RP2350)** - Basic hookup guide for the Pro Micro - RP2350.
-* [PSRAM Library and Examples](https://github.com/sparkfun/sparkfun-pico) - A cmake library and examples to use the on-board PSRAM when developing in the Raspberry Pi [pico-sdk](https://github.com/raspberrypi/pico-sdk).
+* **[Hookup Guide]()** - Basic hookup guide for the Qwiic WAV Trigger Pro.
+* **[WAV Trigger Pro Qwiic Arduino Library](https://github.com/robertsonics/WAV_Trigger_Pro_Qwiic_Arduino_Library)** - Arduino library for the Qwiic WAV Trigger Pro
 
 Product Versions
 ----------------
-* [DEV-28470](https://www.sparkfun.com/products/24870) - SparkFun Pro Micro - RP2350 development board.
+* [WIG-25860](https://www.sparkfun.com/products/25860) - SparkFun Qwiic WAV Trigger Pro.
 
 License Information
 -------------------

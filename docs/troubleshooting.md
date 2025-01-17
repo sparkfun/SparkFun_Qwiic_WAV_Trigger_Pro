@@ -1,6 +1,6 @@
-## UART Command Interface
+## Serial Console Interface
 
-The WAV Trigger Pro firmware (both Device & Host) sets the STM32 UART pins (RX/TX) up to be used with a [serial terminal](https://learn.sparkfun.com/tutorials/terminal-basics) like the Arduino Serial monitor. It works by sending ASCII commands to trigger playing, looping and stopping tracks, loading presets and also device status which can help provide important information about a connected &micro;SD card's performance. This serial interface works simultaneously with everything else running on the board. Refer to the [Audio Output & UART Interface](./audio.md) section of this guide for more information on these commands.
+The WAV Trigger Pro firmware (both Device & Host) sets the STM32 UART pins (RX/TX) up to be used with a [serial terminal](https://learn.sparkfun.com/tutorials/terminal-basics) like the Arduino Serial monitor. It works by sending ASCII commands to trigger playing, looping and stopping tracks, loading presets and also device status which can help provide important information about a connected &micro;SD card's performance. This serial interface works simultaneously with everything else running on the board. Refer to the [Audio Output & Serial Console](./audio.md) section of this guide for more information on these commands.
 
 ## Status LED Information
 
@@ -16,24 +16,22 @@ The green STAT LED can provide some basic information on the current status of t
 
 ## Preset Demos
 
-Robertsonics has created a couple of demontstration downloads that include a ZIP image of a demo SD card (includes WAV files & preset .csv files) along with a corresponding Preset spreadsheet for both a Keyboard and Percussion demo. If you're having trouble getting your own Preset and WAV files working on your WAV Trigger Pro, try loading one of these onto your SD card to verify the board is working properly. You can also refer to the Preset spreadsheet files to get started creating your own Preset file. All of these files are available for doownloading clicking the buttons below:
+Robertsonics has created a couple of sample SD card images for Keyboard and Percussion USB MIDI demos. Each image includes sets of WAV and Preset files in a ZIP download. All you need to do is download the image, unzip it and load it onto an empty and formatted &micro;SD card and plug the card into the WAV Trigger Pro.
 
-**Update SD Image Links - ML**
+### Keyboard Demo
+
+The Keyboard demo is intended for use with a MIDI keyboard and includes three sets of instrument sounds - piano, strings and organ - over the same 3-octave range. It also includes four presets that select one or more of the instruments to be available with different performance parameters. You can download the SD image from the link below:
 
 <center>
-[WAV Trigger Pro Keyboard Demo SD Image (ZIP)](){ .md-button .md-button--primary }  
+[WAV Trigger Pro Keyboard Demo SD Image](https://drive.google.com/file/d/1-uz4BdS7XvQwcvetIbcqXZCmbQjFlUzG/view?usp=sharing){ .md-button .md-button--primary }  
 </center>
 
-<center>
-[WAV Trigger Pro Percussion Demo (ZIP)](){ .md-button .md-button--primary }
-</center>
+### Percussion Demo
+
+The Percussion demo is intended for use with a velocity-sensitive pad MIDI controller to demonstrate things like velocity mapping and multiple actions per MIDI note. It includes a selection of effects, dialog and percussion. The preset file includes comments to help explain 
 
 <center>
-[Keyboard Demo Preset Sheet (XLSX)](./assets/demos/Keyboards1.xlsx){ .md-button .md-button--primary}
-</center>
-
-<center>
-[Percussion Demo Preset Sheet (XLSX)](./assets/demos/Percussion.xlsx){ .md-button .md-button--primary}
+[WAV Trigger Pro Percussion Demo SD Image](https://drive.google.com/file/d/10YIjcX3KPo2wQbK0kOHm8vAypqxIgcHO/view?usp=sharing){ .md-button .md-button--primary }  
 </center>
 
 ## General Troubleshooting

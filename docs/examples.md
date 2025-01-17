@@ -2,13 +2,15 @@
 icon: simple/arduino
 ---
 
-## Required SD Image
+## Required Audio Files
 
-The examples included in the WAV Trigger Pro Qwiic library assume users have an SD card with the demo image loaded onto it. You can download a ZIP of the image by clicking the button below:
+The examples included in the WAV Trigger Pro Qwiic library assume users have an SD card with the demo tracks loaded onto it. You can download a copy of the audio tracks from the link below:
 
 <center>
-[WAV Trigger Pro Keyboard Demo SD Image (ZIP)](./assets/demos/Keyboards_demo_card.zip){ .md-button .md-button--primary }  
+[WAV Trigger Pro Arduino Example Sounds](https://drive.google.com/file/d/17SlXueDCNjg29a56VSZPSQ7Gt-WlDesp/view){ .md-button .md-button--primary }  
 </center>
+
+The Arduino examples do not require a preset, just the specific tracks included in the link above. Just download these tracks, unzip the files and load them onto your &micro;SD card and you're ready to get started with the Aruino examples.
 
 ## Code to Note
 

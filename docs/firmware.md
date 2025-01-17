@@ -6,7 +6,7 @@ The Qwiic WAV Trigger Pro comes pre-loaded with firmware to use it as a MIDI dev
 
 ## STM32 CubeProgrammer Software
 
-Uploading new firmware is best done using the [STM32 CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) software. You can upload new firmware to the board over USB, USB-to-Serial converter like the [Serial Basic]() connected to the serial PTH pins, or with an STLink debugger and the SWD header. We strongly recommend uploading over USB since all you need is a USB-C cable, closing the BOOT jumper/tying BOOT to GND, and a computer with the STM32 Cube Programmer software. This guide only covers uploading new firmware over USB-C.
+Uploading new firmware is best done using the [STM32 CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) software. You can upload new firmware to the board over USB-C, USB-to-Serial converter like the [Serial Basic Breakout - 3.3V USB-C](https://www.sparkfun.com/sparkfun-serial-basic-breakout-ch340c-and-usb-c.html) connected to the serial PTH pins, or with an STLink debugger and the SWD header. We strongly recommend uploading over USB since all you need is a USB-C cable, closing the BOOT jumper/tying BOOT to GND, and a computer with the STM32 Cube Programmer software. This guide only covers uploading new firmware over USB-C.
 
 Start by downloading the CubeProgrammer software for your operating system from [this page](https://www.st.com/en/development-tools/stm32cubeprog.html). Note, downloading does require submitting a valid e-mail and clicking a confirmation link sent to that e-mail. Once downloaded, follow the installation instructions and then open Cube Programmer and you should be greeted by a screen similar to the image below:
 

@@ -44,6 +44,7 @@ The operation of the WAV Trigger Pro's polyphonic engine is proprietary to [Robe
 
 * Up to 4096 uncompressed 16-bit, 44.1kHz mono and stereo WAV files (CD Quality)
 * Polyphonic - Play and mix up to 24 tracks independently and simultaneously with independent pitch control
+* Low Latency - Timing from triggering a track to playback typically takes only 2.5ms (4ms max)
 * MIDI notes can trigger up to 8 independent actions, routing tracks to any combination of outputs
 * Up to 8 velocity range assignments per note to trigger alternate samples
 * Each event provides independent pitch offset (in cents) allowing for true multi-sampling
@@ -87,17 +88,19 @@ The Qwiic WAV Trigger Pro has several plated through-hole (PTH) headers around t
 
 ### Trigger Pins
 
-The board has eight PTH trigger pins mapped to the first 8 MIDI notes. Users can adjust how these trigger inputs behave in the Preset file. All trigger pins a <b>3.3V</b> tolerant.
+The board has eight PTH trigger pins mapped to the first 8 MIDI notes meaning activating Trigger pin 1 sends a MIDI Note-on message for note 1 and releasing Trigger pin 1 sends a MIDI-Note-off message for note 1. The trigger pins pulled HIGH to 3.3V internally and are active LOW. Pulling them to ground through either a button, switch, relay, or active output (eg. microcontroller I/O pin) activates the trigger. 
+
+All trigger pins are <b>3.3V</b> tolerant so if you're using an active output to control the triggers make sure the inactive state of the triggers does not exceed 3.3V. Users can adjust how these trigger inputs behave in the Preset file. Read on to the [Preset File](./preset.md) of this guide for more information on configuring the triggers and other MIDI note behavior.
 
 ### Audio Output
 
 The WAV Trigger Pro has two channel (stereo) output routed <i>only</i> to PTH pins labeled <b>L</b>, <b>R</b>, and <b>G</b>.
 
-### UART & Boot
+### Serial/UART & Boot Pins
 
-The STM32's serial UART (RX/TX) pins and BOOT pin are routed to PTHs. These pins function primarily to set the STM32 into BOOT mode for uploading new firmware to the board over the serial UART. The BOOT pin is routed directly next to a Ground pin to make closing this pin jumper easy. The UART pins operate at <b>3.3V logic</b>.
+The STM32's serial UART (RX/TX) pins and BOOT pin are routed to PTHs. Connecting the BOOT pin to ground puts the STM32 into BOOT mode for uploading new firmware to the board over either USB-C or a serial connection. The BOOT pin is routed directly next to a Ground pin to make closing this pin jumper easy. The UART pins operate at <b>3.3V logic</b>.
 
-The WAV Trigger Pro firmware (both Device & Host) also sets these pins up to be used with a [serial terminal](https://learn.sparkfun.com/tutorials/terminal-basics) like the Arduino Serial monitor  ASCII commands such as playing, looping and stopping tracks, loading presets and also device status which can help provide important information about a connected &micro;SD card's performance. This serial interface works simultaneously with everything else running on the board. Read on to the [Audio Output & UART Interface](./audio.md) section of this guide for more information.
+The WAV Trigger Pro firmware (both Device & Host) also sets these pins up to be used with as a serial console interface  over a [serial terminal](https://learn.sparkfun.com/tutorials/terminal-basics) like the Arduino Serial monitor. The serial console accepts ASCII commands to as play, loop and stop tracks, loading presets and also return device status which can help provide important information about a connected &micro;SD card's performance. The serial console interface works simultaneously with everything else running on the board. Read on to the [Audio Output & Serial Console Interface](./audio.md) section of this guide for more information.
 
 ### STM SWD Header
 

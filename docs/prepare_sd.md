@@ -4,11 +4,11 @@
 
 The Qwiic WAV Trigger Pro requires a &micro;SD card to store and load WAV and Preset files. 
 
-## Recommended SD Cards & Formats
+## Recommended SD Cards & Format
 
-This and other WAV Trigger boards from robertsonics interact differently with SD cards than what manufacturers typically expect. WAV Triggers rely on fast and, more importantly, reliable file access with small timeout windows. As a result, some SD cards focus more on large file transfer and . All this is to say we strongly recommend using SD cards with either a <b>FAT16</b> or <b>FAT32</b> file format. 
+This and other WAV Trigger boards from robertsonics interact differently with SD cards than what manufacturers typically expect. WAV Triggers rely on fast and, more importantly, reliable file access with small timeout windows. The WAV Trigger Pro firmware is only compatible with SD cards formatted to either a <b>FAT16</b> or <b>FAT32</b>. 
 
-We do not recommend SD cards with large capacities (exFAT, etc.) as they tend to be less reliable and also can have issues formatting to work properly with the WAV Trigger Pro.
+We strongly recommend using cards that use one of these formats by default. If you are using a larger capacity SD card that uses another format (exFAT, etc.), you <b>must</b> format it to <b>FAT32</b> and set the max allocation size to 32k. You can set both of these using the Qwiic Format application in Windows.
 
 Robertsonics has done some fairly extensive testing with his previous WAV Trigger boards and has some great write ups on SD card performance and the unique requirements of the WAV Trigger boards. These offer a few recommendations though some of the recommended cards may no longer be available or have updated versions of them:
 
@@ -31,28 +31,4 @@ The following video gives a brief demonstration of the Audacity export process.
 
 <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pu6zvnoPTfQ?si=7Rf66krO_RQSI0k0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-
-## Preset Demos
-
-Robertsonics has created a couple of demontstration downloads that include a ZIP image of a demo SD card (includes WAV files & preset .csv files) along with a corresponding Preset spreadsheet for both a Keyboard and Percussion demo. You can download the SD images by clicking the buttons below:
-
-**Update SD Image links - ML**
-
-<center>
-[WAV Trigger Pro Keyboard Demo SD Image (ZIP)](){ .md-button .md-button--primary }  
-</center>
-
-<center>
-[WAV Trigger Pro Percussion Demo (ZIP)](){ .md-button .md-button--primary }
-</center>
-
-And if you'd like to download and review or modify a Preset sheet for the demos, you can download them by clicking the buttons below:
-
-<center>
-[Keyboard Demo Preset Sheet (XLSX)](./assets/demos/Keyboards1.xlsx){ .md-button .md-button--primary}
-</center>
-
-<center>
-[Percussion Demo Preset Sheet (XLSX)](./assets/demos/Percussion.xlsx){ .md-button .md-button--primary}
 </center>

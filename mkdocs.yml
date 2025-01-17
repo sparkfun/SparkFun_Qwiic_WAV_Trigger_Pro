@@ -257,7 +257,7 @@ nav:
     - MicroSD Card Preperation: prepare_sd.md
     - Updating Firmware: firmware.md
     - Hardware Assembly: 
-        - Audio Output & UART Interface: audio.md
+        - Audio Output & Serial Console: audio.md
         - Qwiic Assembly: qwiic_assembly.md
         - Trigger Input Assembly: trigger_assembly.md
         - MIDI Device Assembly: midi_device.md

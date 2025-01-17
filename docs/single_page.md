@@ -22,7 +22,7 @@ icon: fontawesome/solid/scroll
 
 # Hardware Assembly
 
-## Audio Output & UART Interface
+## Audio Output & Serial Console
 --8<-- "./docs/audio.md:5"
 
 # Qwiic Assembly

@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/img/sfe_logo_sq.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49+insiders-4.53.14">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49+insiders-4.53.15">
     
     
       
@@ -851,11 +851,11 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#uart-boot" class="md-nav__link">
+  <a href="#serialuart-boot-pins" class="md-nav__link">
     <span class="md-ellipsis">
       
         <span class="md-typeset">
-          UART &amp; Boot<a class="headerlink" href="#uart-boot" title="Permanent link"></a>
+          Serial/UART &amp; Boot Pins<a class="headerlink" href="#serialuart-boot-pins" title="Permanent link"></a>
         </span>
       
     </span>
@@ -1084,7 +1084,7 @@
   <span class="md-ellipsis">
     
   
-    Audio Output & UART Interface
+    Audio Output & Serial Console
   
 
     
@@ -1740,11 +1740,11 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#uart-boot" class="md-nav__link">
+  <a href="#serialuart-boot-pins" class="md-nav__link">
     <span class="md-ellipsis">
       
         <span class="md-typeset">
-          UART &amp; Boot<a class="headerlink" href="#uart-boot" title="Permanent link"></a>
+          Serial/UART &amp; Boot Pins<a class="headerlink" href="#serialuart-boot-pins" title="Permanent link"></a>
         </span>
       
     </span>
@@ -1890,6 +1890,7 @@
 <ul>
 <li>Up to 4096 uncompressed 16-bit, 44.1kHz mono and stereo WAV files (CD Quality)</li>
 <li>Polyphonic - Play and mix up to 24 tracks independently and simultaneously with independent pitch control</li>
+<li>Low Latency - Timing from triggering a track to playback typically takes only 2.5ms (4ms max)</li>
 <li>MIDI notes can trigger up to 8 independent actions, routing tracks to any combination of outputs</li>
 <li>Up to 8 velocity range assignments per note to trigger alternate samples</li>
 <li>Each event provides independent pitch offset (in cents) allowing for true multi-sampling</li>
@@ -1916,12 +1917,13 @@
 <p><a href="../assets/img/WAV_Trigger_Pro-PTHs.jpg"><img alt="Photo highlighting through-hole pins." src="../assets/img/WAV_Trigger_Pro-PTHs.jpg" width="600" /></a> "Click to enlarge"</p>
 </figure>
 <h3 id="trigger-pins">Trigger Pins<a class="headerlink" href="#trigger-pins" title="Permanent link"></a></h3>
-<p>The board has eight PTH trigger pins mapped to the first 8 MIDI notes. Users can adjust how these trigger inputs behave in the Preset file. All trigger pins a <b>3.3V</b> tolerant.</p>
+<p>The board has eight PTH trigger pins mapped to the first 8 MIDI notes meaning activating Trigger pin 1 sends a MIDI Note-on message for note 1 and releasing Trigger pin 1 sends a MIDI-Note-off message for note 1. The trigger pins pulled HIGH to 3.3V internally and are active LOW. Pulling them to ground through either a button, switch, relay, or active output (eg. microcontroller I/O pin) activates the trigger. </p>
+<p>All trigger pins are <b>3.3V</b> tolerant so if you're using an active output to control the triggers make sure the inactive state of the triggers does not exceed 3.3V. Users can adjust how these trigger inputs behave in the Preset file. Read on to the <a href="../preset/">Preset File</a> of this guide for more information on configuring the triggers and other MIDI note behavior.</p>
 <h3 id="audio-output_1">Audio Output<a class="headerlink" href="#audio-output_1" title="Permanent link"></a></h3>
 <p>The WAV Trigger Pro has two channel (stereo) output routed <i>only</i> to PTH pins labeled <b>L</b>, <b>R</b>, and <b>G</b>.</p>
-<h3 id="uart-boot">UART &amp; Boot<a class="headerlink" href="#uart-boot" title="Permanent link"></a></h3>
-<p>The STM32's serial UART (RX/TX) pins and BOOT pin are routed to PTHs. These pins function primarily to set the STM32 into BOOT mode for uploading new firmware to the board over the serial UART. The BOOT pin is routed directly next to a Ground pin to make closing this pin jumper easy. The UART pins operate at <b>3.3V logic</b>.</p>
-<p>The WAV Trigger Pro firmware (both Device &amp; Host) also sets these pins up to be used with a <a href="https://learn.sparkfun.com/tutorials/terminal-basics">serial terminal</a> like the Arduino Serial monitor  ASCII commands such as playing, looping and stopping tracks, loading presets and also device status which can help provide important information about a connected &micro;SD card's performance. This serial interface works simultaneously with everything else running on the board. Read on to the <a href="../audio/">Audio Output &amp; UART Interface</a> section of this guide for more information.</p>
+<h3 id="serialuart-boot-pins">Serial/UART &amp; Boot Pins<a class="headerlink" href="#serialuart-boot-pins" title="Permanent link"></a></h3>
+<p>The STM32's serial UART (RX/TX) pins and BOOT pin are routed to PTHs. Connecting the BOOT pin to ground puts the STM32 into BOOT mode for uploading new firmware to the board over either USB-C or a serial connection. The BOOT pin is routed directly next to a Ground pin to make closing this pin jumper easy. The UART pins operate at <b>3.3V logic</b>.</p>
+<p>The WAV Trigger Pro firmware (both Device &amp; Host) also sets these pins up to be used with as a serial console interface  over a <a href="https://learn.sparkfun.com/tutorials/terminal-basics">serial terminal</a> like the Arduino Serial monitor. The serial console accepts ASCII commands to as play, loop and stop tracks, loading presets and also return device status which can help provide important information about a connected &micro;SD card's performance. The serial console interface works simultaneously with everything else running on the board. Read on to the <a href="../audio/">Audio Output &amp; Serial Console Interface</a> section of this guide for more information.</p>
 <h3 id="stm-swd-header">STM SWD Header<a class="headerlink" href="#stm-swd-header" title="Permanent link"></a></h3>
 <p>The board includes a 5x2 Software Debug (SWD) header for low-level debugging of the STM32. The header connects to the STM32's SWD pins: SWDIO, SWCLK &amp; SWO. For more information about using the SWD interface, refer to the STM32's <a href="../assets/component_documentation/stm32h750ib.pdf">Datasheet</a>, <a href="../assets/component_documentation/dm00314099-stm32h742-stm32h743-753-and-stm32h750-value-line-advanced-arm-based-32-bit-mcus-stmicroelectronics.pdf">Reference Manual</a> &amp; <a href="../assets/component_documentation/an4938-getting-started-with-stm32h74xig-and-stm32h75xig-mcu-hardware-development-stmicroelectronics.pdf">Hardware Development App Note</a>.</p>
 <h3 id="power-input">Power Input<a class="headerlink" href="#power-input" title="Permanent link"></a></h3>
@@ -1987,7 +1989,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-01-10T21:09:46+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-01-10</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-01-17T00:06:58+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-01-17</span>
   </span>
 
     

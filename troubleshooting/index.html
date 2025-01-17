@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/img/sfe_logo_sq.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49+insiders-4.53.14">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49+insiders-4.53.15">
     
     
       
@@ -149,7 +149,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#uart-command-interface" class="md-skip">
+        <a href="#serial-console-interface" class="md-skip">
           Skip to content
         </a>
       
@@ -744,7 +744,7 @@
   <span class="md-ellipsis">
     
   
-    Audio Output & UART Interface
+    Audio Output & Serial Console
   
 
     
@@ -1135,11 +1135,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#uart-command-interface" class="md-nav__link">
+  <a href="#serial-console-interface" class="md-nav__link">
     <span class="md-ellipsis">
       
         <span class="md-typeset">
-          UART Command Interface<a class="headerlink" href="#uart-command-interface" title="Permanent link"></a>
+          Serial Console Interface<a class="headerlink" href="#serial-console-interface" title="Permanent link"></a>
         </span>
       
     </span>
@@ -1170,6 +1170,38 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Preset Demos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keyboard-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Keyboard Demo<a class="headerlink" href="#keyboard-demo" title="Permanent link"></a>
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#percussion-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Percussion Demo<a class="headerlink" href="#percussion-demo" title="Permanent link"></a>
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1291,11 +1323,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#uart-command-interface" class="md-nav__link">
+  <a href="#serial-console-interface" class="md-nav__link">
     <span class="md-ellipsis">
       
         <span class="md-typeset">
-          UART Command Interface<a class="headerlink" href="#uart-command-interface" title="Permanent link"></a>
+          Serial Console Interface<a class="headerlink" href="#serial-console-interface" title="Permanent link"></a>
         </span>
       
     </span>
@@ -1326,6 +1358,38 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Preset Demos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keyboard-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Keyboard Demo<a class="headerlink" href="#keyboard-demo" title="Permanent link"></a>
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#percussion-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Percussion Demo<a class="headerlink" href="#percussion-demo" title="Permanent link"></a>
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1384,8 +1448,8 @@
 
   <h1>Troubleshooting</h1>
 
-<h2 id="uart-command-interface">UART Command Interface<a class="headerlink" href="#uart-command-interface" title="Permanent link"></a></h2>
-<p>The WAV Trigger Pro firmware (both Device &amp; Host) sets the STM32 UART pins (RX/TX) up to be used with a <a href="https://learn.sparkfun.com/tutorials/terminal-basics">serial terminal</a> like the Arduino Serial monitor. It works by sending ASCII commands to trigger playing, looping and stopping tracks, loading presets and also device status which can help provide important information about a connected &micro;SD card's performance. This serial interface works simultaneously with everything else running on the board. Refer to the <a href="../audio/">Audio Output &amp; UART Interface</a> section of this guide for more information on these commands.</p>
+<h2 id="serial-console-interface">Serial Console Interface<a class="headerlink" href="#serial-console-interface" title="Permanent link"></a></h2>
+<p>The WAV Trigger Pro firmware (both Device &amp; Host) sets the STM32 UART pins (RX/TX) up to be used with a <a href="https://learn.sparkfun.com/tutorials/terminal-basics">serial terminal</a> like the Arduino Serial monitor. It works by sending ASCII commands to trigger playing, looping and stopping tracks, loading presets and also device status which can help provide important information about a connected &micro;SD card's performance. This serial interface works simultaneously with everything else running on the board. Refer to the <a href="../audio/">Audio Output &amp; Serial Console</a> section of this guide for more information on these commands.</p>
 <h2 id="status-led-information">Status LED Information<a class="headerlink" href="#status-led-information" title="Permanent link"></a></h2>
 <p>The green STAT LED can provide some basic information on the current status of the Qwiic WAV Trigger Pro.</p>
 <ul>
@@ -1400,19 +1464,16 @@
 <li>1 Long then 4 Short Blinks (Repeating) - Memory error</li>
 </ul>
 <h2 id="preset-demos">Preset Demos<a class="headerlink" href="#preset-demos" title="Permanent link"></a></h2>
-<p>Robertsonics has created a couple of demontstration downloads that include a ZIP image of a demo SD card (includes WAV files &amp; preset .csv files) along with a corresponding Preset spreadsheet for both a Keyboard and Percussion demo. If you're having trouble getting your own Preset and WAV files working on your WAV Trigger Pro, try loading one of these onto your SD card to verify the board is working properly. You can also refer to the Preset spreadsheet files to get started creating your own Preset file. All of these files are available for doownloading clicking the buttons below:</p>
-<p><strong>Update SD Image Links - ML</strong></p>
+<p>Robertsonics has created a couple of sample SD card images for Keyboard and Percussion USB MIDI demos. Each image includes sets of WAV and Preset files in a ZIP download. All you need to do is download the image, unzip it and load it onto an empty and formatted &micro;SD card and plug the card into the WAV Trigger Pro.</p>
+<h3 id="keyboard-demo">Keyboard Demo<a class="headerlink" href="#keyboard-demo" title="Permanent link"></a></h3>
+<p>The Keyboard demo is intended for use with a MIDI keyboard and includes three sets of instrument sounds - piano, strings and organ - over the same 3-octave range. It also includes four presets that select one or more of the instruments to be available with different performance parameters. You can download the SD image from the link below:</p>
 <p><center>
-<a class="md-button md-button--primary" href="">WAV Trigger Pro Keyboard Demo SD Image (ZIP)</a><br />
+<a class="md-button md-button--primary" href="https://drive.google.com/file/d/1-uz4BdS7XvQwcvetIbcqXZCmbQjFlUzG/view?usp=sharing">WAV Trigger Pro Keyboard Demo SD Image</a><br />
 </center></p>
+<h3 id="percussion-demo">Percussion Demo<a class="headerlink" href="#percussion-demo" title="Permanent link"></a></h3>
+<p>The Percussion demo is intended for use with a velocity-sensitive pad MIDI controller to demonstrate things like velocity mapping and multiple actions per MIDI note. It includes a selection of effects, dialog and percussion. The preset file includes comments to help explain </p>
 <p><center>
-<a class="md-button md-button--primary" href="">WAV Trigger Pro Percussion Demo (ZIP)</a>
-</center></p>
-<p><center>
-<a class="md-button md-button--primary" href="../assets/demos/Keyboards1.xlsx">Keyboard Demo Preset Sheet (XLSX)</a>
-</center></p>
-<p><center>
-<a class="md-button md-button--primary" href="../assets/demos/Percussion.xlsx">Percussion Demo Preset Sheet (XLSX)</a>
+<a class="md-button md-button--primary" href="https://drive.google.com/file/d/10YIjcX3KPo2wQbK0kOHm8vAypqxIgcHO/view?usp=sharing">WAV Trigger Pro Percussion Demo SD Image</a><br />
 </center></p>
 <h2 id="general-troubleshooting">General Troubleshooting<a class="headerlink" href="#general-troubleshooting" title="Permanent link"></a></h2>
 <div class="admonition info">
@@ -1446,7 +1507,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-01-10T21:09:46+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-01-10</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-01-17T00:06:58+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-01-17</span>
   </span>
 
     

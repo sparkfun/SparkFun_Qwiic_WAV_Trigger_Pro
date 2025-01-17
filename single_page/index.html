@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../assets/img/sfe_logo_sq.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49+insiders-4.53.14">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49+insiders-4.53.15">
     
     
       
@@ -738,7 +738,7 @@
   <span class="md-ellipsis">
     
   
-    Audio Output & UART Interface
+    Audio Output & Serial Console
   
 
     
@@ -1321,7 +1321,7 @@ icon: fontawesome/solid/scroll</p>
 </li>
 <li>
 <p>The Qwiic WAV Trigger Pro is the latest evolution of the line of high-fidelity polyphonic audio players from robertsonics. The Qwiic WAV Trigger Pro improves on the previous versions with a more powerful processor, enhanced MIDI processing - including velocity switching and multi-timbral support - and MIDI USB Device (Default) <b>and</b> MIDI USB Host support, all in a smaller 1.75" x 1.5" footprint! <br><br>
-The Qwiic WAV Trigger Pro supports up to 4096 uncompressed 16-bit, 44.1kHz mono and stereo WAV files matching CD audio quality. The WAV Trigger Pro supports polyphony and can play and mix up to 24 tracks simultaneously and independently with exceptionally low latency (7ms typically). Control track playback via either 8 programmable trigger inputs, I<sup>2</sup>C (Qwiic), or MIDI (USB or Serial UART). The board can function as both a USB MIDI device <i>and</i> host meaning if the WAV Trigger Pro has power in USB MIDI Host mode it can supply up to 500mA@5V to a connected MIDI device over USB-C allowing for USB MIDI control with no computer required.</p>
+The Qwiic WAV Trigger Pro supports up to 4096 uncompressed 16-bit, 44.1kHz mono and stereo WAV files matching CD audio quality. The WAV Trigger Pro supports polyphony and can play and mix up to 24 tracks simultaneously and independently with exceptionally low latency (7ms typically). Control track playback via either 8 programmable trigger inputs, I<sup>2</sup>C (Qwiic), or MIDI (USB, Serial UART, or Qwiic). The board can function as both a USB MIDI device <i>and</i> host meaning if the WAV Trigger Pro has power in USB MIDI Host mode it can supply up to 500mA@5V to a connected MIDI device over USB-C allowing for USB MIDI control with no computer required.</p>
 <p><center>
 <a class="md-button md-button--primary" href="https://www.sparkfun.com/products/25860">Purchase from SparkFun <span class="twemoji heart"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 24C0 10.7 10.7 0 24 0h45.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5l-51.6-271c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24m128 440a48 48 0 1 1 96 0 48 48 0 1 1-96 0m336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96M252 160c0 11 9 20 20 20h44v44c0 11 9 20 20 20s20-9 20-20v-44h44c11 0 20-9 20-20s-9-20-20-20h-44V96c0-11-9-20-20-20s-20 9-20 20v44h-44c-11 0-20 9-20 20"/></svg></span></a>
 </center></p>
@@ -1568,6 +1568,7 @@ PRT-08867</a></p>
 <ul>
 <li>Up to 4096 uncompressed 16-bit, 44.1kHz mono and stereo WAV files (CD Quality)</li>
 <li>Polyphonic - Play and mix up to 24 tracks independently and simultaneously with independent pitch control</li>
+<li>Low Latency - Timing from triggering a track to playback typically takes only 2.5ms (4ms max)</li>
 <li>MIDI notes can trigger up to 8 independent actions, routing tracks to any combination of outputs</li>
 <li>Up to 8 velocity range assignments per note to trigger alternate samples</li>
 <li>Each event provides independent pitch offset (in cents) allowing for true multi-sampling</li>
@@ -1594,12 +1595,13 @@ PRT-08867</a></p>
 <p><a href="../assets/img/WAV_Trigger_Pro-PTHs.jpg"><img alt="Photo highlighting through-hole pins." src="../assets/img/WAV_Trigger_Pro-PTHs.jpg" width="600" /></a> "Click to enlarge"</p>
 </figure>
 <h3 id="trigger-pins">Trigger Pins<a class="headerlink" href="#trigger-pins" title="Permanent link"></a></h3>
-<p>The board has eight PTH trigger pins mapped to the first 8 MIDI notes. Users can adjust how these trigger inputs behave in the Preset file. All trigger pins a <b>3.3V</b> tolerant.</p>
+<p>The board has eight PTH trigger pins mapped to the first 8 MIDI notes meaning activating Trigger pin 1 sends a MIDI Note-on message for note 1 and releasing Trigger pin 1 sends a MIDI-Note-off message for note 1. The trigger pins pulled HIGH to 3.3V internally and are active LOW. Pulling them to ground through either a button, switch, relay, or active output (eg. microcontroller I/O pin) activates the trigger. </p>
+<p>All trigger pins are <b>3.3V</b> tolerant so if you're using an active output to control the triggers make sure the inactive state of the triggers does not exceed 3.3V. Users can adjust how these trigger inputs behave in the Preset file. Read on to the <a href="../preset/">Preset File</a> of this guide for more information on configuring the triggers and other MIDI note behavior.</p>
 <h3 id="audio-output_1">Audio Output<a class="headerlink" href="#audio-output_1" title="Permanent link"></a></h3>
 <p>The WAV Trigger Pro has two channel (stereo) output routed <i>only</i> to PTH pins labeled <b>L</b>, <b>R</b>, and <b>G</b>.</p>
-<h3 id="uart-boot">UART &amp; Boot<a class="headerlink" href="#uart-boot" title="Permanent link"></a></h3>
-<p>The STM32's serial UART (RX/TX) pins and BOOT pin are routed to PTHs. These pins function primarily to set the STM32 into BOOT mode for uploading new firmware to the board over the serial UART. The BOOT pin is routed directly next to a Ground pin to make closing this pin jumper easy. The UART pins operate at <b>3.3V logic</b>.</p>
-<p>The WAV Trigger Pro firmware (both Device &amp; Host) also sets these pins up to be used with a <a href="https://learn.sparkfun.com/tutorials/terminal-basics">serial terminal</a> like the Arduino Serial monitor  ASCII commands such as playing, looping and stopping tracks, loading presets and also device status which can help provide important information about a connected &micro;SD card's performance. This serial interface works simultaneously with everything else running on the board. Read on to the <a href="../audio/">Audio Output &amp; UART Interface</a> section of this guide for more information.</p>
+<h3 id="serialuart-boot-pins">Serial/UART &amp; Boot Pins<a class="headerlink" href="#serialuart-boot-pins" title="Permanent link"></a></h3>
+<p>The STM32's serial UART (RX/TX) pins and BOOT pin are routed to PTHs. Connecting the BOOT pin to ground puts the STM32 into BOOT mode for uploading new firmware to the board over either USB-C or a serial connection. The BOOT pin is routed directly next to a Ground pin to make closing this pin jumper easy. The UART pins operate at <b>3.3V logic</b>.</p>
+<p>The WAV Trigger Pro firmware (both Device &amp; Host) also sets these pins up to be used with as a serial console interface  over a <a href="https://learn.sparkfun.com/tutorials/terminal-basics">serial terminal</a> like the Arduino Serial monitor. The serial console accepts ASCII commands to as play, loop and stop tracks, loading presets and also return device status which can help provide important information about a connected &micro;SD card's performance. The serial console interface works simultaneously with everything else running on the board. Read on to the <a href="../audio/">Audio Output &amp; Serial Console Interface</a> section of this guide for more information.</p>
 <h3 id="stm-swd-header">STM SWD Header<a class="headerlink" href="#stm-swd-header" title="Permanent link"></a></h3>
 <p>The board includes a 5x2 Software Debug (SWD) header for low-level debugging of the STM32. The header connects to the STM32's SWD pins: SWDIO, SWCLK &amp; SWO. For more information about using the SWD interface, refer to the STM32's <a href="../assets/component_documentation/stm32h750ib.pdf">Datasheet</a>, <a href="../assets/component_documentation/dm00314099-stm32h742-stm32h743-753-and-stm32h750-value-line-advanced-arm-based-32-bit-mcus-stmicroelectronics.pdf">Reference Manual</a> &amp; <a href="../assets/component_documentation/an4938-getting-started-with-stm32h74xig-and-stm32h75xig-mcu-hardware-development-stmicroelectronics.pdf">Hardware Development App Note</a>.</p>
 <h3 id="power-input">Power Input<a class="headerlink" href="#power-input" title="Permanent link"></a></h3>
@@ -1650,70 +1652,93 @@ PRT-08867</a></p>
 <h3 id="preset-file-naming-convention">Preset File Naming Convention<a class="headerlink" href="#preset-file-naming-convention" title="Permanent link"></a></h3>
 <p>When creating a Preset, make sure to export it to a .csv file named "set_nnnn.csv" where "nnnn" is a 4-digit number with leading zeroes. For example, a preset file named "set_0001.csv" would be Preset 1, "set_0002" would be Preset 2 and so on. On reset, the WAV Trigger Pro looks for and loads the preset “set_0001.csv” automatically, if present, otherwise it will initialize to a default preset.</p>
 <p>Functions that load presets (Column 4 - Action and Column 5 - Track/Preset) refer to the preset number in the filename. For example, setting a MIDI note to load a preset named "set_0123.csv" requires setting the action in Column 4 to "Load Preset" and the Track/Preset value in Column 5 to "123". </p>
-<h3 id="preset-demos">Preset Demos<a class="headerlink" href="#preset-demos" title="Permanent link"></a></h3>
-<p>Robertsonics has created a couple of demontstration downloads that include a ZIP image of a demo SD card (includes WAV files &amp; preset .csv files) along with a corresponding Preset spreadsheet for both a Keyboard and Percussion demo. You can download the SD images by clicking the buttons below:</p>
-<p><strong>Update links to SD Images - ML</strong></p>
-<p><center>
-<a class="md-button md-button--primary" href="">WAV Trigger Pro Keyboard Demo SD Image (ZIP)</a><br />
-</center></p>
-<p><center>
-<a class="md-button md-button--primary" href="">WAV Trigger Pro Percussion Demo (ZIP)</a>
-</center></p>
-<p>And if you'd like to download and review or modify a Preset sheet for the demos, you can download them by clicking the buttons below:</p>
-<p><center>
-<a class="md-button md-button--primary" href="../assets/demos/Keyboards1.xlsx">Keyboard Demo Preset Sheet (XLSX)</a>
-</center></p>
-<p><center>
-<a class="md-button md-button--primary" href="../assets/demos/Percussion.xlsx">Percussion Demo Preset Sheet (XLSX)</a>
-</center></p>
+<h3 id="default-preset">Default Preset<a class="headerlink" href="#default-preset" title="Permanent link"></a></h3>
+<p>On power up or reset, the WAV Trigger looks for and attempts to automatically load Preset 1 (set_0001.csv). If that file does not exist on the SD card then it loads an internal default preset with the following action assignments:</p>
+<p>MIDI Notes 1-8 have an action type 2, Trigger, Edge and set to trigger the corresponding track number with a gain of 0, center panned, attack/release time of 0ms and no flags set. This sets the eight trigger pins to toggle tracks 1-8 polyphonically, very similar to the behavior from the original WAV Trigger and Tsunami.</p>
+<p>MIDI Notes 9-127 have an action type 1, Play and set to play the corresponding track number with a gain of 0, center panned, attack/release time of 0ms, full velocity and gain scaling with no flags set. This sets MIDI notes 9-127 to play tracks 9-127 as velocity sensitive MIDI notes that respond to both Note-On and Note-Off messages.</p>
 <h2 id="column-overview">Column Overview<a class="headerlink" href="#column-overview" title="Permanent link"></a></h2>
 <p>Each line in Preset files use fourteen columns that cover all MIDI notes' possible function and behavior assignments. The list below outlines each column and how to use them:</p>
 <ul>
 <li>
-<p><b>Column 1 - Command:</b> Any line that does not begin with a field starting with the character ‘#” in Column 1 is considered a comment and ignored. If the line contains ‘#NOTE’ in the first column, then that line is expected to be a complete Note Action description with the following format:</p>
+<p><b>Column 1/A - Command:</b> Assigning an action to a MIDI note number requires entering "#NOTE" in this column. Anything else here will cause the entire row to be considered a comment and ignored.</p>
 </li>
 <li>
-<p><b>Column 2 - MIDI Note number (0 - 127):</b> Each MIDI Note number may appear in a Note Action line up to 8 times (any more than 8 will be ignored.) Each Action line will assign one function to the corresponding MIDI Note to be executed on Note-On/Note-Off events. In this way, a single MIDI Note can perform up to 8 actions.</p>
+<p><b>Column 2/B - MIDI Note number (0 - 127):</b> Each MIDI Note number may appear in a Note Action line up to 8 times in any particular order in the Preset file (any more than 8 will be ignored.) Each Action line will assign one function to the corresponding MIDI Note to be executed on Note-On/Note-Off events. In this way, a single MIDI Note can perform up to 8 actions.</p>
 </li>
 <li>
-<p><b>Column 3 - MIDI Channel number (0 - 16):</b> Each action can be assigned to either a specific MIDI channel or any channel (Omni). MIDI Channels are numbered 0 - 15, while a value of 16 will cause the channel number to be ignored so that the note on any channel will perform the action. Using multiple actions, a single MIDI note can play different sounds on different channels.</p>
+<p><b>Column 3/C - MIDI Channel number (0 - 15):</b> Each action can be assigned to either a specific MIDI channel or any channel (Omni). If the number in this column is 0 - 15 the action only occurs for the corresponding MIDI channel. A value of 16 sets the action to occur for any MIDI channel (Omni). Using multiple actions, a single MIDI note can play different sounds on different channels.</p>
 </li>
 <li>
-<p><b>Column 4 - Action:</b> There are currently 5 available actions defined. These are contained within a list at the top of the spreadsheet (within the red box) and the action field is a drop-down selection for that list. The available actions are:</p>
+<p><b>Column 4/D - Action:</b> There are currently 7 available actions defined. These are contained within a list at the top of the spreadsheet (within the red box) and the action field is a drop-down selection for that list. The available actions are:</p>
 <ul>
 <li>
-<p><b>Play Note:</b> This is the normal behavior of a MIDI Note, namely a Note-On starts the track and a Note-Off stops the track. The volume is scaled by the MIDI Note-On velocity.</p>
+<p><b>Action Type 01: Play Note:</b> This is the normal behavior of a MIDI Note. The track number set in column 5/E starts with a MIDI Note-On message with a target volume proportional to the MIDI velocity. A MIDI Note-Off commessagemand stops the track.</p>
 </li>
 <li>
-<p><b>Trigger:</b> A Note-On starts the track with a velocity of 127. Both the MIDI Note-On velocity and the corresponding Note-Off are ignored.</p>
+<p><b>Action Type 02: Trigger, Edge:</b> This action ignores both MIDI velocity and the corresponding MIDI Note-Off message. A track with this action is polyphonic and mixed with any previous instance of this action's track.</p>
 </li>
 <li>
-<p><b>Stop Track:</b> This action is triggered by the Note-On event and stops the specified track;</p>
+<p><b>Action Type 03: Trigger, Level:</b> This action ignores MIDI velocity and stops the track with the corresponding Note-Off message.</p>
 </li>
 <li>
-<p><b>Stop All:</b> This action is triggered by the Note-On event and stops all tracks.</p>
+<p><b>Action Type 04: Trigger, Conditional:</b> This action type ignores MIDI velocity and the track will not start if a previous instance of this track is still playing.</p>
 </li>
 <li>
-<p><b>Load Preset:</b> This action is triggered by the Note-On message and loads the specified preset file from the microSD card.</p>
+<p><b>Action Type 05: Stop Track:</b> This action stops a track with the specified release time.</p>
+</li>
+<li>
+<p><b>Action Type 06: Stop All:</b> This action stops all tracks currently playing.</p>
+</li>
+<li>
+<p><b>Action Type 07: Load Preset:</b> This action loads the specified preset file in Column 5/E.</p>
 </li>
 </ul>
 </li>
 <li>
-<p><b>Column 5 - Track/Preset:</b> This field is the target track number or preset number for the action. Tracks are numbered 0 to 4095, while presets are numbered 0 to 9999.</p>
+<p><b>Column 5/E - Track/Preset:</b> This field sets the target track number or preset number for the action specified in Column 4/D. For action types 1-6 this refers to the track number. For action type 7 this refers to the preset number. Tracks are numbered 0 to 4095, while presets are numbered 0 to 9999.</p>
+</li>
+<li>
+<p><b>Column 6/F - Pitch Offset:</b> This value refers to the sample-rate offset applied to the track when started. Any action that causes a track to play can specify a pitch offset of -700 to +700 cents (100 cents equalling one musical semitone.) A pitch offset of 0 will cause the track to play with no offset.</p>
+</li>
+<li>
+<p><b>Columns 7/G and 8/H - Attack and Release:</b> MIDI note attack and release time specified in milliseconds.</p>
+</li>
+<li>
+<p><b>Column 9/I - Loop Flag:</b> A value of 1 in this column causes the track to seamlessly loop from end to beginning until it is stopped.</p>
+</li>
+<li>
+<p><b>Column 10/J - Lock Flag:</b> The WAV Trigger Pro has a voice stealing algorithm. If when a track is started, there are no voices available, the oldest running voice will be “stolen” to play the new track. Putting a value of 1 in the Lock field prevents the track from having its voice stolen if this happens. This can be useful if you have a backing track that you don’t want to get cut off.</p>
+</li>
+<li>
+<p><b>Column 11/K - Pitch Bend Flag:</b> A value of 1 in this column causes the track to be modified by any MIDI Pitch Bend messages.</p>
+</li>
+<li>
+<p><b>Columns 12/L and 13/M - Min and Max Velocity:</b> For action type 1, any MIDI Note-On message with a velocity outside this range is ignored.</p>
+</li>
+<li>
+<p><b>Column 14/N and 15/O - Min and Max Velocity Gain:</b> For action type 1, sets the gain range scaled to the velocity range. This means the gain at the min velocity matches the min velocity gain and the gain at the max velocity matches the max velocity gain.</p>
+</li>
+<li>
+<p><b>Column 16/P - Balance (0 - 127):</b> This value controls the Left/Right channel balance of the track. A value of 0 is Left channel only, while a value of 127 is Right channel only. A value of 64 means center panned audio between Left and Right channels.</p>
 </li>
 </ul>
-<p><b>Column 6 - Pitch Offset:</b> Any action that causes a track to play can specify a pitch offset of -700 to +700 cents (100 cents is one musical semitone.) A pitch offset of 0 will cause the track to play with no offset.</p>
-<p><b>Columns 7 and 8 - Attack and Release:</b> These fields will introduce a volume ramp up or down when the track starts and stops. Specified in milliseconds.</p>
-<p><b>Column 9 - Loop:</b> A value of 0 means the track will stop when it reaches the end. A value of 1 will cause the track to seamlessly loop until it is stopped.</p>
-<p><b>Column 10 - Lock:</b> The WAV Trigger Pro has a voice stealing algorithm. If when a track is started, there are no voices available, the oldest running voice will be “stolen” to play the new track. Putting a value of 1 in the Lock field will prevent the track from having its voice stolen if this happens. This can be useful if you have a backing track that you don’t want to get cut off.</p>
-<p><b>Columns 11 and 12 - Min and Max Velocity:</b> These fields determine a range of MIDI Note Velocities that will trigger the action. If a Note-On velocity falls outside this range, the track will not be started. Multiple Play Note actions defined for a single Note number with different ranges allows for different tracks to be triggered based on velocity.</p>
-<p><b>Column 13 - Gain (-80 to 0):</b> This value controls the maximum volume for the track. The gain is set in dB, with 0 being no attenuation and -80 being pretty much silence. For the action Play Note, the gain is scaled by the MIDI Note-On velocity.</p>
-<p><b>Column 14 - Balance (0 - 127):</b> This value controls the Left/Right channel balance of the track. A value of 0 is Left channel only, while a value of 127 is Right channel only. A value of 64 results in equal Left and Right channels.</p>
+<h3 id="preset-demos">Preset Demos<a class="headerlink" href="#preset-demos" title="Permanent link"></a></h3>
+<p>Robertsonics has created a couple of sample SD card images for Keyboard and Percussion USB MIDI demos. Each image includes sets of WAV and Preset files in a ZIP download. All you need to do is download the image, unzip it and load it onto an empty and formatted &micro;SD card and plug the card into the WAV Trigger Pro.</p>
+<h4 id="keyboard-demo">Keyboard Demo<a class="headerlink" href="#keyboard-demo" title="Permanent link"></a></h4>
+<p>The Keyboard demo is intended for use with a MIDI keyboard and includes three sets of instrument sounds - piano, strings and organ - over the same 3-octave range. It also includes four presets that select one or more of the instruments to be available with different performance parameters. You can download the SD image from the link below:</p>
+<p><center>
+<a class="md-button md-button--primary" href="https://drive.google.com/file/d/1-uz4BdS7XvQwcvetIbcqXZCmbQjFlUzG/view?usp=sharing">WAV Trigger Pro Keyboard Demo SD Image</a><br />
+</center></p>
+<h4 id="percussion-demo">Percussion Demo<a class="headerlink" href="#percussion-demo" title="Permanent link"></a></h4>
+<p>The Percussion demo is intended for use with a velocity-sensitive pad MIDI controller to demonstrate things like velocity mapping and multiple actions per MIDI note. It includes a selection of effects, dialog and percussion. The preset file includes comments to help explain </p>
+<p><center>
+<a class="md-button md-button--primary" href="https://drive.google.com/file/d/10YIjcX3KPo2wQbK0kOHm8vAypqxIgcHO/view?usp=sharing">WAV Trigger Pro Percussion Demo SD Image</a><br />
+</center></p>
 <h1 id="microsd-card-preperation">MicroSD Card Preperation<a class="headerlink" href="#microsd-card-preperation" title="Permanent link"></a></h1>
 <p>The Qwiic WAV Trigger Pro requires a &micro;SD card to store and load WAV and Preset files. </p>
-<h2 id="recommended-sd-cards-formats">Recommended SD Cards &amp; Formats<a class="headerlink" href="#recommended-sd-cards-formats" title="Permanent link"></a></h2>
-<p>This and other WAV Trigger boards from robertsonics interact differently with SD cards than what manufacturers typically expect. WAV Triggers rely on fast and, more importantly, reliable file access with small timeout windows. As a result, some SD cards focus more on large file transfer and . All this is to say we strongly recommend using SD cards with either a <b>FAT16</b> or <b>FAT32</b> file format. </p>
-<p>We do not recommend SD cards with large capacities (exFAT, etc.) as they tend to be less reliable and also can have issues formatting to work properly with the WAV Trigger Pro.</p>
+<h2 id="recommended-sd-cards-format">Recommended SD Cards &amp; Format<a class="headerlink" href="#recommended-sd-cards-format" title="Permanent link"></a></h2>
+<p>This and other WAV Trigger boards from robertsonics interact differently with SD cards than what manufacturers typically expect. WAV Triggers rely on fast and, more importantly, reliable file access with small timeout windows. The WAV Trigger Pro firmware is only compatible with SD cards formatted to either a <b>FAT16</b> or <b>FAT32</b>. </p>
+<p>We strongly recommend using cards that use one of these formats by default. If you are using a larger capacity SD card that uses another format (exFAT, etc.), you <b>must</b> format it to <b>FAT32</b> and set the max allocation size to 32k. You can set both of these using the Qwiic Format application in Windows.</p>
 <p>Robertsonics has done some fairly extensive testing with his previous WAV Trigger boards and has some great write ups on SD card performance and the unique requirements of the WAV Trigger boards. These offer a few recommendations though some of the recommended cards may no longer be available or have updated versions of them:</p>
 <ul>
 <li><a href="https://www.robertsonics.com/blog/microsd-cards-for-audio-2024">MicroSD Cards for Audio - 2024</a></li>
@@ -1729,26 +1754,10 @@ PRT-08867</a></p>
 <p><center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pu6zvnoPTfQ?si=7Rf66krO_RQSI0k0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center></p>
-<h2 id="preset-demos_1">Preset Demos<a class="headerlink" href="#preset-demos_1" title="Permanent link"></a></h2>
-<p>Robertsonics has created a couple of demontstration downloads that include a ZIP image of a demo SD card (includes WAV files &amp; preset .csv files) along with a corresponding Preset spreadsheet for both a Keyboard and Percussion demo. You can download the SD images by clicking the buttons below:</p>
-<p><strong>Update SD Image links - ML</strong></p>
-<p><center>
-<a class="md-button md-button--primary" href="">WAV Trigger Pro Keyboard Demo SD Image (ZIP)</a><br />
-</center></p>
-<p><center>
-<a class="md-button md-button--primary" href="">WAV Trigger Pro Percussion Demo (ZIP)</a>
-</center></p>
-<p>And if you'd like to download and review or modify a Preset sheet for the demos, you can download them by clicking the buttons below:</p>
-<p><center>
-<a class="md-button md-button--primary" href="../assets/demos/Keyboards1.xlsx">Keyboard Demo Preset Sheet (XLSX)</a>
-</center></p>
-<p><center>
-<a class="md-button md-button--primary" href="../assets/demos/Percussion.xlsx">Percussion Demo Preset Sheet (XLSX)</a>
-</center></p>
 <h1 id="updating-firmware">Updating Firmware<a class="headerlink" href="#updating-firmware" title="Permanent link"></a></h1>
 <p>The Qwiic WAV Trigger Pro comes pre-loaded with firmware to use it as a MIDI device but, as covered previously, the WAV Trigger Pro can be used as either a MIDI device or MIDI host with the approrpiate firmware. In the future, there may be updates to the WAV Trigger Pro's firmware users can upload to the board if necessary. In this section we'll go over how to upload the MIDI Host firmware to the board but these steps also work for updating or reverting firmware versions.</p>
 <h2 id="stm32-cubeprogrammer-software">STM32 CubeProgrammer Software<a class="headerlink" href="#stm32-cubeprogrammer-software" title="Permanent link"></a></h2>
-<p>Uploading new firmware is best done using the <a href="https://www.st.com/en/development-tools/stm32cubeprog.html">STM32 CubeProgrammer</a> software. You can upload new firmware to the board over USB, USB-to-Serial converter like the <a href="">Serial Basic</a> connected to the serial PTH pins, or with an STLink debugger and the SWD header. We strongly recommend uploading over USB since all you need is a USB-C cable, closing the BOOT jumper/tying BOOT to GND, and a computer with the STM32 Cube Programmer software. This guide only covers uploading new firmware over USB-C.</p>
+<p>Uploading new firmware is best done using the <a href="https://www.st.com/en/development-tools/stm32cubeprog.html">STM32 CubeProgrammer</a> software. You can upload new firmware to the board over USB-C, USB-to-Serial converter like the <a href="https://www.sparkfun.com/sparkfun-serial-basic-breakout-ch340c-and-usb-c.html">Serial Basic Breakout - 3.3V USB-C</a> connected to the serial PTH pins, or with an STLink debugger and the SWD header. We strongly recommend uploading over USB since all you need is a USB-C cable, closing the BOOT jumper/tying BOOT to GND, and a computer with the STM32 Cube Programmer software. This guide only covers uploading new firmware over USB-C.</p>
 <p>Start by downloading the CubeProgrammer software for your operating system from <a href="https://www.st.com/en/development-tools/stm32cubeprog.html">this page</a>. Note, downloading does require submitting a valid e-mail and clicking a confirmation link sent to that e-mail. Once downloaded, follow the installation instructions and then open Cube Programmer and you should be greeted by a screen similar to the image below:</p>
 <figure>
 <p><a href="../assets/img/Cube-Connected.jpg" title="Click to enlarge"><img alt="Screenshot of CubeProgrammer main window." src="../assets/img/CubeGeneric.jpg" width="600" /></a></p>
@@ -1769,7 +1778,7 @@ PRT-08867</a></p>
 </figure>
 <p>Make sure everything is configured properly and then click "Start Programming" to begin uploading the new firmware. This should take only a few seconds and once it's complete, disconnect the BOOT jumper (if needed) and press the RESET button. The WAV Trigger Pro should now appear as a USB audio device.</p>
 <h1 id="hardware-assembly">Hardware Assembly<a class="headerlink" href="#hardware-assembly" title="Permanent link"></a></h1>
-<h2 id="audio-output-uart-interface">Audio Output &amp; UART Interface<a class="headerlink" href="#audio-output-uart-interface" title="Permanent link"></a></h2>
+<h2 id="audio-output-serial-console">Audio Output &amp; Serial Console<a class="headerlink" href="#audio-output-serial-console" title="Permanent link"></a></h2>
 <h2 id="audio-output-pins-required">Audio Output Pins (Required)<a class="headerlink" href="#audio-output-pins-required" title="Permanent link"></a></h2>
 <p>The audio output of the WAV Trigger Pro is routed to three 0.1"-spaced headers labeled <b>L</b>, <b>G</b> and <b>R</b>. This requires some through-hole soldering of either wires or headers to connect to your preferred audio output. For the purposes of this guide we'll be soldering headers to these pins to connect to a <a href="https://www.sparkfun.com/products/11570">SparkFun TRRS 3.5MM Jack Breakout</a> to plug a pair of headphones into.</p>
 <p>The WAV Trigger Pro requires soldering to these pins regardless of how it is configured and used so make sure to complete this step at some point during your preferred assembly.</p>
@@ -1819,30 +1828,70 @@ PRT-08867</a></p>
 <figure>
 <p><a href="../assets/img/WAV_Trigger_Pro-Audio_Assembly.jpg" title="Click to enlarge"><img alt="Photo showing WAV Trigger Pro connected to TRRS Breakout" src="../assets/img/WAV_Trigger_Pro-Audio_Assembly.jpg" width="600" /></a></p>
 </figure>
-<h2 id="uart-interface-optional">UART Interface (Optional)<a class="headerlink" href="#uart-interface-optional" title="Permanent link"></a></h2>
-<p>The WAV Trigger Pro features a serial interface that works over the board's RX/TX pins (@3.3V Logic) allowing users to connect a USB-to-Serial converter like the <a href="">Serial Basic 3.3V</a> to send and receive information over that serial connection. This interface works in all WAV Trigger Pro assembly options we covered in the following sections to provide helpful information and control of the board.</p>
-<p><strong>Photo of UART interface connected - ML</strong></p>
-<p>Connect the Serial Basic (or other USB-to-Serial converter) to the UART pins and open a <a href="">serial terminal</a> with <b>57.6k baud</b> with <b>Carriage Return</b> line ending. Next, just type in "help" and it will print out a list of available commands.</p>
-<p><strong>Screenshot of command printout - ML</strong></p>
-<p>These commands allow you to directly control playback from the WAV Trigger Pro, change presets, receive status information as well as test a connected &micro;SD card all through a serial terminal.</p>
+<h2 id="serial-console-interface">Serial Console Interface<a class="headerlink" href="#serial-console-interface" title="Permanent link"></a></h2>
+<p>The WAV Trigger Pro features a serial console interface that works over the board's RX/TX pins (<b>@3.3V Logic</b>) allowing users to connect a USB-to-Serial converter like the <a href="https://www.sparkfun.com/sparkfun-serial-basic-breakout-ch340c-and-usb-c.html">Serial Basic Breakout - 3.3V USB-C</a> to send and receive information over that serial connection. The serial console works in all WAV Trigger Pro assembly options we cover in the following sections to provide helpful information about and control of the board.</p>
+<h3 id="serial-assembly">Serial Assembly<a class="headerlink" href="#serial-assembly" title="Permanent link"></a></h3>
+<p>Connect to the serial console interface using the TX/RX and GND pins on the WAV Trigger Pro making sure to use either a 3.3V serial converter like the one linked above or by properly <a href="https://learn.sparkfun.com/tutorials/logic-levels">level shifting</a> one that runs at a different logic to 3.3V. The table and photo below outline the connections between the WAV Trigger and Serial Basic Breakout - 3.3V:</p>
+<table>
+    <tr>
+        <th>WAV Trigger Pro</th>
+        <th>Serial Basic</th>
+        <th>Color</th>
+    </tr>
+    <tr>
+        <td>TX</td>
+        <td>RX</td>
+        <td>ORANGE</td>
+    </tr>
+    <tr>
+        <td>RX</td>
+        <td>TX</td>
+        <td>GREEN</td>
+    </tr>
+    <tr>
+        <td>G</td>
+        <td>GND</td>
+        <td>BLACK</td>
+    </tr>
+</table>
+
+<figure>
+<p><a href="../assets/img/WAV_Trigger_Pro-Serial_Assembly.jpg" title="Click to enlarge"><img alt="Photo showing Serial Basic connected to WAV Trigger serial pins." src="../assets/img/WAV_Trigger_Pro-Serial_Assembly.jpg" width="600" /></a></p>
+<p>After connecting the boards together, connect the Serial Basic to your computer over USB and connect the WAV Trigger Pro either over USB-C or another of the power inputs (Qwiic, 5V). Next, open the serial monitor in the Arudino IDE (or if you prefer, another terminal program) at <b>57.6k baud</b> with <b>Carriage Return</b> line ending enabled. </p>
+<p>Next, type in "help" (enter this and all other commands in <i>all</i> lowercase) and it will print out a list of available commands along with any available parameters to customize the command. Commands with just one parameter can be sent with a single space between the command and parameter. For commands with multiple parameters, separate the command and parameters using a comma. The list below outlines each command and what it does:</p>
+<ul>
+<li><b>help</b> - Displays the available commands and their parameters</li>
+<li><b>stat</b> - Returns a string that includes the WAV Trigger Pro's firmware version and build info as well as info about the &micro;SD card currently in the board</li>
+<li><b>play</b> - Plays the specified track number (if it exists). If this command is sent with just one parameter the track plays at full volume, center panned, 0 pitch offset, attack and release times of 0ms and is not looped or locked. Use the optional additional parameters outlined in the "help" menu to customize the playback.</li>
+<li><b>stop</b> - If sent with a track number, this stops the track immediately. The track fades out over the specified number of milliseconds before stopping if sent with a release value. If no track number is sent, this stops all tracks immediately.</li>
+<li><b>gain</b> - Sets the output attenuation of the board.</li>
+<li><b>v</b> - Returns the number of currently active voices.</li>
+<li><b>sd</b> - When sent with no parameter, this returns the current longest &micro;SD block read in microseconds since the WAV Trigger Pro was powered on, reset or the value was reset. If sent with a parameter of 0, this resets the value manually.</li>
+<li><b>test</b> - This command will stop the audio engine and start a block read timing test of the installed microSD card. The optional test count parameter can be used to specify the number of block read cycles in the test. If used with no parameter, the test will perform 100,000 block read cycles. It’s important to keep in mind that the test will only read blocks actually allocated to .wav files, so the more .wav files are on your card, the more of the card will be tested. While the test is running, a command of “r” can be used to see partial results, or “s” to stop the test prematurely. The audio engine will be restarted when the test finished or is stopped. For a detailed overview and discussion of the test performed here, refer to <a href="https://www.robertsonics.com/blog/microsd-cards-for-audio-2024">this article</a></li>
+</ul>
 <h1 id="qwiic-assembly">Qwiic Assembly<a class="headerlink" href="#qwiic-assembly" title="Permanent link"></a></h1>
 <p>The Qwiic WAV Trigger Pro can be controlled over a Qwiic (I<sup>2</sup>C) connection with a development board using the WAV Trigger Pro Qwiic Arduino Library. The Qwiic interface works with the WAV Trigger Pro running either MIDI Device (default) or MIDI Host firmware. </p>
 <h2 id="qwiic-assembly_1">Qwiic Assembly<a class="headerlink" href="#qwiic-assembly_1" title="Permanent link"></a></h2>
 <p>Using the WAV Trigger Pro over Qwiic is simple as it just requires a connection to a Qwiic-enabled development board using a Qwiic cable. If your preferred development board does not have a Qwiic connector, you can use this <a href="https://www.sparkfun.com/products/17912">Qwiic breadboard adapter cable</a> to connect to the I<sup>2</sup>C bus.</p>
 <figure>
-<p><a href="../assets/img/WAV_Trigger_Pro-Qwiic_Assembly.jpg" title="Click to enlarge"><img alt="Photo of Qwiic assembly." src="../assets/img/WAV_Trigger_Pro-Qwiic_Assembly.jpg" width="600" /></a></p>
+<p><a href="../assets/img/WAV_Trigger_Pro-Qwiic_Simple.jpg" title="Click to enlarge"><img alt="Photo of Qwiic assembly." src="../assets/img/WAV_Trigger_Pro-Qwiic_Simple.jpg" width="600" /></a></p>
 </figure>
 <h1 id="trigger-input-assembly">Trigger Input Assembly<a class="headerlink" href="#trigger-input-assembly" title="Permanent link"></a></h1>
 <h2 id="preparing-trigger-pins">Preparing Trigger Pins<a class="headerlink" href="#preparing-trigger-pins" title="Permanent link"></a></h2>
 <p>The WAV Trigger Pro has eight trigger pins routed to 0.1"-spaced headers that can be used to trigger MIDI playback for the first eight MIDI notes defined by the Preset file. If you're using these pins we recommend soldering either wire to whatever input you decide to use (button, switch, etc.) or if you'd like a removeable connection you can solder headers to these pins and use jumper wires to connect to the trigger inputs.</p>
-<p><strong>Photo showing trigger pins soldered - ML</strong></p>
+<figure>
+<p><a href="../assets/img/WAV_Trigger_Pro-Trigger_PTHs.jpg" title="Click to enlarge"><img alt="Photo of soldered trigger pins." src="../assets/img/WAV_Trigger_Pro-Trigger_PTHs.jpg" width="600" /></a></p>
+</figure>
 <h2 id="trigger-breadboard-assembly">Trigger Breadboard Assembly<a class="headerlink" href="#trigger-breadboard-assembly" title="Permanent link"></a></h2>
 <p>For the purposes of this guide, we wired the first four trigger inputs to four push-buttons on a breadboard for a quick demo on using these inputs. Make sure to create a common ground by connecting a wire from one of the WAV Trigger Pro's ground pins to the ground rail on the breadboard and then wire each button to a trigger pin and the breadboard's ground rail like the photo below shows: </p>
 <figure>
 <p><a href="../assets/img/WAV_Trigger_Pro-Trigger_Assembly.jpg" title="Click to enlarge"><img alt="Photo of completed trigger assembly to four push-buttons." src="../assets/img/WAV_Trigger_Pro-Trigger_Assembly.jpg" width="600" /></a></p>
 </figure>
 <h1 id="midi-device-assembly">MIDI Device Assembly<a class="headerlink" href="#midi-device-assembly" title="Permanent link"></a></h1>
-<p>With the default firmware, the WAV Trigger Pro acts as a MIDI Device and can be controlled from a MIDI Host over USB.</p>
+<p>With the default firmware, the WAV Trigger Pro acts as a MIDI Device and can be controlled from a MIDI Host over USB. Simply plug the board into your keyboard or other MIDI controller and start playing. You can also use your computer with a Digital Audio Workstation (DAW) software like <a href="https://www.midiox.com">MIDI-OX</a> to route incoming MIDI messages from your keyboard to the WAV Trigger Pro.</p>
+<figure>
+<p>[<img alt="Photo of WAV Trigger Pro plugged in over USB to MIDI Host." src="../assets/img/WAV_Trigger_Pro-Device.jpg" />]</p>
+</figure>
 <h1 id="midi-host-assembly">MIDI Host Assembly<a class="headerlink" href="#midi-host-assembly" title="Permanent link"></a></h1>
 <h2 id="midi-host-firmware_1">MIDI Host Firmware<a class="headerlink" href="#midi-host-firmware_1" title="Permanent link"></a></h2>
 <p>Running the WAV Trigger Pro as a MIDI USB Host requires uploading the proper firmware. Before setting up the WAV Trigger Pro to act as a MIDI Host, refer to the <a href="../firmware/">Updating Firmware</a> section for detailed instructions on uploading the MIDI Host firmware. </p>
@@ -1873,11 +1922,12 @@ PRT-08867</a></p>
 </center></p>
 <p>With the library installed, let's take a closer look at the examples included in it.</p>
 <h1 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link"></a></h1>
-<h2 id="required-sd-image">Required SD Image<a class="headerlink" href="#required-sd-image" title="Permanent link"></a></h2>
-<p>The examples included in the WAV Trigger Pro Qwiic library assume users have an SD card with the demo image loaded onto it. You can download a ZIP of the image by clicking the button below:</p>
+<h2 id="required-audio-files">Required Audio Files<a class="headerlink" href="#required-audio-files" title="Permanent link"></a></h2>
+<p>The examples included in the WAV Trigger Pro Qwiic library assume users have an SD card with the demo tracks loaded onto it. You can download a copy of the audio tracks from the link below:</p>
 <p><center>
-<a class="md-button md-button--primary" href="./assets/demos/Keyboards_demo_card.zip">WAV Trigger Pro Keyboard Demo SD Image (ZIP)</a><br />
+<a class="md-button md-button--primary" href="https://drive.google.com/file/d/17SlXueDCNjg29a56VSZPSQ7Gt-WlDesp/view">WAV Trigger Pro Arduino Example Sounds</a><br />
 </center></p>
+<p>The Arduino examples do not require a preset, just the specific tracks included in the link above. Just download these tracks, unzip the files and load them onto your &micro;SD card and you're ready to get started with the Aruino examples.</p>
 <h2 id="code-to-note">Code to Note<a class="headerlink" href="#code-to-note" title="Permanent link"></a></h2>
 <p>All four examples include similar setups to initialize the WAV Trigger Pro on the I<sup>2</sup>C bus, return the firmware version string and number of available audio tracks. All of these steps have a message printed out over serial so to view them open the <a href="https://learn.sparkfun.com/tutorials/terminal-basics/arduino-serial-monitor-windows-mac-linux">Arduino serial monitor</a> with the baud set to <b>9600</b> to see these messages. If any of these fail, the code will print out "WAV Trigger Pro response not available".</p>
 <h2 id="example-1-loop-track">Example 1 - Loop Track<a class="headerlink" href="#example-1-loop-track" title="Permanent link"></a></h2>
@@ -2582,12 +2632,12 @@ PRT-08867</a></p>
 <li><a href="../assets/component_documentation/pcm5100a.pdf">PCM510xA Datasheet</a></li>
 <li>Keyboard Demo Files<ul>
 <li><a href="./assets/demos/Keyboards_demo_card.zip">Keyboard Demo SD Image (ZIP)</a></li>
-<li><a href="../assets/demos/Keyboards1.xlsx">Keyboard Demo Preset Sheet (XLSX)</a></li>
+<li><a href="./assets/demos/Keyboards1.xlsx">Keyboard Demo Preset Sheet (XLSX)</a></li>
 </ul>
 </li>
 <li>Percussion Demo Files<ul>
 <li><a href="./assets/demos/Percussion_demo_card.zip">Percussion Demo SD Image (ZIP)</a></li>
-<li><a href="../assets/demos/Percussion.xlsx">Percussion Demo Preset Sheet (XLSX)</a></li>
+<li><a href="./assets/demos/Percussion.xlsx">Percussion Demo Preset Sheet (XLSX)</a></li>
 </ul>
 </li>
 <li><a href="https://www.robertsonics.com/downloads/">Robertsonics' Downloads</a></li>
@@ -2608,20 +2658,17 @@ PRT-08867</a></p>
 <li>1 Long then 3 Short Blinks (Repeating) - No WAV Fils found on &micro;SD card</li>
 <li>1 Long then 4 Short Blinks (Repeating) - Memory error</li>
 </ul>
-<h2 id="preset-demos_2">Preset Demos<a class="headerlink" href="#preset-demos_2" title="Permanent link"></a></h2>
-<p>Robertsonics has created a couple of demontstration downloads that include a ZIP image of a demo SD card (includes WAV files &amp; preset .csv files) along with a corresponding Preset spreadsheet for both a Keyboard and Percussion demo. If you're having trouble getting your own Preset and WAV files working on your WAV Trigger Pro, try loading one of these onto your SD card to verify the board is working properly. You can also refer to the Preset spreadsheet files to get started creating your own Preset file. All of these files are available for doownloading clicking the buttons below:</p>
-<p><strong>Update SD Image Links - ML</strong></p>
+<h2 id="preset-demos_1">Preset Demos<a class="headerlink" href="#preset-demos_1" title="Permanent link"></a></h2>
+<p>Robertsonics has created a couple of sample SD card images for Keyboard and Percussion USB MIDI demos. Each image includes sets of WAV and Preset files in a ZIP download. All you need to do is download the image, unzip it and load it onto an empty and formatted &micro;SD card and plug the card into the WAV Trigger Pro.</p>
+<h3 id="keyboard-demo_1">Keyboard Demo<a class="headerlink" href="#keyboard-demo_1" title="Permanent link"></a></h3>
+<p>The Keyboard demo is intended for use with a MIDI keyboard and includes three sets of instrument sounds - piano, strings and organ - over the same 3-octave range. It also includes four presets that select one or more of the instruments to be available with different performance parameters. You can download the SD image from the link below:</p>
 <p><center>
-<a class="md-button md-button--primary" href="">WAV Trigger Pro Keyboard Demo SD Image (ZIP)</a><br />
+<a class="md-button md-button--primary" href="https://drive.google.com/file/d/1-uz4BdS7XvQwcvetIbcqXZCmbQjFlUzG/view?usp=sharing">WAV Trigger Pro Keyboard Demo SD Image</a><br />
 </center></p>
+<h3 id="percussion-demo_1">Percussion Demo<a class="headerlink" href="#percussion-demo_1" title="Permanent link"></a></h3>
+<p>The Percussion demo is intended for use with a velocity-sensitive pad MIDI controller to demonstrate things like velocity mapping and multiple actions per MIDI note. It includes a selection of effects, dialog and percussion. The preset file includes comments to help explain </p>
 <p><center>
-<a class="md-button md-button--primary" href="">WAV Trigger Pro Percussion Demo (ZIP)</a>
-</center></p>
-<p><center>
-<a class="md-button md-button--primary" href="../assets/demos/Keyboards1.xlsx">Keyboard Demo Preset Sheet (XLSX)</a>
-</center></p>
-<p><center>
-<a class="md-button md-button--primary" href="../assets/demos/Percussion.xlsx">Percussion Demo Preset Sheet (XLSX)</a>
+<a class="md-button md-button--primary" href="https://drive.google.com/file/d/10YIjcX3KPo2wQbK0kOHm8vAypqxIgcHO/view?usp=sharing">WAV Trigger Pro Percussion Demo SD Image</a><br />
 </center></p>
 <h2 id="general-troubleshooting">General Troubleshooting<a class="headerlink" href="#general-troubleshooting" title="Permanent link"></a></h2>
 <div class="admonition info">
@@ -2633,6 +2680,7 @@ PRT-08867</a></p>
 </center>
 <p>If you can't find what you need there, you'll need a <a href="https://forum.sparkfun.com/ucp.php?mode=register">Forum Account</a> to search product forums and post questions.<p></p>
 </div>
+</figure>
 
 
 
@@ -2655,7 +2703,7 @@ PRT-08867</a></p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-01-10T21:09:46+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-01-10</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-01-17T00:06:58+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-01-17</span>
   </span>
 
     

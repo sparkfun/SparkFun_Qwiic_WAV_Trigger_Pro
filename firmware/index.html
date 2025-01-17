@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/img/sfe_logo_sq.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49+insiders-4.53.14">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49+insiders-4.53.15">
     
     
       
@@ -862,7 +862,7 @@
   <span class="md-ellipsis">
     
   
-    Audio Output & UART Interface
+    Audio Output & Serial Console
   
 
     
@@ -1424,7 +1424,7 @@
 
 <p>The Qwiic WAV Trigger Pro comes pre-loaded with firmware to use it as a MIDI device but, as covered previously, the WAV Trigger Pro can be used as either a MIDI device or MIDI host with the approrpiate firmware. In the future, there may be updates to the WAV Trigger Pro's firmware users can upload to the board if necessary. In this section we'll go over how to upload the MIDI Host firmware to the board but these steps also work for updating or reverting firmware versions.</p>
 <h2 id="stm32-cubeprogrammer-software">STM32 CubeProgrammer Software<a class="headerlink" href="#stm32-cubeprogrammer-software" title="Permanent link"></a></h2>
-<p>Uploading new firmware is best done using the <a href="https://www.st.com/en/development-tools/stm32cubeprog.html">STM32 CubeProgrammer</a> software. You can upload new firmware to the board over USB, USB-to-Serial converter like the <a href="">Serial Basic</a> connected to the serial PTH pins, or with an STLink debugger and the SWD header. We strongly recommend uploading over USB since all you need is a USB-C cable, closing the BOOT jumper/tying BOOT to GND, and a computer with the STM32 Cube Programmer software. This guide only covers uploading new firmware over USB-C.</p>
+<p>Uploading new firmware is best done using the <a href="https://www.st.com/en/development-tools/stm32cubeprog.html">STM32 CubeProgrammer</a> software. You can upload new firmware to the board over USB-C, USB-to-Serial converter like the <a href="https://www.sparkfun.com/sparkfun-serial-basic-breakout-ch340c-and-usb-c.html">Serial Basic Breakout - 3.3V USB-C</a> connected to the serial PTH pins, or with an STLink debugger and the SWD header. We strongly recommend uploading over USB since all you need is a USB-C cable, closing the BOOT jumper/tying BOOT to GND, and a computer with the STM32 Cube Programmer software. This guide only covers uploading new firmware over USB-C.</p>
 <p>Start by downloading the CubeProgrammer software for your operating system from <a href="https://www.st.com/en/development-tools/stm32cubeprog.html">this page</a>. Note, downloading does require submitting a valid e-mail and clicking a confirmation link sent to that e-mail. Once downloaded, follow the installation instructions and then open Cube Programmer and you should be greeted by a screen similar to the image below:</p>
 <figure>
 <p><a href="../assets/img/Cube-Connected.jpg" title="Click to enlarge"><img alt="Screenshot of CubeProgrammer main window." src="../assets/img/CubeGeneric.jpg" width="600" /></a></p>
@@ -1466,7 +1466,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-01-10T21:09:46+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-01-10</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-01-17T00:06:58+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-01-17</span>
   </span>
 
     
@@ -1544,13 +1544,13 @@
         
         
           
-          <a href="../audio/" class="md-footer__link md-footer__link--next" aria-label="Next: Audio Output &amp; UART Interface">
+          <a href="../audio/" class="md-footer__link md-footer__link--next" aria-label="Next: Audio Output &amp; Serial Console">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Audio Output & UART Interface
+                Audio Output & Serial Console
               </div>
             </div>
             <div class="md-footer__button md-icon">

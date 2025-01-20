@@ -31,7 +31,7 @@ Product Versions
 License Information
 -------------------
 
-This product is _**open source**_! 
+The hardware design of the Qwiic WAV Trigger Pro product is _**open source**_! 
 
 Please review the LICENSE.md file for license information. 
 
@@ -40,3 +40,8 @@ If you have any questions or concerns on licensing, please contact technical sup
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
+
+Collaboration
+--------------
+
+Designed in collaboration with Jamie Robertson [@robertsonics](https://www.robertsonics.com/).

@@ -1725,14 +1725,20 @@ PRT-08867</a></p>
 <h3 id="preset-demos">Preset Demos<a class="headerlink" href="#preset-demos" title="Permanent link"></a></h3>
 <p>Robertsonics has created a couple of sample SD card images for Keyboard and Percussion USB MIDI demos. Each image includes sets of WAV and Preset files in a ZIP download. All you need to do is download the image, unzip it and load it onto an empty and formatted &micro;SD card and plug the card into the WAV Trigger Pro.</p>
 <h4 id="keyboard-demo">Keyboard Demo<a class="headerlink" href="#keyboard-demo" title="Permanent link"></a></h4>
-<p>The Keyboard demo is intended for use with a MIDI keyboard and includes three sets of instrument sounds - piano, strings and organ - over the same 3-octave range. It also includes four presets that select one or more of the instruments to be available with different performance parameters. You can download the SD image from the link below:</p>
+<p>The Keyboard demo is intended for use with a MIDI keyboard and includes three sets of instrument sounds - piano, strings and organ - over the same 3-octave range. It also includes four presets that select one or more of the instruments to be available with different performance parameters. You can download the SD image and Preset spreadsheet file from the links below:</p>
 <p><center>
 <a class="md-button md-button--primary" href="https://drive.google.com/file/d/1-uz4BdS7XvQwcvetIbcqXZCmbQjFlUzG/view?usp=sharing">WAV Trigger Pro Keyboard Demo SD Image</a><br />
+</center></p>
+<p><center>
+<a class="md-button md-button--primary" href="https://docs.google.com/spreadsheets/d/1rwLasRLAfwSD74WbSEi_ZzUZDugceNfaMRffIZ08Qa0/edit?gid=0#gid=0">WAV Trigger Pro Keyboard Demo Preset Sheet</a>
 </center></p>
 <h4 id="percussion-demo">Percussion Demo<a class="headerlink" href="#percussion-demo" title="Permanent link"></a></h4>
 <p>The Percussion demo is intended for use with a velocity-sensitive pad MIDI controller to demonstrate things like velocity mapping and multiple actions per MIDI note. It includes a selection of effects, dialog and percussion. The preset file includes comments to help explain </p>
 <p><center>
 <a class="md-button md-button--primary" href="https://drive.google.com/file/d/10YIjcX3KPo2wQbK0kOHm8vAypqxIgcHO/view?usp=sharing">WAV Trigger Pro Percussion Demo SD Image</a><br />
+</center></p>
+<p><center>
+<a class="md-button md-button--primary" href="https://docs.google.com/spreadsheets/d/1vp9_36zpnPWcXSzHMWwwxRJSGP73pbZOnCWk7p7_FoQ/edit?gid=0#gid=0">WAV Trigger Pro Percussion Demo Preset Sheet</a>
 </center></p>
 <h1 id="microsd-card-preperation">MicroSD Card Preperation<a class="headerlink" href="#microsd-card-preperation" title="Permanent link"></a></h1>
 <p>The Qwiic WAV Trigger Pro requires a &micro;SD card to store and load WAV and Preset files. </p>
@@ -1857,6 +1863,7 @@ PRT-08867</a></p>
 
 <figure>
 <p><a href="../assets/img/WAV_Trigger_Pro-Serial_Assembly.jpg" title="Click to enlarge"><img alt="Photo showing Serial Basic connected to WAV Trigger serial pins." src="../assets/img/WAV_Trigger_Pro-Serial_Assembly.jpg" width="600" /></a></p>
+</figure>
 <p>After connecting the boards together, connect the Serial Basic to your computer over USB and connect the WAV Trigger Pro either over USB-C or another of the power inputs (Qwiic, 5V). Next, open the serial monitor in the Arudino IDE (or if you prefer, another terminal program) at <b>57.6k baud</b> with <b>Carriage Return</b> line ending enabled. </p>
 <p>Next, type in "help" (enter this and all other commands in <i>all</i> lowercase) and it will print out a list of available commands along with any available parameters to customize the command. Commands with just one parameter can be sent with a single space between the command and parameter. For commands with multiple parameters, separate the command and parameters using a comma. The list below outlines each command and what it does:</p>
 <ul>
@@ -1892,6 +1899,10 @@ PRT-08867</a></p>
 <figure>
 <p>[<img alt="Photo of WAV Trigger Pro plugged in over USB to MIDI Host." src="../assets/img/WAV_Trigger_Pro-Device.jpg" />]</p>
 </figure>
+<p>This video from robertsonics shows how to use the Qwiic WAV Triger Pro as a MIDI Device connected to a MIDI keyboard through a PC with his Keyboard Demo SD image:</p>
+<p><center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sNFdzXL7-XQ?si=IbBMwvUanwMCVCMh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center></p>
 <h1 id="midi-host-assembly">MIDI Host Assembly<a class="headerlink" href="#midi-host-assembly" title="Permanent link"></a></h1>
 <h2 id="midi-host-firmware_1">MIDI Host Firmware<a class="headerlink" href="#midi-host-firmware_1" title="Permanent link"></a></h2>
 <p>Running the WAV Trigger Pro as a MIDI USB Host requires uploading the proper firmware. Before setting up the WAV Trigger Pro to act as a MIDI Host, refer to the <a href="../firmware/">Updating Firmware</a> section for detailed instructions on uploading the MIDI Host firmware. </p>
@@ -1909,6 +1920,11 @@ PRT-08867</a></p>
 <figure>
 <p><a href="../assets/img/WAV_Trigger_Pro-MIDI_Host_Assembly.jpg" title="Click to enlarge"><img alt="Photo of completed MIDI Host assembly with keyboard connected." src="../assets/img/WAV_Trigger_Pro-MIDI_Host_Assembly.jpg" width="600" /></a></p>
 </figure>
+<h2 id="drumpad-demo-video">Drumpad Demo Video<a class="headerlink" href="#drumpad-demo-video" title="Permanent link"></a></h2>
+<p>The video below by robersonics gives a short rundown on using the Qwiic WAV Trigger Pro as a MIDI Host to a MIDI drumpad using his Percussion Demo SD image:</p>
+<p><center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zE5hTFvCoRM?si=5sXHewgjQcdsoUuh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center></p>
 <h1 id="wav-trigger-pro-qwiic-arduino-library">WAV Trigger Pro Qwiic Arduino Library<a class="headerlink" href="#wav-trigger-pro-qwiic-arduino-library" title="Permanent link"></a></h1>
 <h1 id="library-installation">Library Installation<a class="headerlink" href="#library-installation" title="Permanent link"></a></h1>
 <div class="admonition attention">
@@ -2631,15 +2647,16 @@ PRT-08867</a></p>
 <li><a href="../assets/component_documentation/an4938-getting-started-with-stm32h74xig-and-stm32h75xig-mcu-hardware-development-stmicroelectronics.pdf">STM32 Application Note</a></li>
 <li><a href="../assets/component_documentation/pcm5100a.pdf">PCM510xA Datasheet</a></li>
 <li>Keyboard Demo Files<ul>
-<li><a href="./assets/demos/Keyboards_demo_card.zip">Keyboard Demo SD Image (ZIP)</a></li>
-<li><a href="./assets/demos/Keyboards1.xlsx">Keyboard Demo Preset Sheet (XLSX)</a></li>
+<li><a href="https://drive.google.com/file/d/1p7ypTW1kkzhkjJAnVlSuE6utTSC1Ljyd/view">Keyboard Demo SD Image</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/1rwLasRLAfwSD74WbSEi_ZzUZDugceNfaMRffIZ08Qa0/edit?gid=0#gid=0">Keyboard Demo Preset Sheet</a></li>
 </ul>
 </li>
 <li>Percussion Demo Files<ul>
-<li><a href="./assets/demos/Percussion_demo_card.zip">Percussion Demo SD Image (ZIP)</a></li>
-<li><a href="./assets/demos/Percussion.xlsx">Percussion Demo Preset Sheet (XLSX)</a></li>
+<li><a href="https://drive.google.com/file/d/10YIjcX3KPo2wQbK0kOHm8vAypqxIgcHO/view">Percussion Demo SD Image</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/1vp9_36zpnPWcXSzHMWwwxRJSGP73pbZOnCWk7p7_FoQ/edit?gid=0#gid=0">Percussion Demo Preset Sheet</a></li>
 </ul>
 </li>
+<li><a href="https://www.robertsonics.com/wtpro-overview">Robertsonics' WAV Trigger Pro User Guide</a></li>
 <li><a href="https://www.robertsonics.com/downloads/">Robertsonics' Downloads</a></li>
 <li><a href="https://github.com/robertsonics/WAV_Trigger_Pro_Qwiic_Arduino_Library">WAV Trigger Pro Arduino Library</a></li>
 <li><a href="https://github.com/sparkfun/SparkFun_Qwiic_WAV_Trigger_Pro">GitHub Repository</a></li>
@@ -2658,17 +2675,25 @@ PRT-08867</a></p>
 <li>1 Long then 3 Short Blinks (Repeating) - No WAV Fils found on &micro;SD card</li>
 <li>1 Long then 4 Short Blinks (Repeating) - Memory error</li>
 </ul>
+<h2 id="running-temperature">Running Temperature<a class="headerlink" href="#running-temperature" title="Permanent link"></a></h2>
+<p>The Qwiic WAV Trigger Pro does run a little warm though in our testing it did not provide any adverse effects and is within the operating temperature range of the STM32. If you plan to continuously power and use the board over a long period of time or have it in an enclosed space, you may want to attach a small heat sink to the STM32 IC.</p>
 <h2 id="preset-demos_1">Preset Demos<a class="headerlink" href="#preset-demos_1" title="Permanent link"></a></h2>
 <p>Robertsonics has created a couple of sample SD card images for Keyboard and Percussion USB MIDI demos. Each image includes sets of WAV and Preset files in a ZIP download. All you need to do is download the image, unzip it and load it onto an empty and formatted &micro;SD card and plug the card into the WAV Trigger Pro.</p>
 <h3 id="keyboard-demo_1">Keyboard Demo<a class="headerlink" href="#keyboard-demo_1" title="Permanent link"></a></h3>
-<p>The Keyboard demo is intended for use with a MIDI keyboard and includes three sets of instrument sounds - piano, strings and organ - over the same 3-octave range. It also includes four presets that select one or more of the instruments to be available with different performance parameters. You can download the SD image from the link below:</p>
+<p>The Keyboard demo is intended for use with a MIDI keyboard and includes three sets of instrument sounds - piano, strings and organ - over the same 3-octave range. It also includes four presets that select one or more of the instruments to be available with different performance parameters. You can download the SD image and Preset sheet from the links below:</p>
 <p><center>
 <a class="md-button md-button--primary" href="https://drive.google.com/file/d/1-uz4BdS7XvQwcvetIbcqXZCmbQjFlUzG/view?usp=sharing">WAV Trigger Pro Keyboard Demo SD Image</a><br />
 </center></p>
+<p><center>
+<a class="md-button md-button--primary" href="https://docs.google.com/spreadsheets/d/1rwLasRLAfwSD74WbSEi_ZzUZDugceNfaMRffIZ08Qa0/edit?gid=0#gid=0">WAV Trigger Pro Keyboard Demo Preset Sheet</a>
+</center></p>
 <h3 id="percussion-demo_1">Percussion Demo<a class="headerlink" href="#percussion-demo_1" title="Permanent link"></a></h3>
-<p>The Percussion demo is intended for use with a velocity-sensitive pad MIDI controller to demonstrate things like velocity mapping and multiple actions per MIDI note. It includes a selection of effects, dialog and percussion. The preset file includes comments to help explain </p>
+<p>The Percussion demo is intended for use with a velocity-sensitive pad MIDI controller to demonstrate things like velocity mapping and multiple actions per MIDI note. It includes a selection of effects, dialog and percussion. The preset file includes comments to help explain how the demo works. You can download the SD image and Preset sheet for the demo from the links below:</p>
 <p><center>
 <a class="md-button md-button--primary" href="https://drive.google.com/file/d/10YIjcX3KPo2wQbK0kOHm8vAypqxIgcHO/view?usp=sharing">WAV Trigger Pro Percussion Demo SD Image</a><br />
+</center></p>
+<p><center>
+<a class="md-button md-button--primary" href="https://docs.google.com/spreadsheets/d/1vp9_36zpnPWcXSzHMWwwxRJSGP73pbZOnCWk7p7_FoQ/edit?gid=0#gid=0">WAV Trigger Pro Percussion Demo Preset Sheet</a>
 </center></p>
 <h2 id="general-troubleshooting">General Troubleshooting<a class="headerlink" href="#general-troubleshooting" title="Permanent link"></a></h2>
 <div class="admonition info">
@@ -2680,7 +2705,6 @@ PRT-08867</a></p>
 </center>
 <p>If you can't find what you need there, you'll need a <a href="https://forum.sparkfun.com/ucp.php?mode=register">Forum Account</a> to search product forums and post questions.<p></p>
 </div>
-</figure>
 
 
 

@@ -1555,6 +1555,7 @@
 
 <figure>
 <p><a href="../assets/img/WAV_Trigger_Pro-Serial_Assembly.jpg" title="Click to enlarge"><img alt="Photo showing Serial Basic connected to WAV Trigger serial pins." src="../assets/img/WAV_Trigger_Pro-Serial_Assembly.jpg" width="600" /></a></p>
+</figure>
 <p>After connecting the boards together, connect the Serial Basic to your computer over USB and connect the WAV Trigger Pro either over USB-C or another of the power inputs (Qwiic, 5V). Next, open the serial monitor in the Arudino IDE (or if you prefer, another terminal program) at <b>57.6k baud</b> with <b>Carriage Return</b> line ending enabled. </p>
 <p>Next, type in "help" (enter this and all other commands in <i>all</i> lowercase) and it will print out a list of available commands along with any available parameters to customize the command. Commands with just one parameter can be sent with a single space between the command and parameter. For commands with multiple parameters, separate the command and parameters using a comma. The list below outlines each command and what it does:</p>
 <ul>
@@ -1567,7 +1568,6 @@
 <li><b>sd</b> - When sent with no parameter, this returns the current longest &micro;SD block read in microseconds since the WAV Trigger Pro was powered on, reset or the value was reset. If sent with a parameter of 0, this resets the value manually.</li>
 <li><b>test</b> - This command will stop the audio engine and start a block read timing test of the installed microSD card. The optional test count parameter can be used to specify the number of block read cycles in the test. If used with no parameter, the test will perform 100,000 block read cycles. It’s important to keep in mind that the test will only read blocks actually allocated to .wav files, so the more .wav files are on your card, the more of the card will be tested. While the test is running, a command of “r” can be used to see partial results, or “s” to stop the test prematurely. The audio engine will be restarted when the test finished or is stopped. For a detailed overview and discussion of the test performed here, refer to <a href="https://www.robertsonics.com/blog/microsd-cards-for-audio-2024">this article</a></li>
 </ul>
-</figure>
 
 
 
@@ -1590,7 +1590,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-01-17T00:06:58+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-01-17</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-01-22T00:03:03+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-01-22</span>
   </span>
 
     

@@ -94,6 +94,7 @@ Connect to the serial console interface using the TX/RX and GND pins on the WAV 
 
 <figure markdown>
 [![Photo showing Serial Basic connected to WAV Trigger serial pins.](./assets/img/WAV_Trigger_Pro-Serial_Assembly.jpg){ width="600"}](./assets/img/WAV_Trigger_Pro-Serial_Assembly.jpg "Click to enlarge")
+</figure>
 
 After connecting the boards together, connect the Serial Basic to your computer over USB and connect the WAV Trigger Pro either over USB-C or another of the power inputs (Qwiic, 5V). Next, open the serial monitor in the Arudino IDE (or if you prefer, another terminal program) at <b>57.6k baud</b> with <b>Carriage Return</b> line ending enabled. 
  

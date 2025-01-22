@@ -72,10 +72,14 @@ Robertsonics has created a couple of sample SD card images for Keyboard and Perc
 
 #### Keyboard Demo
 
-The Keyboard demo is intended for use with a MIDI keyboard and includes three sets of instrument sounds - piano, strings and organ - over the same 3-octave range. It also includes four presets that select one or more of the instruments to be available with different performance parameters. You can download the SD image from the link below:
+The Keyboard demo is intended for use with a MIDI keyboard and includes three sets of instrument sounds - piano, strings and organ - over the same 3-octave range. It also includes four presets that select one or more of the instruments to be available with different performance parameters. You can download the SD image and Preset spreadsheet file from the links below:
 
 <center>
 [WAV Trigger Pro Keyboard Demo SD Image](https://drive.google.com/file/d/1-uz4BdS7XvQwcvetIbcqXZCmbQjFlUzG/view?usp=sharing){ .md-button .md-button--primary }  
+</center>
+
+<center>
+[WAV Trigger Pro Keyboard Demo Preset Sheet](https://docs.google.com/spreadsheets/d/1rwLasRLAfwSD74WbSEi_ZzUZDugceNfaMRffIZ08Qa0/edit?gid=0#gid=0){ .md-button .md-button--primary}
 </center>
 
 #### Percussion Demo
@@ -84,4 +88,8 @@ The Percussion demo is intended for use with a velocity-sensitive pad MIDI contr
 
 <center>
 [WAV Trigger Pro Percussion Demo SD Image](https://drive.google.com/file/d/10YIjcX3KPo2wQbK0kOHm8vAypqxIgcHO/view?usp=sharing){ .md-button .md-button--primary }  
+</center>
+
+<center>
+[WAV Trigger Pro Percussion Demo Preset Sheet](https://docs.google.com/spreadsheets/d/1vp9_36zpnPWcXSzHMWwwxRJSGP73pbZOnCWk7p7_FoQ/edit?gid=0#gid=0){ .md-button .md-button--primary}
 </center>

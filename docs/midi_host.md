@@ -33,6 +33,5 @@ Now that the WAV Trigger Pro is set up to act as a MIDI host, connect your MIDI 
 The video below by robersonics gives a short rundown on using the Qwiic WAV Trigger Pro as a MIDI Host to a MIDI drumpad using his Percussion Demo SD image:
 
 <center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zE5hTFvCoRM?si=5sXHewgjQcdsoUuh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qbv-s17oHn0?si=kl01HHx8i1N7XlVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
-

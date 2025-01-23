@@ -11,5 +11,5 @@ With the default firmware, the WAV Trigger Pro acts as a MIDI Device and can be 
 This video from robertsonics shows how to use the Qwiic WAV Triger Pro as a MIDI Device connected to a MIDI keyboard through a PC with his Keyboard Demo SD image:
 
 <center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sNFdzXL7-XQ?si=IbBMwvUanwMCVCMh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FAWjWgyu1Xg?si=MuLWl-kqDnWLZMGy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>

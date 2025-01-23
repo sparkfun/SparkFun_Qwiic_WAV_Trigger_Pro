@@ -20,6 +20,12 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](https://cdn.sparkfun.com/r/600-600/assets/parts/2/6/5/4/7/WIG-25860-WAV-Trigger-Pro-Feature.jpg)
     </figure></a>
 
+    <center>
+    <article class="video_desc">
+    <iframe src="https://www.youtube.com/embed/Q4csFhDtCt4?si=DIoStJnbMPkLKFM2" title="Product Showcase: SparkFun Qwiic WAV Trigger Pro" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+    </center>
+
 -    The Qwiic WAV Trigger Pro is the latest evolution of the line of high-fidelity polyphonic audio players from robertsonics. The Qwiic WAV Trigger Pro improves on the previous versions with a more powerful processor, enhanced MIDI processing - including velocity switching and multi-timbral support - and MIDI USB Device (Default) <b>and</b> MIDI USB Host support, all in a smaller 1.75" x 1.5" footprint! <br><br>
 The Qwiic WAV Trigger Pro supports up to 4096 uncompressed 16-bit, 44.1kHz mono and stereo WAV files matching CD audio quality. The WAV Trigger Pro supports polyphony and can play and mix up to 24 tracks simultaneously and independently with exceptionally low latency (7ms typically). Control track playback via either 8 programmable trigger inputs, I<sup>2</sup>C (Qwiic), or MIDI (USB, Serial UART, or Qwiic). The board can function as both a USB MIDI device <i>and</i> host meaning if the WAV Trigger Pro has power in USB MIDI Host mode it can supply up to 500mA@5V to a connected MIDI device over USB-C allowing for USB MIDI control with no computer required.
 

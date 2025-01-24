@@ -10,7 +10,7 @@ icon: material/book-open-page-variant
 
 <div class="grid cards desc" markdown>
 
--    <a href="https://www.sparkfun.com/products/25860">
+-    <a href="https://www.sparkfun.com/sparkfun-qwiic-wav-trigger-pro.html">
     **SparkFun Qwiic WAV Trigger Pro**<br>
     **SKU:** WIG-25860
 
@@ -30,7 +30,7 @@ icon: material/book-open-page-variant
 The Qwiic WAV Trigger Pro supports up to 4096 uncompressed 16-bit, 44.1kHz mono and stereo WAV files matching CD audio quality. The WAV Trigger Pro supports polyphony and can play and mix up to 24 tracks simultaneously and independently with exceptionally low latency (7ms typically). Control track playback via either 8 programmable trigger inputs, I<sup>2</sup>C (Qwiic), or MIDI (USB, Serial UART, or Qwiic). The board can function as both a USB MIDI device <i>and</i> host meaning if the WAV Trigger Pro has power in USB MIDI Host mode it can supply up to 500mA@5V to a connected MIDI device over USB-C allowing for USB MIDI control with no computer required.
 
     <center>
-    [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/25860){ .md-button .md-button--primary }
+    [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkfun-qwiic-wav-trigger-pro.html){ .md-button .md-button--primary }
     </center>
 
 </div>
